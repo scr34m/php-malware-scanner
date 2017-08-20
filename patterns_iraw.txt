@@ -1,0 +1,19 @@
+#This file contains raw strings that will be matched case-insensitive.
+#Comments and whitespace are possible, but comments must have '#' at the first character of the line.
+
+#List of security service providers that phishers often block.
+abovenet
+avira
+bitdefender
+comodo
+cyveillance
+kaspersky
+internap
+mcafee
+netcraft
+oneandone
+opendns
+phishtank
+sophos
+surfright
+symantec

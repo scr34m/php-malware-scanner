@@ -1,0 +1,7036 @@
+# This is a list of php7 internal functions and their 3 base64 fingerprints.
+# Some patterns are too short to be useful with scan.php.
+# All base64 patterns 3 characters or less have been commented out.
+# This file should be ready to use in place of patterns_raw.txt
+# Expect false positives and slow scan speeds.
+# Use this pattern file on known malware to find new patterns.
+
+# _
+#X
+
+#f
+
+# abs
+YWJz
+#Fic
+#hYn
+
+# acos
+YWNvc
+Fjb3
+hY29z
+
+# acosh
+YWNvc2
+Fjb3No
+hY29za
+
+# addcslashes
+YWRkY3NsYXNoZX
+FkZGNzbGFzaGVz
+hZGRjc2xhc2hlc
+
+# addslashes
+YWRkc2xhc2hlc
+FkZHNsYXNoZX
+hZGRzbGFzaGVz
+
+# array_change_key_case
+YXJyYXlfY2hhbmdlX2tleV9jYXNl
+FycmF5X2NoYW5nZV9rZXlfY2FzZ
+hcnJheV9jaGFuZ2Vfa2V5X2Nhc2
+
+# array_chunk
+YXJyYXlfY2h1bm
+FycmF5X2NodW5r
+hcnJheV9jaHVua
+
+# array_column
+YXJyYXlfY29sdW1u
+FycmF5X2NvbHVtb
+hcnJheV9jb2x1bW
+
+# array_combine
+YXJyYXlfY29tYmluZ
+FycmF5X2NvbWJpbm
+hcnJheV9jb21iaW5l
+
+# array_count_values
+YXJyYXlfY291bnRfdmFsdWVz
+FycmF5X2NvdW50X3ZhbHVlc
+hcnJheV9jb3VudF92YWx1ZX
+
+# array_diff
+YXJyYXlfZGlmZ
+FycmF5X2RpZm
+hcnJheV9kaWZm
+
+# array_diff_assoc
+YXJyYXlfZGlmZl9hc3NvY
+FycmF5X2RpZmZfYXNzb2
+hcnJheV9kaWZmX2Fzc29j
+
+# array_diff_key
+YXJyYXlfZGlmZl9rZX
+FycmF5X2RpZmZfa2V5
+hcnJheV9kaWZmX2tle
+
+# array_diff_uassoc
+YXJyYXlfZGlmZl91YXNzb2
+FycmF5X2RpZmZfdWFzc29j
+hcnJheV9kaWZmX3Vhc3NvY
+
+# array_diff_ukey
+YXJyYXlfZGlmZl91a2V5
+FycmF5X2RpZmZfdWtle
+hcnJheV9kaWZmX3VrZX
+
+# array_fill
+YXJyYXlfZmlsb
+FycmF5X2ZpbG
+hcnJheV9maWxs
+
+# array_fill_keys
+YXJyYXlfZmlsbF9rZXlz
+FycmF5X2ZpbGxfa2V5c
+hcnJheV9maWxsX2tleX
+
+# array_filter
+YXJyYXlfZmlsdGVy
+FycmF5X2ZpbHRlc
+hcnJheV9maWx0ZX
+
+# array_flip
+YXJyYXlfZmxpc
+FycmF5X2ZsaX
+hcnJheV9mbGlw
+
+# array_intersect
+YXJyYXlfaW50ZXJzZWN0
+FycmF5X2ludGVyc2Vjd
+hcnJheV9pbnRlcnNlY3
+
+# array_intersect_assoc
+YXJyYXlfaW50ZXJzZWN0X2Fzc29j
+FycmF5X2ludGVyc2VjdF9hc3NvY
+hcnJheV9pbnRlcnNlY3RfYXNzb2
+
+# array_intersect_key
+YXJyYXlfaW50ZXJzZWN0X2tle
+FycmF5X2ludGVyc2VjdF9rZX
+hcnJheV9pbnRlcnNlY3Rfa2V5
+
+# array_intersect_uassoc
+YXJyYXlfaW50ZXJzZWN0X3Vhc3NvY
+FycmF5X2ludGVyc2VjdF91YXNzb2
+hcnJheV9pbnRlcnNlY3RfdWFzc29j
+
+# array_intersect_ukey
+YXJyYXlfaW50ZXJzZWN0X3VrZX
+FycmF5X2ludGVyc2VjdF91a2V5
+hcnJheV9pbnRlcnNlY3RfdWtle
+
+# array_key_exists
+YXJyYXlfa2V5X2V4aXN0c
+FycmF5X2tleV9leGlzdH
+hcnJheV9rZXlfZXhpc3Rz
+
+# array_keys
+YXJyYXlfa2V5c
+FycmF5X2tleX
+hcnJheV9rZXlz
+
+# array_map
+YXJyYXlfbWFw
+FycmF5X21hc
+hcnJheV9tYX
+
+# array_merge
+YXJyYXlfbWVyZ2
+FycmF5X21lcmdl
+hcnJheV9tZXJnZ
+
+# array_merge_recursive
+YXJyYXlfbWVyZ2VfcmVjdXJzaXZl
+FycmF5X21lcmdlX3JlY3Vyc2l2Z
+hcnJheV9tZXJnZV9yZWN1cnNpdm
+
+# array_multisort
+YXJyYXlfbXVsdGlzb3J0
+FycmF5X211bHRpc29yd
+hcnJheV9tdWx0aXNvcn
+
+# array_pad
+YXJyYXlfcGFk
+FycmF5X3BhZ
+hcnJheV9wYW
+
+# array_pop
+YXJyYXlfcG9w
+FycmF5X3Bvc
+hcnJheV9wb3
+
+# array_product
+YXJyYXlfcHJvZHVjd
+FycmF5X3Byb2R1Y3
+hcnJheV9wcm9kdWN0
+
+# array_push
+YXJyYXlfcHVza
+FycmF5X3B1c2
+hcnJheV9wdXNo
+
+# array_rand
+YXJyYXlfcmFuZ
+FycmF5X3Jhbm
+hcnJheV9yYW5k
+
+# array_reduce
+YXJyYXlfcmVkdWNl
+FycmF5X3JlZHVjZ
+hcnJheV9yZWR1Y2
+
+# array_replace
+YXJyYXlfcmVwbGFjZ
+FycmF5X3JlcGxhY2
+hcnJheV9yZXBsYWNl
+
+# array_replace_recursive
+YXJyYXlfcmVwbGFjZV9yZWN1cnNpdm
+FycmF5X3JlcGxhY2VfcmVjdXJzaXZl
+hcnJheV9yZXBsYWNlX3JlY3Vyc2l2Z
+
+# array_reverse
+YXJyYXlfcmV2ZXJzZ
+FycmF5X3JldmVyc2
+hcnJheV9yZXZlcnNl
+
+# array_search
+YXJyYXlfc2VhcmNo
+FycmF5X3NlYXJja
+hcnJheV9zZWFyY2
+
+# array_shift
+YXJyYXlfc2hpZn
+FycmF5X3NoaWZ0
+hcnJheV9zaGlmd
+
+# array_slice
+YXJyYXlfc2xpY2
+FycmF5X3NsaWNl
+hcnJheV9zbGljZ
+
+# array_splice
+YXJyYXlfc3BsaWNl
+FycmF5X3NwbGljZ
+hcnJheV9zcGxpY2
+
+# array_sum
+YXJyYXlfc3Vt
+FycmF5X3N1b
+hcnJheV9zdW
+
+# array_udiff
+YXJyYXlfdWRpZm
+FycmF5X3VkaWZm
+hcnJheV91ZGlmZ
+
+# array_udiff_assoc
+YXJyYXlfdWRpZmZfYXNzb2
+FycmF5X3VkaWZmX2Fzc29j
+hcnJheV91ZGlmZl9hc3NvY
+
+# array_udiff_uassoc
+YXJyYXlfdWRpZmZfdWFzc29j
+FycmF5X3VkaWZmX3Vhc3NvY
+hcnJheV91ZGlmZl91YXNzb2
+
+# array_uintersect
+YXJyYXlfdWludGVyc2Vjd
+FycmF5X3VpbnRlcnNlY3
+hcnJheV91aW50ZXJzZWN0
+
+# array_uintersect_assoc
+YXJyYXlfdWludGVyc2VjdF9hc3NvY
+FycmF5X3VpbnRlcnNlY3RfYXNzb2
+hcnJheV91aW50ZXJzZWN0X2Fzc29j
+
+# array_uintersect_uassoc
+YXJyYXlfdWludGVyc2VjdF91YXNzb2
+FycmF5X3VpbnRlcnNlY3RfdWFzc29j
+hcnJheV91aW50ZXJzZWN0X3Vhc3NvY
+
+# array_unique
+YXJyYXlfdW5pcXVl
+FycmF5X3VuaXF1Z
+hcnJheV91bmlxdW
+
+# array_unshift
+YXJyYXlfdW5zaGlmd
+FycmF5X3Vuc2hpZn
+hcnJheV91bnNoaWZ0
+
+# array_values
+YXJyYXlfdmFsdWVz
+FycmF5X3ZhbHVlc
+hcnJheV92YWx1ZX
+
+# array_walk
+YXJyYXlfd2Fsa
+FycmF5X3dhbG
+hcnJheV93YWxr
+
+# array_walk_recursive
+YXJyYXlfd2Fsa19yZWN1cnNpdm
+FycmF5X3dhbGtfcmVjdXJzaXZl
+hcnJheV93YWxrX3JlY3Vyc2l2Z
+
+# arsort
+YXJzb3J0
+Fyc29yd
+hcnNvcn
+
+# asin
+YXNpb
+FzaW
+hc2lu
+
+# asinh
+YXNpbm
+FzaW5o
+hc2lua
+
+# asort
+YXNvcn
+Fzb3J0
+hc29yd
+
+# assert
+YXNzZXJ0
+Fzc2Vyd
+hc3Nlcn
+
+# assert_options
+YXNzZXJ0X29wdGlvbn
+Fzc2VydF9vcHRpb25z
+hc3NlcnRfb3B0aW9uc
+
+# atan
+YXRhb
+F0YW
+hdGFu
+
+# atan2
+YXRhbj
+F0YW4y
+hdGFuM
+
+# atanh
+YXRhbm
+F0YW5o
+hdGFua
+
+# base64_decode
+YmFzZTY0X2RlY29kZ
+Jhc2U2NF9kZWNvZG
+iYXNlNjRfZGVjb2Rl
+
+# base64_encode
+YmFzZTY0X2VuY29kZ
+Jhc2U2NF9lbmNvZG
+iYXNlNjRfZW5jb2Rl
+
+# base_convert
+YmFzZV9jb252ZXJ0
+Jhc2VfY29udmVyd
+iYXNlX2NvbnZlcn
+
+# basename
+YmFzZW5hbW
+Jhc2VuYW1l
+iYXNlbmFtZ
+
+# bin2hex
+YmluMmhle
+JpbjJoZX
+iaW4yaGV4
+
+# bindec
+YmluZGVj
+JpbmRlY
+iaW5kZW
+
+# bindtextdomain
+YmluZHRleHRkb21haW
+JpbmR0ZXh0ZG9tYWlu
+iaW5kdGV4dGRvbWFpb
+
+# bind_textdomain_codeset
+YmluZF90ZXh0ZG9tYWluX2NvZGVzZX
+JpbmRfdGV4dGRvbWFpbl9jb2Rlc2V0
+iaW5kX3RleHRkb21haW5fY29kZXNld
+
+# boolval
+Ym9vbHZhb
+Jvb2x2YW
+ib29sdmFs
+
+# cal_days_in_month
+Y2FsX2RheXNfaW5fbW9udG
+NhbF9kYXlzX2luX21vbnRo
+jYWxfZGF5c19pbl9tb250a
+
+# cal_from_jd
+Y2FsX2Zyb21fam
+NhbF9mcm9tX2pk
+jYWxfZnJvbV9qZ
+
+# cal_info
+Y2FsX2luZm
+NhbF9pbmZv
+jYWxfaW5mb
+
+# call_user_func
+Y2FsbF91c2VyX2Z1bm
+NhbGxfdXNlcl9mdW5j
+jYWxsX3VzZXJfZnVuY
+
+# call_user_func_array
+Y2FsbF91c2VyX2Z1bmNfYXJyYX
+NhbGxfdXNlcl9mdW5jX2FycmF5
+jYWxsX3VzZXJfZnVuY19hcnJhe
+
+# cal_to_jd
+Y2FsX3RvX2pk
+NhbF90b19qZ
+jYWxfdG9fam
+
+# ceil
+Y2Vpb
+NlaW
+jZWls
+
+# chdir
+Y2hkaX
+NoZGly
+jaGRpc
+
+# checkdate
+Y2hlY2tkYXRl
+NoZWNrZGF0Z
+jaGVja2RhdG
+
+# checkdnsrr
+Y2hlY2tkbnNyc
+NoZWNrZG5zcn
+jaGVja2Ruc3Jy
+
+# chgrp
+Y2hncn
+NoZ3Jw
+jaGdyc
+
+# chmod
+Y2htb2
+NobW9k
+jaG1vZ
+
+# chop
+Y2hvc
+Nob3
+jaG9w
+
+# chown
+Y2hvd2
+Nob3du
+jaG93b
+
+# chr
+Y2hy
+#Noc
+#jaH
+
+# chroot
+Y2hyb290
+Nocm9vd
+jaHJvb3
+
+# chunk_split
+Y2h1bmtfc3BsaX
+NodW5rX3NwbGl0
+jaHVua19zcGxpd
+
+# class_alias
+Y2xhc3NfYWxpYX
+NsYXNzX2FsaWFz
+jbGFzc19hbGlhc
+
+# class_exists
+Y2xhc3NfZXhpc3Rz
+NsYXNzX2V4aXN0c
+jbGFzc19leGlzdH
+
+# class_implements
+Y2xhc3NfaW1wbGVtZW50c
+NsYXNzX2ltcGxlbWVudH
+jbGFzc19pbXBsZW1lbnRz
+
+# class_parents
+Y2xhc3NfcGFyZW50c
+NsYXNzX3BhcmVudH
+jbGFzc19wYXJlbnRz
+
+# class_uses
+Y2xhc3NfdXNlc
+NsYXNzX3VzZX
+jbGFzc191c2Vz
+
+# clearstatcache
+Y2xlYXJzdGF0Y2FjaG
+NsZWFyc3RhdGNhY2hl
+jbGVhcnN0YXRjYWNoZ
+
+# cli_get_process_title
+Y2xpX2dldF9wcm9jZXNzX3RpdGxl
+NsaV9nZXRfcHJvY2Vzc190aXRsZ
+jbGlfZ2V0X3Byb2Nlc3NfdGl0bG
+
+# cli_set_process_title
+Y2xpX3NldF9wcm9jZXNzX3RpdGxl
+NsaV9zZXRfcHJvY2Vzc190aXRsZ
+jbGlfc2V0X3Byb2Nlc3NfdGl0bG
+
+# closedir
+Y2xvc2VkaX
+Nsb3NlZGly
+jbG9zZWRpc
+
+# closelog
+Y2xvc2Vsb2
+Nsb3NlbG9n
+jbG9zZWxvZ
+
+# compact
+Y29tcGFjd
+NvbXBhY3
+jb21wYWN0
+
+# connection_aborted
+Y29ubmVjdGlvbl9hYm9ydGVk
+Nvbm5lY3Rpb25fYWJvcnRlZ
+jb25uZWN0aW9uX2Fib3J0ZW
+
+# connection_status
+Y29ubmVjdGlvbl9zdGF0dX
+Nvbm5lY3Rpb25fc3RhdHVz
+jb25uZWN0aW9uX3N0YXR1c
+
+# constant
+Y29uc3Rhbn
+NvbnN0YW50
+jb25zdGFud
+
+# convert_cyr_string
+Y29udmVydF9jeXJfc3RyaW5n
+NvbnZlcnRfY3lyX3N0cmluZ
+jb252ZXJ0X2N5cl9zdHJpbm
+
+# convert_uudecode
+Y29udmVydF91dWRlY29kZ
+NvbnZlcnRfdXVkZWNvZG
+jb252ZXJ0X3V1ZGVjb2Rl
+
+# convert_uuencode
+Y29udmVydF91dWVuY29kZ
+NvbnZlcnRfdXVlbmNvZG
+jb252ZXJ0X3V1ZW5jb2Rl
+
+# copy
+Y29we
+NvcH
+jb3B5
+
+# cos
+Y29z
+#Nvc
+#jb3
+
+# cosh
+Y29za
+Nvc2
+jb3No
+
+# count
+Y291bn
+NvdW50
+jb3Vud
+
+# count_chars
+Y291bnRfY2hhcn
+NvdW50X2NoYXJz
+jb3VudF9jaGFyc
+
+# crc32
+Y3JjMz
+NyYzMy
+jcmMzM
+
+# create_function
+Y3JlYXRlX2Z1bmN0aW9u
+NyZWF0ZV9mdW5jdGlvb
+jcmVhdGVfZnVuY3Rpb2
+
+# crypt
+Y3J5cH
+NyeXB0
+jcnlwd
+
+# ctype_alnum
+Y3R5cGVfYWxudW
+N0eXBlX2FsbnVt
+jdHlwZV9hbG51b
+
+# ctype_alpha
+Y3R5cGVfYWxwaG
+N0eXBlX2FscGhh
+jdHlwZV9hbHBoY
+
+# ctype_cntrl
+Y3R5cGVfY250cm
+N0eXBlX2NudHJs
+jdHlwZV9jbnRyb
+
+# ctype_digit
+Y3R5cGVfZGlnaX
+N0eXBlX2RpZ2l0
+jdHlwZV9kaWdpd
+
+# ctype_graph
+Y3R5cGVfZ3JhcG
+N0eXBlX2dyYXBo
+jdHlwZV9ncmFwa
+
+# ctype_lower
+Y3R5cGVfbG93ZX
+N0eXBlX2xvd2Vy
+jdHlwZV9sb3dlc
+
+# ctype_print
+Y3R5cGVfcHJpbn
+N0eXBlX3ByaW50
+jdHlwZV9wcmlud
+
+# ctype_punct
+Y3R5cGVfcHVuY3
+N0eXBlX3B1bmN0
+jdHlwZV9wdW5jd
+
+# ctype_space
+Y3R5cGVfc3BhY2
+N0eXBlX3NwYWNl
+jdHlwZV9zcGFjZ
+
+# ctype_upper
+Y3R5cGVfdXBwZX
+N0eXBlX3VwcGVy
+jdHlwZV91cHBlc
+
+# ctype_xdigit
+Y3R5cGVfeGRpZ2l0
+N0eXBlX3hkaWdpd
+jdHlwZV94ZGlnaX
+
+# current
+Y3VycmVud
+N1cnJlbn
+jdXJyZW50
+
+# date
+ZGF0Z
+RhdG
+kYXRl
+
+# date_add
+ZGF0ZV9hZG
+RhdGVfYWRk
+kYXRlX2FkZ
+
+# date_create
+ZGF0ZV9jcmVhdG
+RhdGVfY3JlYXRl
+kYXRlX2NyZWF0Z
+
+# date_create_from_format
+ZGF0ZV9jcmVhdGVfZnJvbV9mb3JtYX
+RhdGVfY3JlYXRlX2Zyb21fZm9ybWF0
+kYXRlX2NyZWF0ZV9mcm9tX2Zvcm1hd
+
+# date_create_immutable
+ZGF0ZV9jcmVhdGVfaW1tdXRhYmxl
+RhdGVfY3JlYXRlX2ltbXV0YWJsZ
+kYXRlX2NyZWF0ZV9pbW11dGFibG
+
+# date_create_immutable_from_format
+ZGF0ZV9jcmVhdGVfaW1tdXRhYmxlX2Zyb21fZm9ybWF0
+RhdGVfY3JlYXRlX2ltbXV0YWJsZV9mcm9tX2Zvcm1hd
+kYXRlX2NyZWF0ZV9pbW11dGFibGVfZnJvbV9mb3JtYX
+
+# date_date_set
+ZGF0ZV9kYXRlX3Nld
+RhdGVfZGF0ZV9zZX
+kYXRlX2RhdGVfc2V0
+
+# date_default_timezone_get
+ZGF0ZV9kZWZhdWx0X3RpbWV6b25lX2dld
+RhdGVfZGVmYXVsdF90aW1lem9uZV9nZX
+kYXRlX2RlZmF1bHRfdGltZXpvbmVfZ2V0
+
+# date_default_timezone_set
+ZGF0ZV9kZWZhdWx0X3RpbWV6b25lX3Nld
+RhdGVfZGVmYXVsdF90aW1lem9uZV9zZX
+kYXRlX2RlZmF1bHRfdGltZXpvbmVfc2V0
+
+# date_diff
+ZGF0ZV9kaWZm
+RhdGVfZGlmZ
+kYXRlX2RpZm
+
+# date_format
+ZGF0ZV9mb3JtYX
+RhdGVfZm9ybWF0
+kYXRlX2Zvcm1hd
+
+# date_get_last_errors
+ZGF0ZV9nZXRfbGFzdF9lcnJvcn
+RhdGVfZ2V0X2xhc3RfZXJyb3Jz
+kYXRlX2dldF9sYXN0X2Vycm9yc
+
+# date_interval_create_from_date_string
+ZGF0ZV9pbnRlcnZhbF9jcmVhdGVfZnJvbV9kYXRlX3N0cmluZ
+RhdGVfaW50ZXJ2YWxfY3JlYXRlX2Zyb21fZGF0ZV9zdHJpbm
+kYXRlX2ludGVydmFsX2NyZWF0ZV9mcm9tX2RhdGVfc3RyaW5n
+
+# date_interval_format
+ZGF0ZV9pbnRlcnZhbF9mb3JtYX
+RhdGVfaW50ZXJ2YWxfZm9ybWF0
+kYXRlX2ludGVydmFsX2Zvcm1hd
+
+# date_isodate_set
+ZGF0ZV9pc29kYXRlX3Nld
+RhdGVfaXNvZGF0ZV9zZX
+kYXRlX2lzb2RhdGVfc2V0
+
+# date_modify
+ZGF0ZV9tb2RpZn
+RhdGVfbW9kaWZ5
+kYXRlX21vZGlme
+
+# date_offset_get
+ZGF0ZV9vZmZzZXRfZ2V0
+RhdGVfb2Zmc2V0X2dld
+kYXRlX29mZnNldF9nZX
+
+# date_parse
+ZGF0ZV9wYXJzZ
+RhdGVfcGFyc2
+kYXRlX3BhcnNl
+
+# date_parse_from_format
+ZGF0ZV9wYXJzZV9mcm9tX2Zvcm1hd
+RhdGVfcGFyc2VfZnJvbV9mb3JtYX
+kYXRlX3BhcnNlX2Zyb21fZm9ybWF0
+
+# date_sub
+ZGF0ZV9zdW
+RhdGVfc3Vi
+kYXRlX3N1Y
+
+# date_sun_info
+ZGF0ZV9zdW5faW5mb
+RhdGVfc3VuX2luZm
+kYXRlX3N1bl9pbmZv
+
+# date_sunrise
+ZGF0ZV9zdW5yaXNl
+RhdGVfc3VucmlzZ
+kYXRlX3N1bnJpc2
+
+# date_sunset
+ZGF0ZV9zdW5zZX
+RhdGVfc3Vuc2V0
+kYXRlX3N1bnNld
+
+# date_time_set
+ZGF0ZV90aW1lX3Nld
+RhdGVfdGltZV9zZX
+kYXRlX3RpbWVfc2V0
+
+# date_timestamp_get
+ZGF0ZV90aW1lc3RhbXBfZ2V0
+RhdGVfdGltZXN0YW1wX2dld
+kYXRlX3RpbWVzdGFtcF9nZX
+
+# date_timestamp_set
+ZGF0ZV90aW1lc3RhbXBfc2V0
+RhdGVfdGltZXN0YW1wX3Nld
+kYXRlX3RpbWVzdGFtcF9zZX
+
+# date_timezone_get
+ZGF0ZV90aW1lem9uZV9nZX
+RhdGVfdGltZXpvbmVfZ2V0
+kYXRlX3RpbWV6b25lX2dld
+
+# date_timezone_set
+ZGF0ZV90aW1lem9uZV9zZX
+RhdGVfdGltZXpvbmVfc2V0
+kYXRlX3RpbWV6b25lX3Nld
+
+# dcgettext
+ZGNnZXR0ZXh0
+RjZ2V0dGV4d
+kY2dldHRleH
+
+# dcngettext
+ZGNuZ2V0dGV4d
+RjbmdldHRleH
+kY25nZXR0ZXh0
+
+# debug_backtrace
+ZGVidWdfYmFja3RyYWNl
+RlYnVnX2JhY2t0cmFjZ
+kZWJ1Z19iYWNrdHJhY2
+
+# debug_print_backtrace
+ZGVidWdfcHJpbnRfYmFja3RyYWNl
+RlYnVnX3ByaW50X2JhY2t0cmFjZ
+kZWJ1Z19wcmludF9iYWNrdHJhY2
+
+# debug_zval_dump
+ZGVidWdfenZhbF9kdW1w
+RlYnVnX3p2YWxfZHVtc
+kZWJ1Z196dmFsX2R1bX
+
+# decbin
+ZGVjYmlu
+RlY2Jpb
+kZWNiaW
+
+# dechex
+ZGVjaGV4
+RlY2hle
+kZWNoZX
+
+# decoct
+ZGVjb2N0
+RlY29jd
+kZWNvY3
+
+# define
+ZGVmaW5l
+RlZmluZ
+kZWZpbm
+
+# defined
+ZGVmaW5lZ
+RlZmluZW
+kZWZpbmVk
+
+# deflate_add
+ZGVmbGF0ZV9hZG
+RlZmxhdGVfYWRk
+kZWZsYXRlX2FkZ
+
+# deflate_init
+ZGVmbGF0ZV9pbml0
+RlZmxhdGVfaW5pd
+kZWZsYXRlX2luaX
+
+# deg2rad
+ZGVnMnJhZ
+RlZzJyYW
+kZWcycmFk
+
+# dgettext
+ZGdldHRleH
+RnZXR0ZXh0
+kZ2V0dGV4d
+
+# dir
+ZGly
+#Rpc
+#kaX
+
+# dirname
+ZGlybmFtZ
+Rpcm5hbW
+kaXJuYW1l
+
+# diskfreespace
+ZGlza2ZyZWVzcGFjZ
+Rpc2tmcmVlc3BhY2
+kaXNrZnJlZXNwYWNl
+
+# disk_free_space
+ZGlza19mcmVlX3NwYWNl
+Rpc2tfZnJlZV9zcGFjZ
+kaXNrX2ZyZWVfc3BhY2
+
+# disk_total_space
+ZGlza190b3RhbF9zcGFjZ
+Rpc2tfdG90YWxfc3BhY2
+kaXNrX3RvdGFsX3NwYWNl
+
+# dl
+#ZG
+#Rs
+#kb
+
+# dngettext
+ZG5nZXR0ZXh0
+RuZ2V0dGV4d
+kbmdldHRleH
+
+# dns_check_record
+ZG5zX2NoZWNrX3JlY29yZ
+Ruc19jaGVja19yZWNvcm
+kbnNfY2hlY2tfcmVjb3Jk
+
+# dns_get_mx
+ZG5zX2dldF9te
+Ruc19nZXRfbX
+kbnNfZ2V0X214
+
+# dns_get_record
+ZG5zX2dldF9yZWNvcm
+Ruc19nZXRfcmVjb3Jk
+kbnNfZ2V0X3JlY29yZ
+
+# dom_import_simplexml
+ZG9tX2ltcG9ydF9zaW1wbGV4bW
+RvbV9pbXBvcnRfc2ltcGxleG1s
+kb21faW1wb3J0X3NpbXBsZXhtb
+
+# doubleval
+ZG91YmxldmFs
+RvdWJsZXZhb
+kb3VibGV2YW
+
+# each
+ZWFja
+VhY2
+lYWNo
+
+# easter_date
+ZWFzdGVyX2RhdG
+Vhc3Rlcl9kYXRl
+lYXN0ZXJfZGF0Z
+
+# easter_days
+ZWFzdGVyX2RheX
+Vhc3Rlcl9kYXlz
+lYXN0ZXJfZGF5c
+
+# end
+ZW5k
+#VuZ
+#lbm
+
+# error_clear_last
+ZXJyb3JfY2xlYXJfbGFzd
+Vycm9yX2NsZWFyX2xhc3
+lcnJvcl9jbGVhcl9sYXN0
+
+# error_get_last
+ZXJyb3JfZ2V0X2xhc3
+Vycm9yX2dldF9sYXN0
+lcnJvcl9nZXRfbGFzd
+
+# error_log
+ZXJyb3JfbG9n
+Vycm9yX2xvZ
+lcnJvcl9sb2
+
+# error_reporting
+ZXJyb3JfcmVwb3J0aW5n
+Vycm9yX3JlcG9ydGluZ
+lcnJvcl9yZXBvcnRpbm
+
+# escapeshellarg
+ZXNjYXBlc2hlbGxhcm
+VzY2FwZXNoZWxsYXJn
+lc2NhcGVzaGVsbGFyZ
+
+# escapeshellcmd
+ZXNjYXBlc2hlbGxjbW
+VzY2FwZXNoZWxsY21k
+lc2NhcGVzaGVsbGNtZ
+
+# exec
+ZXhlY
+V4ZW
+leGVj
+
+# exif_imagetype
+ZXhpZl9pbWFnZXR5cG
+V4aWZfaW1hZ2V0eXBl
+leGlmX2ltYWdldHlwZ
+
+# exif_read_data
+ZXhpZl9yZWFkX2RhdG
+V4aWZfcmVhZF9kYXRh
+leGlmX3JlYWRfZGF0Y
+
+# exif_tagname
+ZXhpZl90YWduYW1l
+V4aWZfdGFnbmFtZ
+leGlmX3RhZ25hbW
+
+# exif_thumbnail
+ZXhpZl90aHVtYm5haW
+V4aWZfdGh1bWJuYWls
+leGlmX3RodW1ibmFpb
+
+# exp
+ZXhw
+#V4c
+#leH
+
+# explode
+ZXhwbG9kZ
+V4cGxvZG
+leHBsb2Rl
+
+# expm1
+ZXhwbT
+V4cG0x
+leHBtM
+
+# extension_loaded
+ZXh0ZW5zaW9uX2xvYWRlZ
+V4dGVuc2lvbl9sb2FkZW
+leHRlbnNpb25fbG9hZGVk
+
+# extract
+ZXh0cmFjd
+V4dHJhY3
+leHRyYWN0
+
+# ezmlm_hash
+ZXptbG1faGFza
+V6bWxtX2hhc2
+lem1sbV9oYXNo
+
+# fclose
+ZmNsb3Nl
+ZjbG9zZ
+mY2xvc2
+
+# feof
+ZmVvZ
+Zlb2
+mZW9m
+
+# fflush
+ZmZsdXNo
+ZmbHVza
+mZmx1c2
+
+# fgetc
+ZmdldG
+ZnZXRj
+mZ2V0Y
+
+# fgetcsv
+ZmdldGNzd
+ZnZXRjc3
+mZ2V0Y3N2
+
+# fgets
+ZmdldH
+ZnZXRz
+mZ2V0c
+
+# fgetss
+ZmdldHNz
+ZnZXRzc
+mZ2V0c3
+
+# file
+ZmlsZ
+ZpbG
+maWxl
+
+# fileatime
+ZmlsZWF0aW1l
+ZpbGVhdGltZ
+maWxlYXRpbW
+
+# filectime
+ZmlsZWN0aW1l
+ZpbGVjdGltZ
+maWxlY3RpbW
+
+# file_exists
+ZmlsZV9leGlzdH
+ZpbGVfZXhpc3Rz
+maWxlX2V4aXN0c
+
+# file_get_contents
+ZmlsZV9nZXRfY29udGVudH
+ZpbGVfZ2V0X2NvbnRlbnRz
+maWxlX2dldF9jb250ZW50c
+
+# filegroup
+ZmlsZWdyb3Vw
+ZpbGVncm91c
+maWxlZ3JvdX
+
+# fileinode
+ZmlsZWlub2Rl
+ZpbGVpbm9kZ
+maWxlaW5vZG
+
+# filemtime
+ZmlsZW10aW1l
+ZpbGVtdGltZ
+maWxlbXRpbW
+
+# fileowner
+ZmlsZW93bmVy
+ZpbGVvd25lc
+maWxlb3duZX
+
+# fileperms
+ZmlsZXBlcm1z
+ZpbGVwZXJtc
+maWxlcGVybX
+
+# file_put_contents
+ZmlsZV9wdXRfY29udGVudH
+ZpbGVfcHV0X2NvbnRlbnRz
+maWxlX3B1dF9jb250ZW50c
+
+# filesize
+ZmlsZXNpem
+ZpbGVzaXpl
+maWxlc2l6Z
+
+# filetype
+ZmlsZXR5cG
+ZpbGV0eXBl
+maWxldHlwZ
+
+# filter_has_var
+ZmlsdGVyX2hhc192YX
+ZpbHRlcl9oYXNfdmFy
+maWx0ZXJfaGFzX3Zhc
+
+# filter_id
+ZmlsdGVyX2lk
+ZpbHRlcl9pZ
+maWx0ZXJfaW
+
+# filter_input
+ZmlsdGVyX2lucHV0
+ZpbHRlcl9pbnB1d
+maWx0ZXJfaW5wdX
+
+# filter_input_array
+ZmlsdGVyX2lucHV0X2FycmF5
+ZpbHRlcl9pbnB1dF9hcnJhe
+maWx0ZXJfaW5wdXRfYXJyYX
+
+# filter_list
+ZmlsdGVyX2xpc3
+ZpbHRlcl9saXN0
+maWx0ZXJfbGlzd
+
+# filter_var
+ZmlsdGVyX3Zhc
+ZpbHRlcl92YX
+maWx0ZXJfdmFy
+
+# filter_var_array
+ZmlsdGVyX3Zhcl9hcnJhe
+ZpbHRlcl92YXJfYXJyYX
+maWx0ZXJfdmFyX2FycmF5
+
+# finfo_buffer
+ZmluZm9fYnVmZmVy
+ZpbmZvX2J1ZmZlc
+maW5mb19idWZmZX
+
+# finfo_close
+ZmluZm9fY2xvc2
+ZpbmZvX2Nsb3Nl
+maW5mb19jbG9zZ
+
+# finfo_file
+ZmluZm9fZmlsZ
+ZpbmZvX2ZpbG
+maW5mb19maWxl
+
+# finfo_open
+ZmluZm9fb3Blb
+ZpbmZvX29wZW
+maW5mb19vcGVu
+
+# finfo_set_flags
+ZmluZm9fc2V0X2ZsYWdz
+ZpbmZvX3NldF9mbGFnc
+maW5mb19zZXRfZmxhZ3
+
+# floatval
+ZmxvYXR2YW
+Zsb2F0dmFs
+mbG9hdHZhb
+
+# flock
+ZmxvY2
+Zsb2Nr
+mbG9ja
+
+# floor
+Zmxvb3
+Zsb29y
+mbG9vc
+
+# flush
+Zmx1c2
+ZsdXNo
+mbHVza
+
+# fmod
+Zm1vZ
+Ztb2
+mbW9k
+
+# fnmatch
+Zm5tYXRja
+ZubWF0Y2
+mbm1hdGNo
+
+# fopen
+Zm9wZW
+ZvcGVu
+mb3Blb
+
+# forward_static_call
+Zm9yd2FyZF9zdGF0aWNfY2Fsb
+ZvcndhcmRfc3RhdGljX2NhbG
+mb3J3YXJkX3N0YXRpY19jYWxs
+
+# forward_static_call_array
+Zm9yd2FyZF9zdGF0aWNfY2FsbF9hcnJhe
+ZvcndhcmRfc3RhdGljX2NhbGxfYXJyYX
+mb3J3YXJkX3N0YXRpY19jYWxsX2FycmF5
+
+# fpassthru
+ZnBhc3N0aHJ1
+ZwYXNzdGhyd
+mcGFzc3Rocn
+
+# fprintf
+ZnByaW50Z
+ZwcmludG
+mcHJpbnRm
+
+# fputcsv
+ZnB1dGNzd
+ZwdXRjc3
+mcHV0Y3N2
+
+# fputs
+ZnB1dH
+ZwdXRz
+mcHV0c
+
+# fread
+ZnJlYW
+ZyZWFk
+mcmVhZ
+
+# frenchtojd
+ZnJlbmNodG9qZ
+ZyZW5jaHRvam
+mcmVuY2h0b2pk
+
+# fscanf
+ZnNjYW5m
+ZzY2FuZ
+mc2Nhbm
+
+# fseek
+ZnNlZW
+ZzZWVr
+mc2Vla
+
+# fsockopen
+ZnNvY2tvcGVu
+Zzb2Nrb3Blb
+mc29ja29wZW
+
+# fstat
+ZnN0YX
+ZzdGF0
+mc3Rhd
+
+# ftell
+ZnRlbG
+Z0ZWxs
+mdGVsb
+
+# ftok
+ZnRva
+Z0b2
+mdG9r
+
+# ftp_alloc
+ZnRwX2FsbG9j
+Z0cF9hbGxvY
+mdHBfYWxsb2
+
+# ftp_cdup
+ZnRwX2NkdX
+Z0cF9jZHVw
+mdHBfY2R1c
+
+# ftp_chdir
+ZnRwX2NoZGly
+Z0cF9jaGRpc
+mdHBfY2hkaX
+
+# ftp_chmod
+ZnRwX2NobW9k
+Z0cF9jaG1vZ
+mdHBfY2htb2
+
+# ftp_close
+ZnRwX2Nsb3Nl
+Z0cF9jbG9zZ
+mdHBfY2xvc2
+
+# ftp_connect
+ZnRwX2Nvbm5lY3
+Z0cF9jb25uZWN0
+mdHBfY29ubmVjd
+
+# ftp_delete
+ZnRwX2RlbGV0Z
+Z0cF9kZWxldG
+mdHBfZGVsZXRl
+
+# ftp_exec
+ZnRwX2V4ZW
+Z0cF9leGVj
+mdHBfZXhlY
+
+# ftp_fget
+ZnRwX2ZnZX
+Z0cF9mZ2V0
+mdHBfZmdld
+
+# ftp_fput
+ZnRwX2ZwdX
+Z0cF9mcHV0
+mdHBfZnB1d
+
+# ftp_get
+ZnRwX2dld
+Z0cF9nZX
+mdHBfZ2V0
+
+# ftp_get_option
+ZnRwX2dldF9vcHRpb2
+Z0cF9nZXRfb3B0aW9u
+mdHBfZ2V0X29wdGlvb
+
+# ftp_login
+ZnRwX2xvZ2lu
+Z0cF9sb2dpb
+mdHBfbG9naW
+
+# ftp_mdtm
+ZnRwX21kdG
+Z0cF9tZHRt
+mdHBfbWR0b
+
+# ftp_mkdir
+ZnRwX21rZGly
+Z0cF9ta2Rpc
+mdHBfbWtkaX
+
+# ftp_nb_continue
+ZnRwX25iX2NvbnRpbnVl
+Z0cF9uYl9jb250aW51Z
+mdHBfbmJfY29udGludW
+
+# ftp_nb_fget
+ZnRwX25iX2ZnZX
+Z0cF9uYl9mZ2V0
+mdHBfbmJfZmdld
+
+# ftp_nb_fput
+ZnRwX25iX2ZwdX
+Z0cF9uYl9mcHV0
+mdHBfbmJfZnB1d
+
+# ftp_nb_get
+ZnRwX25iX2dld
+Z0cF9uYl9nZX
+mdHBfbmJfZ2V0
+
+# ftp_nb_put
+ZnRwX25iX3B1d
+Z0cF9uYl9wdX
+mdHBfbmJfcHV0
+
+# ftp_nlist
+ZnRwX25saXN0
+Z0cF9ubGlzd
+mdHBfbmxpc3
+
+# ftp_pasv
+ZnRwX3Bhc3
+Z0cF9wYXN2
+mdHBfcGFzd
+
+# ftp_put
+ZnRwX3B1d
+Z0cF9wdX
+mdHBfcHV0
+
+# ftp_pwd
+ZnRwX3B3Z
+Z0cF9wd2
+mdHBfcHdk
+
+# ftp_quit
+ZnRwX3F1aX
+Z0cF9xdWl0
+mdHBfcXVpd
+
+# ftp_raw
+ZnRwX3Jhd
+Z0cF9yYX
+mdHBfcmF3
+
+# ftp_rawlist
+ZnRwX3Jhd2xpc3
+Z0cF9yYXdsaXN0
+mdHBfcmF3bGlzd
+
+# ftp_rename
+ZnRwX3JlbmFtZ
+Z0cF9yZW5hbW
+mdHBfcmVuYW1l
+
+# ftp_rmdir
+ZnRwX3JtZGly
+Z0cF9ybWRpc
+mdHBfcm1kaX
+
+# ftp_set_option
+ZnRwX3NldF9vcHRpb2
+Z0cF9zZXRfb3B0aW9u
+mdHBfc2V0X29wdGlvb
+
+# ftp_site
+ZnRwX3NpdG
+Z0cF9zaXRl
+mdHBfc2l0Z
+
+# ftp_size
+ZnRwX3Npem
+Z0cF9zaXpl
+mdHBfc2l6Z
+
+# ftp_ssl_connect
+ZnRwX3NzbF9jb25uZWN0
+Z0cF9zc2xfY29ubmVjd
+mdHBfc3NsX2Nvbm5lY3
+
+# ftp_systype
+ZnRwX3N5c3R5cG
+Z0cF9zeXN0eXBl
+mdHBfc3lzdHlwZ
+
+# ftruncate
+ZnRydW5jYXRl
+Z0cnVuY2F0Z
+mdHJ1bmNhdG
+
+# func_get_arg
+ZnVuY19nZXRfYXJn
+Z1bmNfZ2V0X2FyZ
+mdW5jX2dldF9hcm
+
+# func_get_args
+ZnVuY19nZXRfYXJnc
+Z1bmNfZ2V0X2FyZ3
+mdW5jX2dldF9hcmdz
+
+# func_num_args
+ZnVuY19udW1fYXJnc
+Z1bmNfbnVtX2FyZ3
+mdW5jX251bV9hcmdz
+
+# function_exists
+ZnVuY3Rpb25fZXhpc3Rz
+Z1bmN0aW9uX2V4aXN0c
+mdW5jdGlvbl9leGlzdH
+
+# fwrite
+ZndyaXRl
+Z3cml0Z
+md3JpdG
+
+# gc_collect_cycles
+Z2NfY29sbGVjdF9jeWNsZX
+djX2NvbGxlY3RfY3ljbGVz
+nY19jb2xsZWN0X2N5Y2xlc
+
+# gc_disable
+Z2NfZGlzYWJsZ
+djX2Rpc2FibG
+nY19kaXNhYmxl
+
+# gc_enable
+Z2NfZW5hYmxl
+djX2VuYWJsZ
+nY19lbmFibG
+
+# gc_enabled
+Z2NfZW5hYmxlZ
+djX2VuYWJsZW
+nY19lbmFibGVk
+
+# gc_mem_caches
+Z2NfbWVtX2NhY2hlc
+djX21lbV9jYWNoZX
+nY19tZW1fY2FjaGVz
+
+# gd_info
+Z2RfaW5mb
+dkX2luZm
+nZF9pbmZv
+
+# get_browser
+Z2V0X2Jyb3dzZX
+dldF9icm93c2Vy
+nZXRfYnJvd3Nlc
+
+# get_called_class
+Z2V0X2NhbGxlZF9jbGFzc
+dldF9jYWxsZWRfY2xhc3
+nZXRfY2FsbGVkX2NsYXNz
+
+# get_cfg_var
+Z2V0X2NmZ192YX
+dldF9jZmdfdmFy
+nZXRfY2ZnX3Zhc
+
+# get_class
+Z2V0X2NsYXNz
+dldF9jbGFzc
+nZXRfY2xhc3
+
+# get_class_methods
+Z2V0X2NsYXNzX21ldGhvZH
+dldF9jbGFzc19tZXRob2Rz
+nZXRfY2xhc3NfbWV0aG9kc
+
+# get_class_vars
+Z2V0X2NsYXNzX3Zhcn
+dldF9jbGFzc192YXJz
+nZXRfY2xhc3NfdmFyc
+
+# get_current_user
+Z2V0X2N1cnJlbnRfdXNlc
+dldF9jdXJyZW50X3VzZX
+nZXRfY3VycmVudF91c2Vy
+
+# getcwd
+Z2V0Y3dk
+dldGN3Z
+nZXRjd2
+
+# getdate
+Z2V0ZGF0Z
+dldGRhdG
+nZXRkYXRl
+
+# get_declared_classes
+Z2V0X2RlY2xhcmVkX2NsYXNzZX
+dldF9kZWNsYXJlZF9jbGFzc2Vz
+nZXRfZGVjbGFyZWRfY2xhc3Nlc
+
+# get_declared_interfaces
+Z2V0X2RlY2xhcmVkX2ludGVyZmFjZX
+dldF9kZWNsYXJlZF9pbnRlcmZhY2Vz
+nZXRfZGVjbGFyZWRfaW50ZXJmYWNlc
+
+# get_declared_traits
+Z2V0X2RlY2xhcmVkX3RyYWl0c
+dldF9kZWNsYXJlZF90cmFpdH
+nZXRfZGVjbGFyZWRfdHJhaXRz
+
+# get_defined_constants
+Z2V0X2RlZmluZWRfY29uc3RhbnRz
+dldF9kZWZpbmVkX2NvbnN0YW50c
+nZXRfZGVmaW5lZF9jb25zdGFudH
+
+# get_defined_functions
+Z2V0X2RlZmluZWRfZnVuY3Rpb25z
+dldF9kZWZpbmVkX2Z1bmN0aW9uc
+nZXRfZGVmaW5lZF9mdW5jdGlvbn
+
+# get_defined_vars
+Z2V0X2RlZmluZWRfdmFyc
+dldF9kZWZpbmVkX3Zhcn
+nZXRfZGVmaW5lZF92YXJz
+
+# getenv
+Z2V0ZW52
+dldGVud
+nZXRlbn
+
+# get_extension_funcs
+Z2V0X2V4dGVuc2lvbl9mdW5jc
+dldF9leHRlbnNpb25fZnVuY3
+nZXRfZXh0ZW5zaW9uX2Z1bmNz
+
+# get_headers
+Z2V0X2hlYWRlcn
+dldF9oZWFkZXJz
+nZXRfaGVhZGVyc
+
+# gethostbyaddr
+Z2V0aG9zdGJ5YWRkc
+dldGhvc3RieWFkZH
+nZXRob3N0YnlhZGRy
+
+# gethostbyname
+Z2V0aG9zdGJ5bmFtZ
+dldGhvc3RieW5hbW
+nZXRob3N0YnluYW1l
+
+# gethostbynamel
+Z2V0aG9zdGJ5bmFtZW
+dldGhvc3RieW5hbWVs
+nZXRob3N0YnluYW1lb
+
+# gethostname
+Z2V0aG9zdG5hbW
+dldGhvc3RuYW1l
+nZXRob3N0bmFtZ
+
+# get_html_translation_table
+Z2V0X2h0bWxfdHJhbnNsYXRpb25fdGFibG
+dldF9odG1sX3RyYW5zbGF0aW9uX3RhYmxl
+nZXRfaHRtbF90cmFuc2xhdGlvbl90YWJsZ
+
+# getimagesize
+Z2V0aW1hZ2VzaXpl
+dldGltYWdlc2l6Z
+nZXRpbWFnZXNpem
+
+# getimagesizefromstring
+Z2V0aW1hZ2VzaXplZnJvbXN0cmluZ
+dldGltYWdlc2l6ZWZyb21zdHJpbm
+nZXRpbWFnZXNpemVmcm9tc3RyaW5n
+
+# get_included_files
+Z2V0X2luY2x1ZGVkX2ZpbGVz
+dldF9pbmNsdWRlZF9maWxlc
+nZXRfaW5jbHVkZWRfZmlsZX
+
+# get_include_path
+Z2V0X2luY2x1ZGVfcGF0a
+dldF9pbmNsdWRlX3BhdG
+nZXRfaW5jbHVkZV9wYXRo
+
+# getlastmod
+Z2V0bGFzdG1vZ
+dldGxhc3Rtb2
+nZXRsYXN0bW9k
+
+# get_loaded_extensions
+Z2V0X2xvYWRlZF9leHRlbnNpb25z
+dldF9sb2FkZWRfZXh0ZW5zaW9uc
+nZXRfbG9hZGVkX2V4dGVuc2lvbn
+
+# get_magic_quotes_gpc
+Z2V0X21hZ2ljX3F1b3Rlc19ncG
+dldF9tYWdpY19xdW90ZXNfZ3Bj
+nZXRfbWFnaWNfcXVvdGVzX2dwY
+
+# get_magic_quotes_runtime
+Z2V0X21hZ2ljX3F1b3Rlc19ydW50aW1l
+dldF9tYWdpY19xdW90ZXNfcnVudGltZ
+nZXRfbWFnaWNfcXVvdGVzX3J1bnRpbW
+
+# get_meta_tags
+Z2V0X21ldGFfdGFnc
+dldF9tZXRhX3RhZ3
+nZXRfbWV0YV90YWdz
+
+# getmxrr
+Z2V0bXhyc
+dldG14cn
+nZXRteHJy
+
+# getmygid
+Z2V0bXlnaW
+dldG15Z2lk
+nZXRteWdpZ
+
+# getmyinode
+Z2V0bXlpbm9kZ
+dldG15aW5vZG
+nZXRteWlub2Rl
+
+# getmypid
+Z2V0bXlwaW
+dldG15cGlk
+nZXRteXBpZ
+
+# getmyuid
+Z2V0bXl1aW
+dldG15dWlk
+nZXRteXVpZ
+
+# get_object_vars
+Z2V0X29iamVjdF92YXJz
+dldF9vYmplY3RfdmFyc
+nZXRfb2JqZWN0X3Zhcn
+
+# getopt
+Z2V0b3B0
+dldG9wd
+nZXRvcH
+
+# get_parent_class
+Z2V0X3BhcmVudF9jbGFzc
+dldF9wYXJlbnRfY2xhc3
+nZXRfcGFyZW50X2NsYXNz
+
+# getprotobyname
+Z2V0cHJvdG9ieW5hbW
+dldHByb3RvYnluYW1l
+nZXRwcm90b2J5bmFtZ
+
+# getprotobynumber
+Z2V0cHJvdG9ieW51bWJlc
+dldHByb3RvYnludW1iZX
+nZXRwcm90b2J5bnVtYmVy
+
+# getrandmax
+Z2V0cmFuZG1he
+dldHJhbmRtYX
+nZXRyYW5kbWF4
+
+# get_required_files
+Z2V0X3JlcXVpcmVkX2ZpbGVz
+dldF9yZXF1aXJlZF9maWxlc
+nZXRfcmVxdWlyZWRfZmlsZX
+
+# get_resources
+Z2V0X3Jlc291cmNlc
+dldF9yZXNvdXJjZX
+nZXRfcmVzb3VyY2Vz
+
+# get_resource_type
+Z2V0X3Jlc291cmNlX3R5cG
+dldF9yZXNvdXJjZV90eXBl
+nZXRfcmVzb3VyY2VfdHlwZ
+
+# getrusage
+Z2V0cnVzYWdl
+dldHJ1c2FnZ
+nZXRydXNhZ2
+
+# getservbyname
+Z2V0c2VydmJ5bmFtZ
+dldHNlcnZieW5hbW
+nZXRzZXJ2YnluYW1l
+
+# getservbyport
+Z2V0c2VydmJ5cG9yd
+dldHNlcnZieXBvcn
+nZXRzZXJ2Ynlwb3J0
+
+# gettext
+Z2V0dGV4d
+dldHRleH
+nZXR0ZXh0
+
+# gettimeofday
+Z2V0dGltZW9mZGF5
+dldHRpbWVvZmRhe
+nZXR0aW1lb2ZkYX
+
+# gettype
+Z2V0dHlwZ
+dldHR5cG
+nZXR0eXBl
+
+# glob
+Z2xvY
+dsb2
+nbG9i
+
+# gmdate
+Z21kYXRl
+dtZGF0Z
+nbWRhdG
+
+# gmmktime
+Z21ta3RpbW
+dtbWt0aW1l
+nbW1rdGltZ
+
+# gmstrftime
+Z21zdHJmdGltZ
+dtc3RyZnRpbW
+nbXN0cmZ0aW1l
+
+# gregoriantojd
+Z3JlZ29yaWFudG9qZ
+dyZWdvcmlhbnRvam
+ncmVnb3JpYW50b2pk
+
+# gzclose
+Z3pjbG9zZ
+d6Y2xvc2
+nemNsb3Nl
+
+# gzcompress
+Z3pjb21wcmVzc
+d6Y29tcHJlc3
+nemNvbXByZXNz
+
+# gzdecode
+Z3pkZWNvZG
+d6ZGVjb2Rl
+nemRlY29kZ
+
+# gzdeflate
+Z3pkZWZsYXRl
+d6ZGVmbGF0Z
+nemRlZmxhdG
+
+# gzencode
+Z3plbmNvZG
+d6ZW5jb2Rl
+nemVuY29kZ
+
+# gzeof
+Z3plb2
+d6ZW9m
+nemVvZ
+
+# gzfile
+Z3pmaWxl
+d6ZmlsZ
+nemZpbG
+
+# gzgetc
+Z3pnZXRj
+d6Z2V0Y
+nemdldG
+
+# gzgets
+Z3pnZXRz
+d6Z2V0c
+nemdldH
+
+# gzgetss
+Z3pnZXRzc
+d6Z2V0c3
+nemdldHNz
+
+# gzinflate
+Z3ppbmZsYXRl
+d6aW5mbGF0Z
+nemluZmxhdG
+
+# gzopen
+Z3pvcGVu
+d6b3Blb
+nem9wZW
+
+# gzpassthru
+Z3pwYXNzdGhyd
+d6cGFzc3Rocn
+nenBhc3N0aHJ1
+
+# gzputs
+Z3pwdXRz
+d6cHV0c
+nenB1dH
+
+# gzread
+Z3pyZWFk
+d6cmVhZ
+nenJlYW
+
+# gzrewind
+Z3pyZXdpbm
+d6cmV3aW5k
+nenJld2luZ
+
+# gzseek
+Z3pzZWVr
+d6c2Vla
+nenNlZW
+
+# gztell
+Z3p0ZWxs
+d6dGVsb
+nenRlbG
+
+# gzuncompress
+Z3p1bmNvbXByZXNz
+d6dW5jb21wcmVzc
+nenVuY29tcHJlc3
+
+# gzwrite
+Z3p3cml0Z
+d6d3JpdG
+nendyaXRl
+
+# hash
+aGFza
+hhc2
+oYXNo
+
+# hash_algos
+aGFzaF9hbGdvc
+hhc2hfYWxnb3
+oYXNoX2FsZ29z
+
+# hash_copy
+aGFzaF9jb3B5
+hhc2hfY29we
+oYXNoX2NvcH
+
+# hash_equals
+aGFzaF9lcXVhbH
+hhc2hfZXF1YWxz
+oYXNoX2VxdWFsc
+
+# hash_file
+aGFzaF9maWxl
+hhc2hfZmlsZ
+oYXNoX2ZpbG
+
+# hash_final
+aGFzaF9maW5hb
+hhc2hfZmluYW
+oYXNoX2ZpbmFs
+
+# hash_hmac
+aGFzaF9obWFj
+hhc2hfaG1hY
+oYXNoX2htYW
+
+# hash_hmac_file
+aGFzaF9obWFjX2ZpbG
+hhc2hfaG1hY19maWxl
+oYXNoX2htYWNfZmlsZ
+
+# hash_init
+aGFzaF9pbml0
+hhc2hfaW5pd
+oYXNoX2luaX
+
+# hash_pbkdf2
+aGFzaF9wYmtkZj
+hhc2hfcGJrZGYy
+oYXNoX3Bia2RmM
+
+# hash_update
+aGFzaF91cGRhdG
+hhc2hfdXBkYXRl
+oYXNoX3VwZGF0Z
+
+# hash_update_file
+aGFzaF91cGRhdGVfZmlsZ
+hhc2hfdXBkYXRlX2ZpbG
+oYXNoX3VwZGF0ZV9maWxl
+
+# hash_update_stream
+aGFzaF91cGRhdGVfc3RyZWFt
+hhc2hfdXBkYXRlX3N0cmVhb
+oYXNoX3VwZGF0ZV9zdHJlYW
+
+# header
+aGVhZGVy
+hlYWRlc
+oZWFkZX
+
+# header_register_callback
+aGVhZGVyX3JlZ2lzdGVyX2NhbGxiYWNr
+hlYWRlcl9yZWdpc3Rlcl9jYWxsYmFja
+oZWFkZXJfcmVnaXN0ZXJfY2FsbGJhY2
+
+# header_remove
+aGVhZGVyX3JlbW92Z
+hlYWRlcl9yZW1vdm
+oZWFkZXJfcmVtb3Zl
+
+# headers_list
+aGVhZGVyc19saXN0
+hlYWRlcnNfbGlzd
+oZWFkZXJzX2xpc3
+
+# headers_sent
+aGVhZGVyc19zZW50
+hlYWRlcnNfc2Vud
+oZWFkZXJzX3Nlbn
+
+# hebrev
+aGVicmV2
+hlYnJld
+oZWJyZX
+
+# hebrevc
+aGVicmV2Y
+hlYnJldm
+oZWJyZXZj
+
+# hex2bin
+aGV4MmJpb
+hleDJiaW
+oZXgyYmlu
+
+# hexdec
+aGV4ZGVj
+hleGRlY
+oZXhkZW
+
+# highlight_file
+aGlnaGxpZ2h0X2ZpbG
+hpZ2hsaWdodF9maWxl
+oaWdobGlnaHRfZmlsZ
+
+# highlight_string
+aGlnaGxpZ2h0X3N0cmluZ
+hpZ2hsaWdodF9zdHJpbm
+oaWdobGlnaHRfc3RyaW5n
+
+# htmlentities
+aHRtbGVudGl0aWVz
+h0bWxlbnRpdGllc
+odG1sZW50aXRpZX
+
+# html_entity_decode
+aHRtbF9lbnRpdHlfZGVjb2Rl
+h0bWxfZW50aXR5X2RlY29kZ
+odG1sX2VudGl0eV9kZWNvZG
+
+# htmlspecialchars
+aHRtbHNwZWNpYWxjaGFyc
+h0bWxzcGVjaWFsY2hhcn
+odG1sc3BlY2lhbGNoYXJz
+
+# htmlspecialchars_decode
+aHRtbHNwZWNpYWxjaGFyc19kZWNvZG
+h0bWxzcGVjaWFsY2hhcnNfZGVjb2Rl
+odG1sc3BlY2lhbGNoYXJzX2RlY29kZ
+
+# http_build_query
+aHR0cF9idWlsZF9xdWVye
+h0dHBfYnVpbGRfcXVlcn
+odHRwX2J1aWxkX3F1ZXJ5
+
+# http_response_code
+aHR0cF9yZXNwb25zZV9jb2Rl
+h0dHBfcmVzcG9uc2VfY29kZ
+odHRwX3Jlc3BvbnNlX2NvZG
+
+# hypot
+aHlwb3
+h5cG90
+oeXBvd
+
+# iconv
+aWNvbn
+ljb252
+pY29ud
+
+# iconv_get_encoding
+aWNvbnZfZ2V0X2VuY29kaW5n
+ljb252X2dldF9lbmNvZGluZ
+pY29udl9nZXRfZW5jb2Rpbm
+
+# iconv_mime_decode
+aWNvbnZfbWltZV9kZWNvZG
+ljb252X21pbWVfZGVjb2Rl
+pY29udl9taW1lX2RlY29kZ
+
+# iconv_mime_decode_headers
+aWNvbnZfbWltZV9kZWNvZGVfaGVhZGVyc
+ljb252X21pbWVfZGVjb2RlX2hlYWRlcn
+pY29udl9taW1lX2RlY29kZV9oZWFkZXJz
+
+# iconv_mime_encode
+aWNvbnZfbWltZV9lbmNvZG
+ljb252X21pbWVfZW5jb2Rl
+pY29udl9taW1lX2VuY29kZ
+
+# iconv_set_encoding
+aWNvbnZfc2V0X2VuY29kaW5n
+ljb252X3NldF9lbmNvZGluZ
+pY29udl9zZXRfZW5jb2Rpbm
+
+# iconv_strlen
+aWNvbnZfc3RybGVu
+ljb252X3N0cmxlb
+pY29udl9zdHJsZW
+
+# iconv_strpos
+aWNvbnZfc3RycG9z
+ljb252X3N0cnBvc
+pY29udl9zdHJwb3
+
+# iconv_strrpos
+aWNvbnZfc3RycnBvc
+ljb252X3N0cnJwb3
+pY29udl9zdHJycG9z
+
+# iconv_substr
+aWNvbnZfc3Vic3Ry
+ljb252X3N1YnN0c
+pY29udl9zdWJzdH
+
+# idate
+aWRhdG
+lkYXRl
+pZGF0Z
+
+# ignore_user_abort
+aWdub3JlX3VzZXJfYWJvcn
+lnbm9yZV91c2VyX2Fib3J0
+pZ25vcmVfdXNlcl9hYm9yd
+
+# image2wbmp
+aW1hZ2Uyd2Jtc
+ltYWdlMndibX
+pbWFnZTJ3Ym1w
+
+# imageaffine
+aW1hZ2VhZmZpbm
+ltYWdlYWZmaW5l
+pbWFnZWFmZmluZ
+
+# imageaffinematrixconcat
+aW1hZ2VhZmZpbmVtYXRyaXhjb25jYX
+ltYWdlYWZmaW5lbWF0cml4Y29uY2F0
+pbWFnZWFmZmluZW1hdHJpeGNvbmNhd
+
+# imageaffinematrixget
+aW1hZ2VhZmZpbmVtYXRyaXhnZX
+ltYWdlYWZmaW5lbWF0cml4Z2V0
+pbWFnZWFmZmluZW1hdHJpeGdld
+
+# imagealphablending
+aW1hZ2VhbHBoYWJsZW5kaW5n
+ltYWdlYWxwaGFibGVuZGluZ
+pbWFnZWFscGhhYmxlbmRpbm
+
+# imagearc
+aW1hZ2Vhcm
+ltYWdlYXJj
+pbWFnZWFyY
+
+# imagechar
+aW1hZ2VjaGFy
+ltYWdlY2hhc
+pbWFnZWNoYX
+
+# imagecharup
+aW1hZ2VjaGFydX
+ltYWdlY2hhcnVw
+pbWFnZWNoYXJ1c
+
+# imagecolorallocate
+aW1hZ2Vjb2xvcmFsbG9jYXRl
+ltYWdlY29sb3JhbGxvY2F0Z
+pbWFnZWNvbG9yYWxsb2NhdG
+
+# imagecolorallocatealpha
+aW1hZ2Vjb2xvcmFsbG9jYXRlYWxwaG
+ltYWdlY29sb3JhbGxvY2F0ZWFscGhh
+pbWFnZWNvbG9yYWxsb2NhdGVhbHBoY
+
+# imagecolorat
+aW1hZ2Vjb2xvcmF0
+ltYWdlY29sb3Jhd
+pbWFnZWNvbG9yYX
+
+# imagecolorclosest
+aW1hZ2Vjb2xvcmNsb3Nlc3
+ltYWdlY29sb3JjbG9zZXN0
+pbWFnZWNvbG9yY2xvc2Vzd
+
+# imagecolorclosestalpha
+aW1hZ2Vjb2xvcmNsb3Nlc3RhbHBoY
+ltYWdlY29sb3JjbG9zZXN0YWxwaG
+pbWFnZWNvbG9yY2xvc2VzdGFscGhh
+
+# imagecolorclosesthwb
+aW1hZ2Vjb2xvcmNsb3Nlc3Rod2
+ltYWdlY29sb3JjbG9zZXN0aHdi
+pbWFnZWNvbG9yY2xvc2VzdGh3Y
+
+# imagecolordeallocate
+aW1hZ2Vjb2xvcmRlYWxsb2NhdG
+ltYWdlY29sb3JkZWFsbG9jYXRl
+pbWFnZWNvbG9yZGVhbGxvY2F0Z
+
+# imagecolorexact
+aW1hZ2Vjb2xvcmV4YWN0
+ltYWdlY29sb3JleGFjd
+pbWFnZWNvbG9yZXhhY3
+
+# imagecolorexactalpha
+aW1hZ2Vjb2xvcmV4YWN0YWxwaG
+ltYWdlY29sb3JleGFjdGFscGhh
+pbWFnZWNvbG9yZXhhY3RhbHBoY
+
+# imagecolormatch
+aW1hZ2Vjb2xvcm1hdGNo
+ltYWdlY29sb3JtYXRja
+pbWFnZWNvbG9ybWF0Y2
+
+# imagecolorresolve
+aW1hZ2Vjb2xvcnJlc29sdm
+ltYWdlY29sb3JyZXNvbHZl
+pbWFnZWNvbG9ycmVzb2x2Z
+
+# imagecolorresolvealpha
+aW1hZ2Vjb2xvcnJlc29sdmVhbHBoY
+ltYWdlY29sb3JyZXNvbHZlYWxwaG
+pbWFnZWNvbG9ycmVzb2x2ZWFscGhh
+
+# imagecolorset
+aW1hZ2Vjb2xvcnNld
+ltYWdlY29sb3JzZX
+pbWFnZWNvbG9yc2V0
+
+# imagecolorsforindex
+aW1hZ2Vjb2xvcnNmb3JpbmRle
+ltYWdlY29sb3JzZm9yaW5kZX
+pbWFnZWNvbG9yc2ZvcmluZGV4
+
+# imagecolorstotal
+aW1hZ2Vjb2xvcnN0b3Rhb
+ltYWdlY29sb3JzdG90YW
+pbWFnZWNvbG9yc3RvdGFs
+
+# imagecolortransparent
+aW1hZ2Vjb2xvcnRyYW5zcGFyZW50
+ltYWdlY29sb3J0cmFuc3BhcmVud
+pbWFnZWNvbG9ydHJhbnNwYXJlbn
+
+# imageconvolution
+aW1hZ2Vjb252b2x1dGlvb
+ltYWdlY29udm9sdXRpb2
+pbWFnZWNvbnZvbHV0aW9u
+
+# imagecopy
+aW1hZ2Vjb3B5
+ltYWdlY29we
+pbWFnZWNvcH
+
+# imagecopymerge
+aW1hZ2Vjb3B5bWVyZ2
+ltYWdlY29weW1lcmdl
+pbWFnZWNvcHltZXJnZ
+
+# imagecopymergegray
+aW1hZ2Vjb3B5bWVyZ2VncmF5
+ltYWdlY29weW1lcmdlZ3Jhe
+pbWFnZWNvcHltZXJnZWdyYX
+
+# imagecopyresampled
+aW1hZ2Vjb3B5cmVzYW1wbGVk
+ltYWdlY29weXJlc2FtcGxlZ
+pbWFnZWNvcHlyZXNhbXBsZW
+
+# imagecopyresized
+aW1hZ2Vjb3B5cmVzaXplZ
+ltYWdlY29weXJlc2l6ZW
+pbWFnZWNvcHlyZXNpemVk
+
+# imagecreate
+aW1hZ2VjcmVhdG
+ltYWdlY3JlYXRl
+pbWFnZWNyZWF0Z
+
+# imagecreatefromgd
+aW1hZ2VjcmVhdGVmcm9tZ2
+ltYWdlY3JlYXRlZnJvbWdk
+pbWFnZWNyZWF0ZWZyb21nZ
+
+# imagecreatefromgd2
+aW1hZ2VjcmVhdGVmcm9tZ2Qy
+ltYWdlY3JlYXRlZnJvbWdkM
+pbWFnZWNyZWF0ZWZyb21nZD
+
+# imagecreatefromgd2part
+aW1hZ2VjcmVhdGVmcm9tZ2QycGFyd
+ltYWdlY3JlYXRlZnJvbWdkMnBhcn
+pbWFnZWNyZWF0ZWZyb21nZDJwYXJ0
+
+# imagecreatefromgif
+aW1hZ2VjcmVhdGVmcm9tZ2lm
+ltYWdlY3JlYXRlZnJvbWdpZ
+pbWFnZWNyZWF0ZWZyb21naW
+
+# imagecreatefromjpeg
+aW1hZ2VjcmVhdGVmcm9tanBlZ
+ltYWdlY3JlYXRlZnJvbWpwZW
+pbWFnZWNyZWF0ZWZyb21qcGVn
+
+# imagecreatefrompng
+aW1hZ2VjcmVhdGVmcm9tcG5n
+ltYWdlY3JlYXRlZnJvbXBuZ
+pbWFnZWNyZWF0ZWZyb21wbm
+
+# imagecreatefromstring
+aW1hZ2VjcmVhdGVmcm9tc3RyaW5n
+ltYWdlY3JlYXRlZnJvbXN0cmluZ
+pbWFnZWNyZWF0ZWZyb21zdHJpbm
+
+# imagecreatefromwbmp
+aW1hZ2VjcmVhdGVmcm9td2Jtc
+ltYWdlY3JlYXRlZnJvbXdibX
+pbWFnZWNyZWF0ZWZyb213Ym1w
+
+# imagecreatefromwebp
+aW1hZ2VjcmVhdGVmcm9td2Vic
+ltYWdlY3JlYXRlZnJvbXdlYn
+pbWFnZWNyZWF0ZWZyb213ZWJw
+
+# imagecreatefromxbm
+aW1hZ2VjcmVhdGVmcm9teGJt
+ltYWdlY3JlYXRlZnJvbXhib
+pbWFnZWNyZWF0ZWZyb214Ym
+
+# imagecreatefromxpm
+aW1hZ2VjcmVhdGVmcm9teHBt
+ltYWdlY3JlYXRlZnJvbXhwb
+pbWFnZWNyZWF0ZWZyb214cG
+
+# imagecreatetruecolor
+aW1hZ2VjcmVhdGV0cnVlY29sb3
+ltYWdlY3JlYXRldHJ1ZWNvbG9y
+pbWFnZWNyZWF0ZXRydWVjb2xvc
+
+# imagecrop
+aW1hZ2Vjcm9w
+ltYWdlY3Jvc
+pbWFnZWNyb3
+
+# imagecropauto
+aW1hZ2Vjcm9wYXV0b
+ltYWdlY3JvcGF1dG
+pbWFnZWNyb3BhdXRv
+
+# imagedashedline
+aW1hZ2VkYXNoZWRsaW5l
+ltYWdlZGFzaGVkbGluZ
+pbWFnZWRhc2hlZGxpbm
+
+# imagedestroy
+aW1hZ2VkZXN0cm95
+ltYWdlZGVzdHJve
+pbWFnZWRlc3Ryb3
+
+# imageellipse
+aW1hZ2VlbGxpcHNl
+ltYWdlZWxsaXBzZ
+pbWFnZWVsbGlwc2
+
+# imagefill
+aW1hZ2VmaWxs
+ltYWdlZmlsb
+pbWFnZWZpbG
+
+# imagefilledarc
+aW1hZ2VmaWxsZWRhcm
+ltYWdlZmlsbGVkYXJj
+pbWFnZWZpbGxlZGFyY
+
+# imagefilledellipse
+aW1hZ2VmaWxsZWRlbGxpcHNl
+ltYWdlZmlsbGVkZWxsaXBzZ
+pbWFnZWZpbGxlZGVsbGlwc2
+
+# imagefilledpolygon
+aW1hZ2VmaWxsZWRwb2x5Z29u
+ltYWdlZmlsbGVkcG9seWdvb
+pbWFnZWZpbGxlZHBvbHlnb2
+
+# imagefilledrectangle
+aW1hZ2VmaWxsZWRyZWN0YW5nbG
+ltYWdlZmlsbGVkcmVjdGFuZ2xl
+pbWFnZWZpbGxlZHJlY3RhbmdsZ
+
+# imagefilltoborder
+aW1hZ2VmaWxsdG9ib3JkZX
+ltYWdlZmlsbHRvYm9yZGVy
+pbWFnZWZpbGx0b2JvcmRlc
+
+# imagefilter
+aW1hZ2VmaWx0ZX
+ltYWdlZmlsdGVy
+pbWFnZWZpbHRlc
+
+# imageflip
+aW1hZ2VmbGlw
+ltYWdlZmxpc
+pbWFnZWZsaX
+
+# imagefontheight
+aW1hZ2Vmb250aGVpZ2h0
+ltYWdlZm9udGhlaWdod
+pbWFnZWZvbnRoZWlnaH
+
+# imagefontwidth
+aW1hZ2Vmb250d2lkdG
+ltYWdlZm9udHdpZHRo
+pbWFnZWZvbnR3aWR0a
+
+# imageftbbox
+aW1hZ2VmdGJib3
+ltYWdlZnRiYm94
+pbWFnZWZ0YmJve
+
+# imagefttext
+aW1hZ2VmdHRleH
+ltYWdlZnR0ZXh0
+pbWFnZWZ0dGV4d
+
+# imagegammacorrect
+aW1hZ2VnYW1tYWNvcnJlY3
+ltYWdlZ2FtbWFjb3JyZWN0
+pbWFnZWdhbW1hY29ycmVjd
+
+# imagegd
+aW1hZ2VnZ
+ltYWdlZ2
+pbWFnZWdk
+
+# imagegd2
+aW1hZ2VnZD
+ltYWdlZ2Qy
+pbWFnZWdkM
+
+# imagegif
+aW1hZ2VnaW
+ltYWdlZ2lm
+pbWFnZWdpZ
+
+# imageinterlace
+aW1hZ2VpbnRlcmxhY2
+ltYWdlaW50ZXJsYWNl
+pbWFnZWludGVybGFjZ
+
+# imageistruecolor
+aW1hZ2Vpc3RydWVjb2xvc
+ltYWdlaXN0cnVlY29sb3
+pbWFnZWlzdHJ1ZWNvbG9y
+
+# imagejpeg
+aW1hZ2VqcGVn
+ltYWdlanBlZ
+pbWFnZWpwZW
+
+# imagelayereffect
+aW1hZ2VsYXllcmVmZmVjd
+ltYWdlbGF5ZXJlZmZlY3
+pbWFnZWxheWVyZWZmZWN0
+
+# imageline
+aW1hZ2VsaW5l
+ltYWdlbGluZ
+pbWFnZWxpbm
+
+# imageloadfont
+aW1hZ2Vsb2FkZm9ud
+ltYWdlbG9hZGZvbn
+pbWFnZWxvYWRmb250
+
+# imagepalettecopy
+aW1hZ2VwYWxldHRlY29we
+ltYWdlcGFsZXR0ZWNvcH
+pbWFnZXBhbGV0dGVjb3B5
+
+# imagepalettetotruecolor
+aW1hZ2VwYWxldHRldG90cnVlY29sb3
+ltYWdlcGFsZXR0ZXRvdHJ1ZWNvbG9y
+pbWFnZXBhbGV0dGV0b3RydWVjb2xvc
+
+# imagepng
+aW1hZ2Vwbm
+ltYWdlcG5n
+pbWFnZXBuZ
+
+# imagepolygon
+aW1hZ2Vwb2x5Z29u
+ltYWdlcG9seWdvb
+pbWFnZXBvbHlnb2
+
+# imagerectangle
+aW1hZ2VyZWN0YW5nbG
+ltYWdlcmVjdGFuZ2xl
+pbWFnZXJlY3RhbmdsZ
+
+# imagerotate
+aW1hZ2Vyb3RhdG
+ltYWdlcm90YXRl
+pbWFnZXJvdGF0Z
+
+# imagesavealpha
+aW1hZ2VzYXZlYWxwaG
+ltYWdlc2F2ZWFscGhh
+pbWFnZXNhdmVhbHBoY
+
+# imagescale
+aW1hZ2VzY2FsZ
+ltYWdlc2NhbG
+pbWFnZXNjYWxl
+
+# imagesetbrush
+aW1hZ2VzZXRicnVza
+ltYWdlc2V0YnJ1c2
+pbWFnZXNldGJydXNo
+
+# imagesetinterpolation
+aW1hZ2VzZXRpbnRlcnBvbGF0aW9u
+ltYWdlc2V0aW50ZXJwb2xhdGlvb
+pbWFnZXNldGludGVycG9sYXRpb2
+
+# imagesetpixel
+aW1hZ2VzZXRwaXhlb
+ltYWdlc2V0cGl4ZW
+pbWFnZXNldHBpeGVs
+
+# imagesetstyle
+aW1hZ2VzZXRzdHlsZ
+ltYWdlc2V0c3R5bG
+pbWFnZXNldHN0eWxl
+
+# imagesetthickness
+aW1hZ2VzZXR0aGlja25lc3
+ltYWdlc2V0dGhpY2tuZXNz
+pbWFnZXNldHRoaWNrbmVzc
+
+# imagesettile
+aW1hZ2VzZXR0aWxl
+ltYWdlc2V0dGlsZ
+pbWFnZXNldHRpbG
+
+# imagestring
+aW1hZ2VzdHJpbm
+ltYWdlc3RyaW5n
+pbWFnZXN0cmluZ
+
+# imagestringup
+aW1hZ2VzdHJpbmd1c
+ltYWdlc3RyaW5ndX
+pbWFnZXN0cmluZ3Vw
+
+# imagesx
+aW1hZ2Vze
+ltYWdlc3
+pbWFnZXN4
+
+# imagesy
+aW1hZ2Vze
+ltYWdlc3
+pbWFnZXN5
+
+# imagetruecolortopalette
+aW1hZ2V0cnVlY29sb3J0b3BhbGV0dG
+ltYWdldHJ1ZWNvbG9ydG9wYWxldHRl
+pbWFnZXRydWVjb2xvcnRvcGFsZXR0Z
+
+# imagettfbbox
+aW1hZ2V0dGZiYm94
+ltYWdldHRmYmJve
+pbWFnZXR0ZmJib3
+
+# imagettftext
+aW1hZ2V0dGZ0ZXh0
+ltYWdldHRmdGV4d
+pbWFnZXR0ZnRleH
+
+# imagetypes
+aW1hZ2V0eXBlc
+ltYWdldHlwZX
+pbWFnZXR5cGVz
+
+# image_type_to_extension
+aW1hZ2VfdHlwZV90b19leHRlbnNpb2
+ltYWdlX3R5cGVfdG9fZXh0ZW5zaW9u
+pbWFnZV90eXBlX3RvX2V4dGVuc2lvb
+
+# image_type_to_mime_type
+aW1hZ2VfdHlwZV90b19taW1lX3R5cG
+ltYWdlX3R5cGVfdG9fbWltZV90eXBl
+pbWFnZV90eXBlX3RvX21pbWVfdHlwZ
+
+# imagewbmp
+aW1hZ2V3Ym1w
+ltYWdld2Jtc
+pbWFnZXdibX
+
+# imagewebp
+aW1hZ2V3ZWJw
+ltYWdld2Vic
+pbWFnZXdlYn
+
+# imagexbm
+aW1hZ2V4Ym
+ltYWdleGJt
+pbWFnZXhib
+
+# implode
+aW1wbG9kZ
+ltcGxvZG
+pbXBsb2Rl
+
+# in_array
+aW5fYXJyYX
+luX2FycmF5
+pbl9hcnJhe
+
+# inet_ntop
+aW5ldF9udG9w
+luZXRfbnRvc
+pbmV0X250b3
+
+# inet_pton
+aW5ldF9wdG9u
+luZXRfcHRvb
+pbmV0X3B0b2
+
+# inflate_add
+aW5mbGF0ZV9hZG
+luZmxhdGVfYWRk
+pbmZsYXRlX2FkZ
+
+# inflate_init
+aW5mbGF0ZV9pbml0
+luZmxhdGVfaW5pd
+pbmZsYXRlX2luaX
+
+# ini_alter
+aW5pX2FsdGVy
+luaV9hbHRlc
+pbmlfYWx0ZX
+
+# ini_get
+aW5pX2dld
+luaV9nZX
+pbmlfZ2V0
+
+# ini_get_all
+aW5pX2dldF9hbG
+luaV9nZXRfYWxs
+pbmlfZ2V0X2Fsb
+
+# ini_restore
+aW5pX3Jlc3Rvcm
+luaV9yZXN0b3Jl
+pbmlfcmVzdG9yZ
+
+# ini_set
+aW5pX3Nld
+luaV9zZX
+pbmlfc2V0
+
+# intdiv
+aW50ZGl2
+ludGRpd
+pbnRkaX
+
+# interface_exists
+aW50ZXJmYWNlX2V4aXN0c
+ludGVyZmFjZV9leGlzdH
+pbnRlcmZhY2VfZXhpc3Rz
+
+# intval
+aW50dmFs
+ludHZhb
+pbnR2YW
+
+# ip2long
+aXAybG9uZ
+lwMmxvbm
+pcDJsb25n
+
+# iptcembed
+aXB0Y2VtYmVk
+lwdGNlbWJlZ
+pcHRjZW1iZW
+
+# iptcparse
+aXB0Y3BhcnNl
+lwdGNwYXJzZ
+pcHRjcGFyc2
+
+# is_a
+aXNfY
+lzX2
+pc19h
+
+# is_array
+aXNfYXJyYX
+lzX2FycmF5
+pc19hcnJhe
+
+# is_bool
+aXNfYm9vb
+lzX2Jvb2
+pc19ib29s
+
+# is_callable
+aXNfY2FsbGFibG
+lzX2NhbGxhYmxl
+pc19jYWxsYWJsZ
+
+# is_dir
+aXNfZGly
+lzX2Rpc
+pc19kaX
+
+# is_double
+aXNfZG91Ymxl
+lzX2RvdWJsZ
+pc19kb3VibG
+
+# is_executable
+aXNfZXhlY3V0YWJsZ
+lzX2V4ZWN1dGFibG
+pc19leGVjdXRhYmxl
+
+# is_file
+aXNfZmlsZ
+lzX2ZpbG
+pc19maWxl
+
+# is_finite
+aXNfZmluaXRl
+lzX2Zpbml0Z
+pc19maW5pdG
+
+# is_float
+aXNfZmxvYX
+lzX2Zsb2F0
+pc19mbG9hd
+
+# is_infinite
+aXNfaW5maW5pdG
+lzX2luZmluaXRl
+pc19pbmZpbml0Z
+
+# is_int
+aXNfaW50
+lzX2lud
+pc19pbn
+
+# is_integer
+aXNfaW50ZWdlc
+lzX2ludGVnZX
+pc19pbnRlZ2Vy
+
+# is_link
+aXNfbGlua
+lzX2xpbm
+pc19saW5r
+
+# is_long
+aXNfbG9uZ
+lzX2xvbm
+pc19sb25n
+
+# is_nan
+aXNfbmFu
+lzX25hb
+pc19uYW
+
+# is_null
+aXNfbnVsb
+lzX251bG
+pc19udWxs
+
+# is_numeric
+aXNfbnVtZXJpY
+lzX251bWVyaW
+pc19udW1lcmlj
+
+# is_object
+aXNfb2JqZWN0
+lzX29iamVjd
+pc19vYmplY3
+
+# is_readable
+aXNfcmVhZGFibG
+lzX3JlYWRhYmxl
+pc19yZWFkYWJsZ
+
+# is_real
+aXNfcmVhb
+lzX3JlYW
+pc19yZWFs
+
+# is_resource
+aXNfcmVzb3VyY2
+lzX3Jlc291cmNl
+pc19yZXNvdXJjZ
+
+# is_scalar
+aXNfc2NhbGFy
+lzX3NjYWxhc
+pc19zY2FsYX
+
+# is_string
+aXNfc3RyaW5n
+lzX3N0cmluZ
+pc19zdHJpbm
+
+# is_subclass_of
+aXNfc3ViY2xhc3Nfb2
+lzX3N1YmNsYXNzX29m
+pc19zdWJjbGFzc19vZ
+
+# is_uploaded_file
+aXNfdXBsb2FkZWRfZmlsZ
+lzX3VwbG9hZGVkX2ZpbG
+pc191cGxvYWRlZF9maWxl
+
+# is_writable
+aXNfd3JpdGFibG
+lzX3dyaXRhYmxl
+pc193cml0YWJsZ
+
+# is_writeable
+aXNfd3JpdGVhYmxl
+lzX3dyaXRlYWJsZ
+pc193cml0ZWFibG
+
+# iterator_apply
+aXRlcmF0b3JfYXBwbH
+l0ZXJhdG9yX2FwcGx5
+pdGVyYXRvcl9hcHBse
+
+# iterator_count
+aXRlcmF0b3JfY291bn
+l0ZXJhdG9yX2NvdW50
+pdGVyYXRvcl9jb3Vud
+
+# iterator_to_array
+aXRlcmF0b3JfdG9fYXJyYX
+l0ZXJhdG9yX3RvX2FycmF5
+pdGVyYXRvcl90b19hcnJhe
+
+# jddayofweek
+amRkYXlvZndlZW
+pkZGF5b2Z3ZWVr
+qZGRheW9md2Vla
+
+# jdmonthname
+amRtb250aG5hbW
+pkbW9udGhuYW1l
+qZG1vbnRobmFtZ
+
+# jdtofrench
+amR0b2ZyZW5ja
+pkdG9mcmVuY2
+qZHRvZnJlbmNo
+
+# jdtogregorian
+amR0b2dyZWdvcmlhb
+pkdG9ncmVnb3JpYW
+qZHRvZ3JlZ29yaWFu
+
+# jdtojewish
+amR0b2pld2lza
+pkdG9qZXdpc2
+qZHRvamV3aXNo
+
+# jdtojulian
+amR0b2p1bGlhb
+pkdG9qdWxpYW
+qZHRvanVsaWFu
+
+# jdtounix
+amR0b3VuaX
+pkdG91bml4
+qZHRvdW5pe
+
+# jewishtojd
+amV3aXNodG9qZ
+pld2lzaHRvam
+qZXdpc2h0b2pk
+
+# join
+am9pb
+pvaW
+qb2lu
+
+# jpeg2wbmp
+anBlZzJ3Ym1w
+pwZWcyd2Jtc
+qcGVnMndibX
+
+# json_decode
+anNvbl9kZWNvZG
+pzb25fZGVjb2Rl
+qc29uX2RlY29kZ
+
+# json_encode
+anNvbl9lbmNvZG
+pzb25fZW5jb2Rl
+qc29uX2VuY29kZ
+
+# json_last_error
+anNvbl9sYXN0X2Vycm9y
+pzb25fbGFzdF9lcnJvc
+qc29uX2xhc3RfZXJyb3
+
+# json_last_error_msg
+anNvbl9sYXN0X2Vycm9yX21zZ
+pzb25fbGFzdF9lcnJvcl9tc2
+qc29uX2xhc3RfZXJyb3JfbXNn
+
+# juliantojd
+anVsaWFudG9qZ
+p1bGlhbnRvam
+qdWxpYW50b2pk
+
+# key
+a2V5
+#tle
+#rZX
+
+# key_exists
+a2V5X2V4aXN0c
+tleV9leGlzdH
+rZXlfZXhpc3Rz
+
+# krsort
+a3Jzb3J0
+tyc29yd
+rcnNvcn
+
+# ksort
+a3Nvcn
+tzb3J0
+rc29yd
+
+# lcfirst
+bGNmaXJzd
+xjZmlyc3
+sY2ZpcnN0
+
+# lcg_value
+bGNnX3ZhbHVl
+xjZ192YWx1Z
+sY2dfdmFsdW
+
+# lchgrp
+bGNoZ3Jw
+xjaGdyc
+sY2hncn
+
+# lchown
+bGNob3du
+xjaG93b
+sY2hvd2
+
+# levenshtein
+bGV2ZW5zaHRlaW
+xldmVuc2h0ZWlu
+sZXZlbnNodGVpb
+
+# libxml_clear_errors
+bGlieG1sX2NsZWFyX2Vycm9yc
+xpYnhtbF9jbGVhcl9lcnJvcn
+saWJ4bWxfY2xlYXJfZXJyb3Jz
+
+# libxml_disable_entity_loader
+bGlieG1sX2Rpc2FibGVfZW50aXR5X2xvYWRlc
+xpYnhtbF9kaXNhYmxlX2VudGl0eV9sb2FkZX
+saWJ4bWxfZGlzYWJsZV9lbnRpdHlfbG9hZGVy
+
+# libxml_get_errors
+bGlieG1sX2dldF9lcnJvcn
+xpYnhtbF9nZXRfZXJyb3Jz
+saWJ4bWxfZ2V0X2Vycm9yc
+
+# libxml_get_last_error
+bGlieG1sX2dldF9sYXN0X2Vycm9y
+xpYnhtbF9nZXRfbGFzdF9lcnJvc
+saWJ4bWxfZ2V0X2xhc3RfZXJyb3
+
+# libxml_set_external_entity_loader
+bGlieG1sX3NldF9leHRlcm5hbF9lbnRpdHlfbG9hZGVy
+xpYnhtbF9zZXRfZXh0ZXJuYWxfZW50aXR5X2xvYWRlc
+saWJ4bWxfc2V0X2V4dGVybmFsX2VudGl0eV9sb2FkZX
+
+# libxml_set_streams_context
+bGlieG1sX3NldF9zdHJlYW1zX2NvbnRleH
+xpYnhtbF9zZXRfc3RyZWFtc19jb250ZXh0
+saWJ4bWxfc2V0X3N0cmVhbXNfY29udGV4d
+
+# libxml_use_internal_errors
+bGlieG1sX3VzZV9pbnRlcm5hbF9lcnJvcn
+xpYnhtbF91c2VfaW50ZXJuYWxfZXJyb3Jz
+saWJ4bWxfdXNlX2ludGVybmFsX2Vycm9yc
+
+# link
+bGlua
+xpbm
+saW5r
+
+# linkinfo
+bGlua2luZm
+xpbmtpbmZv
+saW5raW5mb
+
+# localeconv
+bG9jYWxlY29ud
+xvY2FsZWNvbn
+sb2NhbGVjb252
+
+# localtime
+bG9jYWx0aW1l
+xvY2FsdGltZ
+sb2NhbHRpbW
+
+# log
+bG9n
+#xvZ
+#sb2
+
+# log10
+bG9nMT
+xvZzEw
+sb2cxM
+
+# log1p
+bG9nMX
+xvZzFw
+sb2cxc
+
+# long2ip
+bG9uZzJpc
+xvbmcyaX
+sb25nMmlw
+
+# lstat
+bHN0YX
+xzdGF0
+sc3Rhd
+
+# ltrim
+bHRyaW
+x0cmlt
+sdHJpb
+
+# mail
+bWFpb
+1haW
+tYWls
+
+# max
+bWF4
+#1he
+#tYX
+
+# mb_check_encoding
+bWJfY2hlY2tfZW5jb2Rpbm
+1iX2NoZWNrX2VuY29kaW5n
+tYl9jaGVja19lbmNvZGluZ
+
+# mb_convert_case
+bWJfY29udmVydF9jYXNl
+1iX2NvbnZlcnRfY2FzZ
+tYl9jb252ZXJ0X2Nhc2
+
+# mb_convert_encoding
+bWJfY29udmVydF9lbmNvZGluZ
+1iX2NvbnZlcnRfZW5jb2Rpbm
+tYl9jb252ZXJ0X2VuY29kaW5n
+
+# mb_convert_kana
+bWJfY29udmVydF9rYW5h
+1iX2NvbnZlcnRfa2FuY
+tYl9jb252ZXJ0X2thbm
+
+# mb_convert_variables
+bWJfY29udmVydF92YXJpYWJsZX
+1iX2NvbnZlcnRfdmFyaWFibGVz
+tYl9jb252ZXJ0X3ZhcmlhYmxlc
+
+# mb_decode_mimeheader
+bWJfZGVjb2RlX21pbWVoZWFkZX
+1iX2RlY29kZV9taW1laGVhZGVy
+tYl9kZWNvZGVfbWltZWhlYWRlc
+
+# mb_decode_numericentity
+bWJfZGVjb2RlX251bWVyaWNlbnRpdH
+1iX2RlY29kZV9udW1lcmljZW50aXR5
+tYl9kZWNvZGVfbnVtZXJpY2VudGl0e
+
+# mb_detect_encoding
+bWJfZGV0ZWN0X2VuY29kaW5n
+1iX2RldGVjdF9lbmNvZGluZ
+tYl9kZXRlY3RfZW5jb2Rpbm
+
+# mb_detect_order
+bWJfZGV0ZWN0X29yZGVy
+1iX2RldGVjdF9vcmRlc
+tYl9kZXRlY3Rfb3JkZX
+
+# mb_encode_mimeheader
+bWJfZW5jb2RlX21pbWVoZWFkZX
+1iX2VuY29kZV9taW1laGVhZGVy
+tYl9lbmNvZGVfbWltZWhlYWRlc
+
+# mb_encode_numericentity
+bWJfZW5jb2RlX251bWVyaWNlbnRpdH
+1iX2VuY29kZV9udW1lcmljZW50aXR5
+tYl9lbmNvZGVfbnVtZXJpY2VudGl0e
+
+# mb_encoding_aliases
+bWJfZW5jb2RpbmdfYWxpYXNlc
+1iX2VuY29kaW5nX2FsaWFzZX
+tYl9lbmNvZGluZ19hbGlhc2Vz
+
+# mbereg
+bWJlcmVn
+1iZXJlZ
+tYmVyZW
+
+# mb_ereg
+bWJfZXJlZ
+1iX2VyZW
+tYl9lcmVn
+
+# mberegi
+bWJlcmVna
+1iZXJlZ2
+tYmVyZWdp
+
+# mb_eregi
+bWJfZXJlZ2
+1iX2VyZWdp
+tYl9lcmVna
+
+# mb_eregi_replace
+bWJfZXJlZ2lfcmVwbGFjZ
+1iX2VyZWdpX3JlcGxhY2
+tYl9lcmVnaV9yZXBsYWNl
+
+# mberegi_replace
+bWJlcmVnaV9yZXBsYWNl
+1iZXJlZ2lfcmVwbGFjZ
+tYmVyZWdpX3JlcGxhY2
+
+# mb_ereg_match
+bWJfZXJlZ19tYXRja
+1iX2VyZWdfbWF0Y2
+tYl9lcmVnX21hdGNo
+
+# mbereg_match
+bWJlcmVnX21hdGNo
+1iZXJlZ19tYXRja
+tYmVyZWdfbWF0Y2
+
+# mb_ereg_replace
+bWJfZXJlZ19yZXBsYWNl
+1iX2VyZWdfcmVwbGFjZ
+tYl9lcmVnX3JlcGxhY2
+
+# mbereg_replace
+bWJlcmVnX3JlcGxhY2
+1iZXJlZ19yZXBsYWNl
+tYmVyZWdfcmVwbGFjZ
+
+# mb_ereg_replace_callback
+bWJfZXJlZ19yZXBsYWNlX2NhbGxiYWNr
+1iX2VyZWdfcmVwbGFjZV9jYWxsYmFja
+tYl9lcmVnX3JlcGxhY2VfY2FsbGJhY2
+
+# mb_ereg_search
+bWJfZXJlZ19zZWFyY2
+1iX2VyZWdfc2VhcmNo
+tYl9lcmVnX3NlYXJja
+
+# mbereg_search
+bWJlcmVnX3NlYXJja
+1iZXJlZ19zZWFyY2
+tYmVyZWdfc2VhcmNo
+
+# mb_ereg_search_getpos
+bWJfZXJlZ19zZWFyY2hfZ2V0cG9z
+1iX2VyZWdfc2VhcmNoX2dldHBvc
+tYl9lcmVnX3NlYXJjaF9nZXRwb3
+
+# mbereg_search_getpos
+bWJlcmVnX3NlYXJjaF9nZXRwb3
+1iZXJlZ19zZWFyY2hfZ2V0cG9z
+tYmVyZWdfc2VhcmNoX2dldHBvc
+
+# mb_ereg_search_getregs
+bWJfZXJlZ19zZWFyY2hfZ2V0cmVnc
+1iX2VyZWdfc2VhcmNoX2dldHJlZ3
+tYl9lcmVnX3NlYXJjaF9nZXRyZWdz
+
+# mbereg_search_getregs
+bWJlcmVnX3NlYXJjaF9nZXRyZWdz
+1iZXJlZ19zZWFyY2hfZ2V0cmVnc
+tYmVyZWdfc2VhcmNoX2dldHJlZ3
+
+# mb_ereg_search_init
+bWJfZXJlZ19zZWFyY2hfaW5pd
+1iX2VyZWdfc2VhcmNoX2luaX
+tYl9lcmVnX3NlYXJjaF9pbml0
+
+# mbereg_search_init
+bWJlcmVnX3NlYXJjaF9pbml0
+1iZXJlZ19zZWFyY2hfaW5pd
+tYmVyZWdfc2VhcmNoX2luaX
+
+# mb_ereg_search_pos
+bWJfZXJlZ19zZWFyY2hfcG9z
+1iX2VyZWdfc2VhcmNoX3Bvc
+tYl9lcmVnX3NlYXJjaF9wb3
+
+# mbereg_search_pos
+bWJlcmVnX3NlYXJjaF9wb3
+1iZXJlZ19zZWFyY2hfcG9z
+tYmVyZWdfc2VhcmNoX3Bvc
+
+# mb_ereg_search_regs
+bWJfZXJlZ19zZWFyY2hfcmVnc
+1iX2VyZWdfc2VhcmNoX3JlZ3
+tYl9lcmVnX3NlYXJjaF9yZWdz
+
+# mbereg_search_regs
+bWJlcmVnX3NlYXJjaF9yZWdz
+1iZXJlZ19zZWFyY2hfcmVnc
+tYmVyZWdfc2VhcmNoX3JlZ3
+
+# mb_ereg_search_setpos
+bWJfZXJlZ19zZWFyY2hfc2V0cG9z
+1iX2VyZWdfc2VhcmNoX3NldHBvc
+tYl9lcmVnX3NlYXJjaF9zZXRwb3
+
+# mbereg_search_setpos
+bWJlcmVnX3NlYXJjaF9zZXRwb3
+1iZXJlZ19zZWFyY2hfc2V0cG9z
+tYmVyZWdfc2VhcmNoX3NldHBvc
+
+# mb_get_info
+bWJfZ2V0X2luZm
+1iX2dldF9pbmZv
+tYl9nZXRfaW5mb
+
+# mb_http_input
+bWJfaHR0cF9pbnB1d
+1iX2h0dHBfaW5wdX
+tYl9odHRwX2lucHV0
+
+# mb_http_output
+bWJfaHR0cF9vdXRwdX
+1iX2h0dHBfb3V0cHV0
+tYl9odHRwX291dHB1d
+
+# mb_internal_encoding
+bWJfaW50ZXJuYWxfZW5jb2Rpbm
+1iX2ludGVybmFsX2VuY29kaW5n
+tYl9pbnRlcm5hbF9lbmNvZGluZ
+
+# mb_language
+bWJfbGFuZ3VhZ2
+1iX2xhbmd1YWdl
+tYl9sYW5ndWFnZ
+
+# mb_list_encodings
+bWJfbGlzdF9lbmNvZGluZ3
+1iX2xpc3RfZW5jb2Rpbmdz
+tYl9saXN0X2VuY29kaW5nc
+
+# mb_output_handler
+bWJfb3V0cHV0X2hhbmRsZX
+1iX291dHB1dF9oYW5kbGVy
+tYl9vdXRwdXRfaGFuZGxlc
+
+# mb_parse_str
+bWJfcGFyc2Vfc3Ry
+1iX3BhcnNlX3N0c
+tYl9wYXJzZV9zdH
+
+# mb_preferred_mime_name
+bWJfcHJlZmVycmVkX21pbWVfbmFtZ
+1iX3ByZWZlcnJlZF9taW1lX25hbW
+tYl9wcmVmZXJyZWRfbWltZV9uYW1l
+
+# mb_regex_encoding
+bWJfcmVnZXhfZW5jb2Rpbm
+1iX3JlZ2V4X2VuY29kaW5n
+tYl9yZWdleF9lbmNvZGluZ
+
+# mbregex_encoding
+bWJyZWdleF9lbmNvZGluZ
+1icmVnZXhfZW5jb2Rpbm
+tYnJlZ2V4X2VuY29kaW5n
+
+# mb_regex_set_options
+bWJfcmVnZXhfc2V0X29wdGlvbn
+1iX3JlZ2V4X3NldF9vcHRpb25z
+tYl9yZWdleF9zZXRfb3B0aW9uc
+
+# mb_send_mail
+bWJfc2VuZF9tYWls
+1iX3NlbmRfbWFpb
+tYl9zZW5kX21haW
+
+# mbsplit
+bWJzcGxpd
+1ic3BsaX
+tYnNwbGl0
+
+# mb_split
+bWJfc3BsaX
+1iX3NwbGl0
+tYl9zcGxpd
+
+# mb_strcut
+bWJfc3RyY3V0
+1iX3N0cmN1d
+tYl9zdHJjdX
+
+# mb_strimwidth
+bWJfc3RyaW13aWR0a
+1iX3N0cmltd2lkdG
+tYl9zdHJpbXdpZHRo
+
+# mb_stripos
+bWJfc3RyaXBvc
+1iX3N0cmlwb3
+tYl9zdHJpcG9z
+
+# mb_stristr
+bWJfc3RyaXN0c
+1iX3N0cmlzdH
+tYl9zdHJpc3Ry
+
+# mb_strlen
+bWJfc3RybGVu
+1iX3N0cmxlb
+tYl9zdHJsZW
+
+# mb_strpos
+bWJfc3RycG9z
+1iX3N0cnBvc
+tYl9zdHJwb3
+
+# mb_strrchr
+bWJfc3RycmNoc
+1iX3N0cnJjaH
+tYl9zdHJyY2hy
+
+# mb_strrichr
+bWJfc3RycmljaH
+1iX3N0cnJpY2hy
+tYl9zdHJyaWNoc
+
+# mb_strripos
+bWJfc3Rycmlwb3
+1iX3N0cnJpcG9z
+tYl9zdHJyaXBvc
+
+# mb_strrpos
+bWJfc3RycnBvc
+1iX3N0cnJwb3
+tYl9zdHJycG9z
+
+# mb_strstr
+bWJfc3Ryc3Ry
+1iX3N0cnN0c
+tYl9zdHJzdH
+
+# mb_strtolower
+bWJfc3RydG9sb3dlc
+1iX3N0cnRvbG93ZX
+tYl9zdHJ0b2xvd2Vy
+
+# mb_strtoupper
+bWJfc3RydG91cHBlc
+1iX3N0cnRvdXBwZX
+tYl9zdHJ0b3VwcGVy
+
+# mb_strwidth
+bWJfc3Ryd2lkdG
+1iX3N0cndpZHRo
+tYl9zdHJ3aWR0a
+
+# mb_substitute_character
+bWJfc3Vic3RpdHV0ZV9jaGFyYWN0ZX
+1iX3N1YnN0aXR1dGVfY2hhcmFjdGVy
+tYl9zdWJzdGl0dXRlX2NoYXJhY3Rlc
+
+# mb_substr
+bWJfc3Vic3Ry
+1iX3N1YnN0c
+tYl9zdWJzdH
+
+# mb_substr_count
+bWJfc3Vic3RyX2NvdW50
+1iX3N1YnN0cl9jb3Vud
+tYl9zdWJzdHJfY291bn
+
+# mcrypt_create_iv
+bWNyeXB0X2NyZWF0ZV9pd
+1jcnlwdF9jcmVhdGVfaX
+tY3J5cHRfY3JlYXRlX2l2
+
+# mcrypt_decrypt
+bWNyeXB0X2RlY3J5cH
+1jcnlwdF9kZWNyeXB0
+tY3J5cHRfZGVjcnlwd
+
+# mcrypt_enc_get_algorithms_name
+bWNyeXB0X2VuY19nZXRfYWxnb3JpdGhtc19uYW1l
+1jcnlwdF9lbmNfZ2V0X2FsZ29yaXRobXNfbmFtZ
+tY3J5cHRfZW5jX2dldF9hbGdvcml0aG1zX25hbW
+
+# mcrypt_enc_get_block_size
+bWNyeXB0X2VuY19nZXRfYmxvY2tfc2l6Z
+1jcnlwdF9lbmNfZ2V0X2Jsb2NrX3Npem
+tY3J5cHRfZW5jX2dldF9ibG9ja19zaXpl
+
+# mcrypt_enc_get_iv_size
+bWNyeXB0X2VuY19nZXRfaXZfc2l6Z
+1jcnlwdF9lbmNfZ2V0X2l2X3Npem
+tY3J5cHRfZW5jX2dldF9pdl9zaXpl
+
+# mcrypt_enc_get_key_size
+bWNyeXB0X2VuY19nZXRfa2V5X3Npem
+1jcnlwdF9lbmNfZ2V0X2tleV9zaXpl
+tY3J5cHRfZW5jX2dldF9rZXlfc2l6Z
+
+# mcrypt_enc_get_modes_name
+bWNyeXB0X2VuY19nZXRfbW9kZXNfbmFtZ
+1jcnlwdF9lbmNfZ2V0X21vZGVzX25hbW
+tY3J5cHRfZW5jX2dldF9tb2Rlc19uYW1l
+
+# mcrypt_enc_get_supported_key_sizes
+bWNyeXB0X2VuY19nZXRfc3VwcG9ydGVkX2tleV9zaXplc
+1jcnlwdF9lbmNfZ2V0X3N1cHBvcnRlZF9rZXlfc2l6ZX
+tY3J5cHRfZW5jX2dldF9zdXBwb3J0ZWRfa2V5X3NpemVz
+
+# mcrypt_enc_is_block_algorithm
+bWNyeXB0X2VuY19pc19ibG9ja19hbGdvcml0aG
+1jcnlwdF9lbmNfaXNfYmxvY2tfYWxnb3JpdGht
+tY3J5cHRfZW5jX2lzX2Jsb2NrX2FsZ29yaXRob
+
+# mcrypt_enc_is_block_algorithm_mode
+bWNyeXB0X2VuY19pc19ibG9ja19hbGdvcml0aG1fbW9kZ
+1jcnlwdF9lbmNfaXNfYmxvY2tfYWxnb3JpdGhtX21vZG
+tY3J5cHRfZW5jX2lzX2Jsb2NrX2FsZ29yaXRobV9tb2Rl
+
+# mcrypt_enc_is_block_mode
+bWNyeXB0X2VuY19pc19ibG9ja19tb2Rl
+1jcnlwdF9lbmNfaXNfYmxvY2tfbW9kZ
+tY3J5cHRfZW5jX2lzX2Jsb2NrX21vZG
+
+# mcrypt_encrypt
+bWNyeXB0X2VuY3J5cH
+1jcnlwdF9lbmNyeXB0
+tY3J5cHRfZW5jcnlwd
+
+# mcrypt_enc_self_test
+bWNyeXB0X2VuY19zZWxmX3Rlc3
+1jcnlwdF9lbmNfc2VsZl90ZXN0
+tY3J5cHRfZW5jX3NlbGZfdGVzd
+
+# mcrypt_generic
+bWNyeXB0X2dlbmVyaW
+1jcnlwdF9nZW5lcmlj
+tY3J5cHRfZ2VuZXJpY
+
+# mcrypt_generic_deinit
+bWNyeXB0X2dlbmVyaWNfZGVpbml0
+1jcnlwdF9nZW5lcmljX2RlaW5pd
+tY3J5cHRfZ2VuZXJpY19kZWluaX
+
+# mcrypt_generic_init
+bWNyeXB0X2dlbmVyaWNfaW5pd
+1jcnlwdF9nZW5lcmljX2luaX
+tY3J5cHRfZ2VuZXJpY19pbml0
+
+# mcrypt_get_block_size
+bWNyeXB0X2dldF9ibG9ja19zaXpl
+1jcnlwdF9nZXRfYmxvY2tfc2l6Z
+tY3J5cHRfZ2V0X2Jsb2NrX3Npem
+
+# mcrypt_get_cipher_name
+bWNyeXB0X2dldF9jaXBoZXJfbmFtZ
+1jcnlwdF9nZXRfY2lwaGVyX25hbW
+tY3J5cHRfZ2V0X2NpcGhlcl9uYW1l
+
+# mcrypt_get_iv_size
+bWNyeXB0X2dldF9pdl9zaXpl
+1jcnlwdF9nZXRfaXZfc2l6Z
+tY3J5cHRfZ2V0X2l2X3Npem
+
+# mcrypt_get_key_size
+bWNyeXB0X2dldF9rZXlfc2l6Z
+1jcnlwdF9nZXRfa2V5X3Npem
+tY3J5cHRfZ2V0X2tleV9zaXpl
+
+# mcrypt_list_algorithms
+bWNyeXB0X2xpc3RfYWxnb3JpdGhtc
+1jcnlwdF9saXN0X2FsZ29yaXRobX
+tY3J5cHRfbGlzdF9hbGdvcml0aG1z
+
+# mcrypt_list_modes
+bWNyeXB0X2xpc3RfbW9kZX
+1jcnlwdF9saXN0X21vZGVz
+tY3J5cHRfbGlzdF9tb2Rlc
+
+# mcrypt_module_close
+bWNyeXB0X21vZHVsZV9jbG9zZ
+1jcnlwdF9tb2R1bGVfY2xvc2
+tY3J5cHRfbW9kdWxlX2Nsb3Nl
+
+# mcrypt_module_get_algo_block_size
+bWNyeXB0X21vZHVsZV9nZXRfYWxnb19ibG9ja19zaXpl
+1jcnlwdF9tb2R1bGVfZ2V0X2FsZ29fYmxvY2tfc2l6Z
+tY3J5cHRfbW9kdWxlX2dldF9hbGdvX2Jsb2NrX3Npem
+
+# mcrypt_module_get_algo_key_size
+bWNyeXB0X21vZHVsZV9nZXRfYWxnb19rZXlfc2l6Z
+1jcnlwdF9tb2R1bGVfZ2V0X2FsZ29fa2V5X3Npem
+tY3J5cHRfbW9kdWxlX2dldF9hbGdvX2tleV9zaXpl
+
+# mcrypt_module_get_supported_key_sizes
+bWNyeXB0X21vZHVsZV9nZXRfc3VwcG9ydGVkX2tleV9zaXplc
+1jcnlwdF9tb2R1bGVfZ2V0X3N1cHBvcnRlZF9rZXlfc2l6ZX
+tY3J5cHRfbW9kdWxlX2dldF9zdXBwb3J0ZWRfa2V5X3NpemVz
+
+# mcrypt_module_is_block_algorithm
+bWNyeXB0X21vZHVsZV9pc19ibG9ja19hbGdvcml0aG
+1jcnlwdF9tb2R1bGVfaXNfYmxvY2tfYWxnb3JpdGht
+tY3J5cHRfbW9kdWxlX2lzX2Jsb2NrX2FsZ29yaXRob
+
+# mcrypt_module_is_block_algorithm_mode
+bWNyeXB0X21vZHVsZV9pc19ibG9ja19hbGdvcml0aG1fbW9kZ
+1jcnlwdF9tb2R1bGVfaXNfYmxvY2tfYWxnb3JpdGhtX21vZG
+tY3J5cHRfbW9kdWxlX2lzX2Jsb2NrX2FsZ29yaXRobV9tb2Rl
+
+# mcrypt_module_is_block_mode
+bWNyeXB0X21vZHVsZV9pc19ibG9ja19tb2Rl
+1jcnlwdF9tb2R1bGVfaXNfYmxvY2tfbW9kZ
+tY3J5cHRfbW9kdWxlX2lzX2Jsb2NrX21vZG
+
+# mcrypt_module_open
+bWNyeXB0X21vZHVsZV9vcGVu
+1jcnlwdF9tb2R1bGVfb3Blb
+tY3J5cHRfbW9kdWxlX29wZW
+
+# mcrypt_module_self_test
+bWNyeXB0X21vZHVsZV9zZWxmX3Rlc3
+1jcnlwdF9tb2R1bGVfc2VsZl90ZXN0
+tY3J5cHRfbW9kdWxlX3NlbGZfdGVzd
+
+# md5
+bWQ1
+#1kN
+#tZD
+
+# md5_file
+bWQ1X2ZpbG
+1kNV9maWxl
+tZDVfZmlsZ
+
+# mdecrypt_generic
+bWRlY3J5cHRfZ2VuZXJpY
+1kZWNyeXB0X2dlbmVyaW
+tZGVjcnlwdF9nZW5lcmlj
+
+# memory_get_peak_usage
+bWVtb3J5X2dldF9wZWFrX3VzYWdl
+1lbW9yeV9nZXRfcGVha191c2FnZ
+tZW1vcnlfZ2V0X3BlYWtfdXNhZ2
+
+# memory_get_usage
+bWVtb3J5X2dldF91c2FnZ
+1lbW9yeV9nZXRfdXNhZ2
+tZW1vcnlfZ2V0X3VzYWdl
+
+# metaphone
+bWV0YXBob25l
+1ldGFwaG9uZ
+tZXRhcGhvbm
+
+# method_exists
+bWV0aG9kX2V4aXN0c
+1ldGhvZF9leGlzdH
+tZXRob2RfZXhpc3Rz
+
+# mhash
+bWhhc2
+1oYXNo
+taGFza
+
+# mhash_count
+bWhhc2hfY291bn
+1oYXNoX2NvdW50
+taGFzaF9jb3Vud
+
+# mhash_get_block_size
+bWhhc2hfZ2V0X2Jsb2NrX3Npem
+1oYXNoX2dldF9ibG9ja19zaXpl
+taGFzaF9nZXRfYmxvY2tfc2l6Z
+
+# mhash_get_hash_name
+bWhhc2hfZ2V0X2hhc2hfbmFtZ
+1oYXNoX2dldF9oYXNoX25hbW
+taGFzaF9nZXRfaGFzaF9uYW1l
+
+# mhash_keygen_s2k
+bWhhc2hfa2V5Z2VuX3Mya
+1oYXNoX2tleWdlbl9zMm
+taGFzaF9rZXlnZW5fczJr
+
+# microtime
+bWljcm90aW1l
+1pY3JvdGltZ
+taWNyb3RpbW
+
+# mime_content_type
+bWltZV9jb250ZW50X3R5cG
+1pbWVfY29udGVudF90eXBl
+taW1lX2NvbnRlbnRfdHlwZ
+
+# min
+bWlu
+#1pb
+#taW
+
+# mkdir
+bWtkaX
+1rZGly
+ta2Rpc
+
+# mktime
+bWt0aW1l
+1rdGltZ
+ta3RpbW
+
+# money_format
+bW9uZXlfZm9ybWF0
+1vbmV5X2Zvcm1hd
+tb25leV9mb3JtYX
+
+# move_uploaded_file
+bW92ZV91cGxvYWRlZF9maWxl
+1vdmVfdXBsb2FkZWRfZmlsZ
+tb3ZlX3VwbG9hZGVkX2ZpbG
+
+# msg_get_queue
+bXNnX2dldF9xdWV1Z
+1zZ19nZXRfcXVldW
+tc2dfZ2V0X3F1ZXVl
+
+# msg_queue_exists
+bXNnX3F1ZXVlX2V4aXN0c
+1zZ19xdWV1ZV9leGlzdH
+tc2dfcXVldWVfZXhpc3Rz
+
+# msg_receive
+bXNnX3JlY2Vpdm
+1zZ19yZWNlaXZl
+tc2dfcmVjZWl2Z
+
+# msg_remove_queue
+bXNnX3JlbW92ZV9xdWV1Z
+1zZ19yZW1vdmVfcXVldW
+tc2dfcmVtb3ZlX3F1ZXVl
+
+# msg_send
+bXNnX3Nlbm
+1zZ19zZW5k
+tc2dfc2VuZ
+
+# msg_set_queue
+bXNnX3NldF9xdWV1Z
+1zZ19zZXRfcXVldW
+tc2dfc2V0X3F1ZXVl
+
+# msg_stat_queue
+bXNnX3N0YXRfcXVldW
+1zZ19zdGF0X3F1ZXVl
+tc2dfc3RhdF9xdWV1Z
+
+# mt_getrandmax
+bXRfZ2V0cmFuZG1he
+10X2dldHJhbmRtYX
+tdF9nZXRyYW5kbWF4
+
+# mt_rand
+bXRfcmFuZ
+10X3Jhbm
+tdF9yYW5k
+
+# mt_srand
+bXRfc3Jhbm
+10X3NyYW5k
+tdF9zcmFuZ
+
+# mysqli_affected_rows
+bXlzcWxpX2FmZmVjdGVkX3Jvd3
+15c3FsaV9hZmZlY3RlZF9yb3dz
+teXNxbGlfYWZmZWN0ZWRfcm93c
+
+# mysqli_autocommit
+bXlzcWxpX2F1dG9jb21taX
+15c3FsaV9hdXRvY29tbWl0
+teXNxbGlfYXV0b2NvbW1pd
+
+# mysqli_begin_transaction
+bXlzcWxpX2JlZ2luX3RyYW5zYWN0aW9u
+15c3FsaV9iZWdpbl90cmFuc2FjdGlvb
+teXNxbGlfYmVnaW5fdHJhbnNhY3Rpb2
+
+# mysqli_change_user
+bXlzcWxpX2NoYW5nZV91c2Vy
+15c3FsaV9jaGFuZ2VfdXNlc
+teXNxbGlfY2hhbmdlX3VzZX
+
+# mysqli_character_set_name
+bXlzcWxpX2NoYXJhY3Rlcl9zZXRfbmFtZ
+15c3FsaV9jaGFyYWN0ZXJfc2V0X25hbW
+teXNxbGlfY2hhcmFjdGVyX3NldF9uYW1l
+
+# mysqli_close
+bXlzcWxpX2Nsb3Nl
+15c3FsaV9jbG9zZ
+teXNxbGlfY2xvc2
+
+# mysqli_commit
+bXlzcWxpX2NvbW1pd
+15c3FsaV9jb21taX
+teXNxbGlfY29tbWl0
+
+# mysqli_connect
+bXlzcWxpX2Nvbm5lY3
+15c3FsaV9jb25uZWN0
+teXNxbGlfY29ubmVjd
+
+# mysqli_connect_errno
+bXlzcWxpX2Nvbm5lY3RfZXJybm
+15c3FsaV9jb25uZWN0X2Vycm5v
+teXNxbGlfY29ubmVjdF9lcnJub
+
+# mysqli_connect_error
+bXlzcWxpX2Nvbm5lY3RfZXJyb3
+15c3FsaV9jb25uZWN0X2Vycm9y
+teXNxbGlfY29ubmVjdF9lcnJvc
+
+# mysqli_data_seek
+bXlzcWxpX2RhdGFfc2Vla
+15c3FsaV9kYXRhX3NlZW
+teXNxbGlfZGF0YV9zZWVr
+
+# mysqli_debug
+bXlzcWxpX2RlYnVn
+15c3FsaV9kZWJ1Z
+teXNxbGlfZGVidW
+
+# mysqli_dump_debug_info
+bXlzcWxpX2R1bXBfZGVidWdfaW5mb
+15c3FsaV9kdW1wX2RlYnVnX2luZm
+teXNxbGlfZHVtcF9kZWJ1Z19pbmZv
+
+# mysqli_errno
+bXlzcWxpX2Vycm5v
+15c3FsaV9lcnJub
+teXNxbGlfZXJybm
+
+# mysqli_error
+bXlzcWxpX2Vycm9y
+15c3FsaV9lcnJvc
+teXNxbGlfZXJyb3
+
+# mysqli_error_list
+bXlzcWxpX2Vycm9yX2xpc3
+15c3FsaV9lcnJvcl9saXN0
+teXNxbGlfZXJyb3JfbGlzd
+
+# mysqli_escape_string
+bXlzcWxpX2VzY2FwZV9zdHJpbm
+15c3FsaV9lc2NhcGVfc3RyaW5n
+teXNxbGlfZXNjYXBlX3N0cmluZ
+
+# mysqli_execute
+bXlzcWxpX2V4ZWN1dG
+15c3FsaV9leGVjdXRl
+teXNxbGlfZXhlY3V0Z
+
+# mysqli_fetch_all
+bXlzcWxpX2ZldGNoX2Fsb
+15c3FsaV9mZXRjaF9hbG
+teXNxbGlfZmV0Y2hfYWxs
+
+# mysqli_fetch_array
+bXlzcWxpX2ZldGNoX2FycmF5
+15c3FsaV9mZXRjaF9hcnJhe
+teXNxbGlfZmV0Y2hfYXJyYX
+
+# mysqli_fetch_assoc
+bXlzcWxpX2ZldGNoX2Fzc29j
+15c3FsaV9mZXRjaF9hc3NvY
+teXNxbGlfZmV0Y2hfYXNzb2
+
+# mysqli_fetch_field
+bXlzcWxpX2ZldGNoX2ZpZWxk
+15c3FsaV9mZXRjaF9maWVsZ
+teXNxbGlfZmV0Y2hfZmllbG
+
+# mysqli_fetch_field_direct
+bXlzcWxpX2ZldGNoX2ZpZWxkX2RpcmVjd
+15c3FsaV9mZXRjaF9maWVsZF9kaXJlY3
+teXNxbGlfZmV0Y2hfZmllbGRfZGlyZWN0
+
+# mysqli_fetch_fields
+bXlzcWxpX2ZldGNoX2ZpZWxkc
+15c3FsaV9mZXRjaF9maWVsZH
+teXNxbGlfZmV0Y2hfZmllbGRz
+
+# mysqli_fetch_lengths
+bXlzcWxpX2ZldGNoX2xlbmd0aH
+15c3FsaV9mZXRjaF9sZW5ndGhz
+teXNxbGlfZmV0Y2hfbGVuZ3Roc
+
+# mysqli_fetch_object
+bXlzcWxpX2ZldGNoX29iamVjd
+15c3FsaV9mZXRjaF9vYmplY3
+teXNxbGlfZmV0Y2hfb2JqZWN0
+
+# mysqli_fetch_row
+bXlzcWxpX2ZldGNoX3Jvd
+15c3FsaV9mZXRjaF9yb3
+teXNxbGlfZmV0Y2hfcm93
+
+# mysqli_field_count
+bXlzcWxpX2ZpZWxkX2NvdW50
+15c3FsaV9maWVsZF9jb3Vud
+teXNxbGlfZmllbGRfY291bn
+
+# mysqli_field_seek
+bXlzcWxpX2ZpZWxkX3NlZW
+15c3FsaV9maWVsZF9zZWVr
+teXNxbGlfZmllbGRfc2Vla
+
+# mysqli_field_tell
+bXlzcWxpX2ZpZWxkX3RlbG
+15c3FsaV9maWVsZF90ZWxs
+teXNxbGlfZmllbGRfdGVsb
+
+# mysqli_free_result
+bXlzcWxpX2ZyZWVfcmVzdWx0
+15c3FsaV9mcmVlX3Jlc3Vsd
+teXNxbGlfZnJlZV9yZXN1bH
+
+# mysqli_get_charset
+bXlzcWxpX2dldF9jaGFyc2V0
+15c3FsaV9nZXRfY2hhcnNld
+teXNxbGlfZ2V0X2NoYXJzZX
+
+# mysqli_get_client_info
+bXlzcWxpX2dldF9jbGllbnRfaW5mb
+15c3FsaV9nZXRfY2xpZW50X2luZm
+teXNxbGlfZ2V0X2NsaWVudF9pbmZv
+
+# mysqli_get_client_stats
+bXlzcWxpX2dldF9jbGllbnRfc3RhdH
+15c3FsaV9nZXRfY2xpZW50X3N0YXRz
+teXNxbGlfZ2V0X2NsaWVudF9zdGF0c
+
+# mysqli_get_client_version
+bXlzcWxpX2dldF9jbGllbnRfdmVyc2lvb
+15c3FsaV9nZXRfY2xpZW50X3ZlcnNpb2
+teXNxbGlfZ2V0X2NsaWVudF92ZXJzaW9u
+
+# mysqli_get_connection_stats
+bXlzcWxpX2dldF9jb25uZWN0aW9uX3N0YXRz
+15c3FsaV9nZXRfY29ubmVjdGlvbl9zdGF0c
+teXNxbGlfZ2V0X2Nvbm5lY3Rpb25fc3RhdH
+
+# mysqli_get_host_info
+bXlzcWxpX2dldF9ob3N0X2luZm
+15c3FsaV9nZXRfaG9zdF9pbmZv
+teXNxbGlfZ2V0X2hvc3RfaW5mb
+
+# mysqli_get_links_stats
+bXlzcWxpX2dldF9saW5rc19zdGF0c
+15c3FsaV9nZXRfbGlua3Nfc3RhdH
+teXNxbGlfZ2V0X2xpbmtzX3N0YXRz
+
+# mysqli_get_proto_info
+bXlzcWxpX2dldF9wcm90b19pbmZv
+15c3FsaV9nZXRfcHJvdG9faW5mb
+teXNxbGlfZ2V0X3Byb3RvX2luZm
+
+# mysqli_get_server_info
+bXlzcWxpX2dldF9zZXJ2ZXJfaW5mb
+15c3FsaV9nZXRfc2VydmVyX2luZm
+teXNxbGlfZ2V0X3NlcnZlcl9pbmZv
+
+# mysqli_get_server_version
+bXlzcWxpX2dldF9zZXJ2ZXJfdmVyc2lvb
+15c3FsaV9nZXRfc2VydmVyX3ZlcnNpb2
+teXNxbGlfZ2V0X3NlcnZlcl92ZXJzaW9u
+
+# mysqli_get_warnings
+bXlzcWxpX2dldF93YXJuaW5nc
+15c3FsaV9nZXRfd2FybmluZ3
+teXNxbGlfZ2V0X3dhcm5pbmdz
+
+# mysqli_info
+bXlzcWxpX2luZm
+15c3FsaV9pbmZv
+teXNxbGlfaW5mb
+
+# mysqli_init
+bXlzcWxpX2luaX
+15c3FsaV9pbml0
+teXNxbGlfaW5pd
+
+# mysqli_insert_id
+bXlzcWxpX2luc2VydF9pZ
+15c3FsaV9pbnNlcnRfaW
+teXNxbGlfaW5zZXJ0X2lk
+
+# mysqli_kill
+bXlzcWxpX2tpbG
+15c3FsaV9raWxs
+teXNxbGlfa2lsb
+
+# mysqli_more_results
+bXlzcWxpX21vcmVfcmVzdWx0c
+15c3FsaV9tb3JlX3Jlc3VsdH
+teXNxbGlfbW9yZV9yZXN1bHRz
+
+# mysqli_multi_query
+bXlzcWxpX211bHRpX3F1ZXJ5
+15c3FsaV9tdWx0aV9xdWVye
+teXNxbGlfbXVsdGlfcXVlcn
+
+# mysqli_next_result
+bXlzcWxpX25leHRfcmVzdWx0
+15c3FsaV9uZXh0X3Jlc3Vsd
+teXNxbGlfbmV4dF9yZXN1bH
+
+# mysqli_num_fields
+bXlzcWxpX251bV9maWVsZH
+15c3FsaV9udW1fZmllbGRz
+teXNxbGlfbnVtX2ZpZWxkc
+
+# mysqli_num_rows
+bXlzcWxpX251bV9yb3dz
+15c3FsaV9udW1fcm93c
+teXNxbGlfbnVtX3Jvd3
+
+# mysqli_options
+bXlzcWxpX29wdGlvbn
+15c3FsaV9vcHRpb25z
+teXNxbGlfb3B0aW9uc
+
+# mysqli_ping
+bXlzcWxpX3Bpbm
+15c3FsaV9waW5n
+teXNxbGlfcGluZ
+
+# mysqli_poll
+bXlzcWxpX3BvbG
+15c3FsaV9wb2xs
+teXNxbGlfcG9sb
+
+# mysqli_prepare
+bXlzcWxpX3ByZXBhcm
+15c3FsaV9wcmVwYXJl
+teXNxbGlfcHJlcGFyZ
+
+# mysqli_query
+bXlzcWxpX3F1ZXJ5
+15c3FsaV9xdWVye
+teXNxbGlfcXVlcn
+
+# mysqli_real_connect
+bXlzcWxpX3JlYWxfY29ubmVjd
+15c3FsaV9yZWFsX2Nvbm5lY3
+teXNxbGlfcmVhbF9jb25uZWN0
+
+# mysqli_real_escape_string
+bXlzcWxpX3JlYWxfZXNjYXBlX3N0cmluZ
+15c3FsaV9yZWFsX2VzY2FwZV9zdHJpbm
+teXNxbGlfcmVhbF9lc2NhcGVfc3RyaW5n
+
+# mysqli_real_query
+bXlzcWxpX3JlYWxfcXVlcn
+15c3FsaV9yZWFsX3F1ZXJ5
+teXNxbGlfcmVhbF9xdWVye
+
+# mysqli_reap_async_query
+bXlzcWxpX3JlYXBfYXN5bmNfcXVlcn
+15c3FsaV9yZWFwX2FzeW5jX3F1ZXJ5
+teXNxbGlfcmVhcF9hc3luY19xdWVye
+
+# mysqli_refresh
+bXlzcWxpX3JlZnJlc2
+15c3FsaV9yZWZyZXNo
+teXNxbGlfcmVmcmVza
+
+# mysqli_release_savepoint
+bXlzcWxpX3JlbGVhc2Vfc2F2ZXBvaW50
+15c3FsaV9yZWxlYXNlX3NhdmVwb2lud
+teXNxbGlfcmVsZWFzZV9zYXZlcG9pbn
+
+# mysqli_report
+bXlzcWxpX3JlcG9yd
+15c3FsaV9yZXBvcn
+teXNxbGlfcmVwb3J0
+
+# mysqli_rollback
+bXlzcWxpX3JvbGxiYWNr
+15c3FsaV9yb2xsYmFja
+teXNxbGlfcm9sbGJhY2
+
+# mysqli_savepoint
+bXlzcWxpX3NhdmVwb2lud
+15c3FsaV9zYXZlcG9pbn
+teXNxbGlfc2F2ZXBvaW50
+
+# mysqli_select_db
+bXlzcWxpX3NlbGVjdF9kY
+15c3FsaV9zZWxlY3RfZG
+teXNxbGlfc2VsZWN0X2Ri
+
+# mysqli_set_charset
+bXlzcWxpX3NldF9jaGFyc2V0
+15c3FsaV9zZXRfY2hhcnNld
+teXNxbGlfc2V0X2NoYXJzZX
+
+# mysqli_set_opt
+bXlzcWxpX3NldF9vcH
+15c3FsaV9zZXRfb3B0
+teXNxbGlfc2V0X29wd
+
+# mysqli_sqlstate
+bXlzcWxpX3NxbHN0YXRl
+15c3FsaV9zcWxzdGF0Z
+teXNxbGlfc3Fsc3RhdG
+
+# mysqli_ssl_set
+bXlzcWxpX3NzbF9zZX
+15c3FsaV9zc2xfc2V0
+teXNxbGlfc3NsX3Nld
+
+# mysqli_stat
+bXlzcWxpX3N0YX
+15c3FsaV9zdGF0
+teXNxbGlfc3Rhd
+
+# mysqli_stmt_affected_rows
+bXlzcWxpX3N0bXRfYWZmZWN0ZWRfcm93c
+15c3FsaV9zdG10X2FmZmVjdGVkX3Jvd3
+teXNxbGlfc3RtdF9hZmZlY3RlZF9yb3dz
+
+# mysqli_stmt_attr_get
+bXlzcWxpX3N0bXRfYXR0cl9nZX
+15c3FsaV9zdG10X2F0dHJfZ2V0
+teXNxbGlfc3RtdF9hdHRyX2dld
+
+# mysqli_stmt_attr_set
+bXlzcWxpX3N0bXRfYXR0cl9zZX
+15c3FsaV9zdG10X2F0dHJfc2V0
+teXNxbGlfc3RtdF9hdHRyX3Nld
+
+# mysqli_stmt_bind_param
+bXlzcWxpX3N0bXRfYmluZF9wYXJhb
+15c3FsaV9zdG10X2JpbmRfcGFyYW
+teXNxbGlfc3RtdF9iaW5kX3BhcmFt
+
+# mysqli_stmt_bind_result
+bXlzcWxpX3N0bXRfYmluZF9yZXN1bH
+15c3FsaV9zdG10X2JpbmRfcmVzdWx0
+teXNxbGlfc3RtdF9iaW5kX3Jlc3Vsd
+
+# mysqli_stmt_close
+bXlzcWxpX3N0bXRfY2xvc2
+15c3FsaV9zdG10X2Nsb3Nl
+teXNxbGlfc3RtdF9jbG9zZ
+
+# mysqli_stmt_data_seek
+bXlzcWxpX3N0bXRfZGF0YV9zZWVr
+15c3FsaV9zdG10X2RhdGFfc2Vla
+teXNxbGlfc3RtdF9kYXRhX3NlZW
+
+# mysqli_stmt_errno
+bXlzcWxpX3N0bXRfZXJybm
+15c3FsaV9zdG10X2Vycm5v
+teXNxbGlfc3RtdF9lcnJub
+
+# mysqli_stmt_error
+bXlzcWxpX3N0bXRfZXJyb3
+15c3FsaV9zdG10X2Vycm9y
+teXNxbGlfc3RtdF9lcnJvc
+
+# mysqli_stmt_error_list
+bXlzcWxpX3N0bXRfZXJyb3JfbGlzd
+15c3FsaV9zdG10X2Vycm9yX2xpc3
+teXNxbGlfc3RtdF9lcnJvcl9saXN0
+
+# mysqli_stmt_execute
+bXlzcWxpX3N0bXRfZXhlY3V0Z
+15c3FsaV9zdG10X2V4ZWN1dG
+teXNxbGlfc3RtdF9leGVjdXRl
+
+# mysqli_stmt_fetch
+bXlzcWxpX3N0bXRfZmV0Y2
+15c3FsaV9zdG10X2ZldGNo
+teXNxbGlfc3RtdF9mZXRja
+
+# mysqli_stmt_field_count
+bXlzcWxpX3N0bXRfZmllbGRfY291bn
+15c3FsaV9zdG10X2ZpZWxkX2NvdW50
+teXNxbGlfc3RtdF9maWVsZF9jb3Vud
+
+# mysqli_stmt_free_result
+bXlzcWxpX3N0bXRfZnJlZV9yZXN1bH
+15c3FsaV9zdG10X2ZyZWVfcmVzdWx0
+teXNxbGlfc3RtdF9mcmVlX3Jlc3Vsd
+
+# mysqli_stmt_get_result
+bXlzcWxpX3N0bXRfZ2V0X3Jlc3Vsd
+15c3FsaV9zdG10X2dldF9yZXN1bH
+teXNxbGlfc3RtdF9nZXRfcmVzdWx0
+
+# mysqli_stmt_get_warnings
+bXlzcWxpX3N0bXRfZ2V0X3dhcm5pbmdz
+15c3FsaV9zdG10X2dldF93YXJuaW5nc
+teXNxbGlfc3RtdF9nZXRfd2FybmluZ3
+
+# mysqli_stmt_init
+bXlzcWxpX3N0bXRfaW5pd
+15c3FsaV9zdG10X2luaX
+teXNxbGlfc3RtdF9pbml0
+
+# mysqli_stmt_insert_id
+bXlzcWxpX3N0bXRfaW5zZXJ0X2lk
+15c3FsaV9zdG10X2luc2VydF9pZ
+teXNxbGlfc3RtdF9pbnNlcnRfaW
+
+# mysqli_stmt_more_results
+bXlzcWxpX3N0bXRfbW9yZV9yZXN1bHRz
+15c3FsaV9zdG10X21vcmVfcmVzdWx0c
+teXNxbGlfc3RtdF9tb3JlX3Jlc3VsdH
+
+# mysqli_stmt_next_result
+bXlzcWxpX3N0bXRfbmV4dF9yZXN1bH
+15c3FsaV9zdG10X25leHRfcmVzdWx0
+teXNxbGlfc3RtdF9uZXh0X3Jlc3Vsd
+
+# mysqli_stmt_num_rows
+bXlzcWxpX3N0bXRfbnVtX3Jvd3
+15c3FsaV9zdG10X251bV9yb3dz
+teXNxbGlfc3RtdF9udW1fcm93c
+
+# mysqli_stmt_param_count
+bXlzcWxpX3N0bXRfcGFyYW1fY291bn
+15c3FsaV9zdG10X3BhcmFtX2NvdW50
+teXNxbGlfc3RtdF9wYXJhbV9jb3Vud
+
+# mysqli_stmt_prepare
+bXlzcWxpX3N0bXRfcHJlcGFyZ
+15c3FsaV9zdG10X3ByZXBhcm
+teXNxbGlfc3RtdF9wcmVwYXJl
+
+# mysqli_stmt_reset
+bXlzcWxpX3N0bXRfcmVzZX
+15c3FsaV9zdG10X3Jlc2V0
+teXNxbGlfc3RtdF9yZXNld
+
+# mysqli_stmt_result_metadata
+bXlzcWxpX3N0bXRfcmVzdWx0X21ldGFkYXRh
+15c3FsaV9zdG10X3Jlc3VsdF9tZXRhZGF0Y
+teXNxbGlfc3RtdF9yZXN1bHRfbWV0YWRhdG
+
+# mysqli_stmt_send_long_data
+bXlzcWxpX3N0bXRfc2VuZF9sb25nX2RhdG
+15c3FsaV9zdG10X3NlbmRfbG9uZ19kYXRh
+teXNxbGlfc3RtdF9zZW5kX2xvbmdfZGF0Y
+
+# mysqli_stmt_sqlstate
+bXlzcWxpX3N0bXRfc3Fsc3RhdG
+15c3FsaV9zdG10X3NxbHN0YXRl
+teXNxbGlfc3RtdF9zcWxzdGF0Z
+
+# mysqli_stmt_store_result
+bXlzcWxpX3N0bXRfc3RvcmVfcmVzdWx0
+15c3FsaV9zdG10X3N0b3JlX3Jlc3Vsd
+teXNxbGlfc3RtdF9zdG9yZV9yZXN1bH
+
+# mysqli_store_result
+bXlzcWxpX3N0b3JlX3Jlc3Vsd
+15c3FsaV9zdG9yZV9yZXN1bH
+teXNxbGlfc3RvcmVfcmVzdWx0
+
+# mysqli_thread_id
+bXlzcWxpX3RocmVhZF9pZ
+15c3FsaV90aHJlYWRfaW
+teXNxbGlfdGhyZWFkX2lk
+
+# mysqli_thread_safe
+bXlzcWxpX3RocmVhZF9zYWZl
+15c3FsaV90aHJlYWRfc2FmZ
+teXNxbGlfdGhyZWFkX3NhZm
+
+# mysqli_use_result
+bXlzcWxpX3VzZV9yZXN1bH
+15c3FsaV91c2VfcmVzdWx0
+teXNxbGlfdXNlX3Jlc3Vsd
+
+# mysqli_warning_count
+bXlzcWxpX3dhcm5pbmdfY291bn
+15c3FsaV93YXJuaW5nX2NvdW50
+teXNxbGlfd2FybmluZ19jb3Vud
+
+# natcasesort
+bmF0Y2FzZXNvcn
+5hdGNhc2Vzb3J0
+uYXRjYXNlc29yd
+
+# natsort
+bmF0c29yd
+5hdHNvcn
+uYXRzb3J0
+
+# next
+bmV4d
+5leH
+uZXh0
+
+# ngettext
+bmdldHRleH
+5nZXR0ZXh0
+uZ2V0dGV4d
+
+# nl2br
+bmwyYn
+5sMmJy
+ubDJic
+
+# nl_langinfo
+bmxfbGFuZ2luZm
+5sX2xhbmdpbmZv
+ubF9sYW5naW5mb
+
+# number_format
+bnVtYmVyX2Zvcm1hd
+51bWJlcl9mb3JtYX
+udW1iZXJfZm9ybWF0
+
+# ob_clean
+b2JfY2xlYW
+9iX2NsZWFu
+vYl9jbGVhb
+
+# ob_end_clean
+b2JfZW5kX2NsZWFu
+9iX2VuZF9jbGVhb
+vYl9lbmRfY2xlYW
+
+# ob_end_flush
+b2JfZW5kX2ZsdXNo
+9iX2VuZF9mbHVza
+vYl9lbmRfZmx1c2
+
+# ob_flush
+b2JfZmx1c2
+9iX2ZsdXNo
+vYl9mbHVza
+
+# ob_get_clean
+b2JfZ2V0X2NsZWFu
+9iX2dldF9jbGVhb
+vYl9nZXRfY2xlYW
+
+# ob_get_contents
+b2JfZ2V0X2NvbnRlbnRz
+9iX2dldF9jb250ZW50c
+vYl9nZXRfY29udGVudH
+
+# ob_get_flush
+b2JfZ2V0X2ZsdXNo
+9iX2dldF9mbHVza
+vYl9nZXRfZmx1c2
+
+# ob_get_length
+b2JfZ2V0X2xlbmd0a
+9iX2dldF9sZW5ndG
+vYl9nZXRfbGVuZ3Ro
+
+# ob_get_level
+b2JfZ2V0X2xldmVs
+9iX2dldF9sZXZlb
+vYl9nZXRfbGV2ZW
+
+# ob_get_status
+b2JfZ2V0X3N0YXR1c
+9iX2dldF9zdGF0dX
+vYl9nZXRfc3RhdHVz
+
+# ob_gzhandler
+b2JfZ3poYW5kbGVy
+9iX2d6aGFuZGxlc
+vYl9nemhhbmRsZX
+
+# ob_implicit_flush
+b2JfaW1wbGljaXRfZmx1c2
+9iX2ltcGxpY2l0X2ZsdXNo
+vYl9pbXBsaWNpdF9mbHVza
+
+# ob_list_handlers
+b2JfbGlzdF9oYW5kbGVyc
+9iX2xpc3RfaGFuZGxlcn
+vYl9saXN0X2hhbmRsZXJz
+
+# ob_start
+b2Jfc3Rhcn
+9iX3N0YXJ0
+vYl9zdGFyd
+
+# octdec
+b2N0ZGVj
+9jdGRlY
+vY3RkZW
+
+# opcache_compile_file
+b3BjYWNoZV9jb21waWxlX2ZpbG
+9wY2FjaGVfY29tcGlsZV9maWxl
+vcGNhY2hlX2NvbXBpbGVfZmlsZ
+
+# opcache_get_configuration
+b3BjYWNoZV9nZXRfY29uZmlndXJhdGlvb
+9wY2FjaGVfZ2V0X2NvbmZpZ3VyYXRpb2
+vcGNhY2hlX2dldF9jb25maWd1cmF0aW9u
+
+# opcache_get_status
+b3BjYWNoZV9nZXRfc3RhdHVz
+9wY2FjaGVfZ2V0X3N0YXR1c
+vcGNhY2hlX2dldF9zdGF0dX
+
+# opcache_invalidate
+b3BjYWNoZV9pbnZhbGlkYXRl
+9wY2FjaGVfaW52YWxpZGF0Z
+vcGNhY2hlX2ludmFsaWRhdG
+
+# opcache_is_script_cached
+b3BjYWNoZV9pc19zY3JpcHRfY2FjaGVk
+9wY2FjaGVfaXNfc2NyaXB0X2NhY2hlZ
+vcGNhY2hlX2lzX3NjcmlwdF9jYWNoZW
+
+# opcache_reset
+b3BjYWNoZV9yZXNld
+9wY2FjaGVfcmVzZX
+vcGNhY2hlX3Jlc2V0
+
+# opendir
+b3BlbmRpc
+9wZW5kaX
+vcGVuZGly
+
+# openlog
+b3BlbmxvZ
+9wZW5sb2
+vcGVubG9n
+
+# openssl_cipher_iv_length
+b3BlbnNzbF9jaXBoZXJfaXZfbGVuZ3Ro
+9wZW5zc2xfY2lwaGVyX2l2X2xlbmd0a
+vcGVuc3NsX2NpcGhlcl9pdl9sZW5ndG
+
+# openssl_csr_export
+b3BlbnNzbF9jc3JfZXhwb3J0
+9wZW5zc2xfY3NyX2V4cG9yd
+vcGVuc3NsX2Nzcl9leHBvcn
+
+# openssl_csr_export_to_file
+b3BlbnNzbF9jc3JfZXhwb3J0X3RvX2ZpbG
+9wZW5zc2xfY3NyX2V4cG9ydF90b19maWxl
+vcGVuc3NsX2Nzcl9leHBvcnRfdG9fZmlsZ
+
+# openssl_csr_get_public_key
+b3BlbnNzbF9jc3JfZ2V0X3B1YmxpY19rZX
+9wZW5zc2xfY3NyX2dldF9wdWJsaWNfa2V5
+vcGVuc3NsX2Nzcl9nZXRfcHVibGljX2tle
+
+# openssl_csr_get_subject
+b3BlbnNzbF9jc3JfZ2V0X3N1YmplY3
+9wZW5zc2xfY3NyX2dldF9zdWJqZWN0
+vcGVuc3NsX2Nzcl9nZXRfc3ViamVjd
+
+# openssl_csr_new
+b3BlbnNzbF9jc3JfbmV3
+9wZW5zc2xfY3NyX25ld
+vcGVuc3NsX2Nzcl9uZX
+
+# openssl_csr_sign
+b3BlbnNzbF9jc3Jfc2lnb
+9wZW5zc2xfY3NyX3NpZ2
+vcGVuc3NsX2Nzcl9zaWdu
+
+# openssl_decrypt
+b3BlbnNzbF9kZWNyeXB0
+9wZW5zc2xfZGVjcnlwd
+vcGVuc3NsX2RlY3J5cH
+
+# openssl_dh_compute_key
+b3BlbnNzbF9kaF9jb21wdXRlX2tle
+9wZW5zc2xfZGhfY29tcHV0ZV9rZX
+vcGVuc3NsX2RoX2NvbXB1dGVfa2V5
+
+# openssl_digest
+b3BlbnNzbF9kaWdlc3
+9wZW5zc2xfZGlnZXN0
+vcGVuc3NsX2RpZ2Vzd
+
+# openssl_encrypt
+b3BlbnNzbF9lbmNyeXB0
+9wZW5zc2xfZW5jcnlwd
+vcGVuc3NsX2VuY3J5cH
+
+# openssl_error_string
+b3BlbnNzbF9lcnJvcl9zdHJpbm
+9wZW5zc2xfZXJyb3Jfc3RyaW5n
+vcGVuc3NsX2Vycm9yX3N0cmluZ
+
+# openssl_free_key
+b3BlbnNzbF9mcmVlX2tle
+9wZW5zc2xfZnJlZV9rZX
+vcGVuc3NsX2ZyZWVfa2V5
+
+# openssl_get_cert_locations
+b3BlbnNzbF9nZXRfY2VydF9sb2NhdGlvbn
+9wZW5zc2xfZ2V0X2NlcnRfbG9jYXRpb25z
+vcGVuc3NsX2dldF9jZXJ0X2xvY2F0aW9uc
+
+# openssl_get_cipher_methods
+b3BlbnNzbF9nZXRfY2lwaGVyX21ldGhvZH
+9wZW5zc2xfZ2V0X2NpcGhlcl9tZXRob2Rz
+vcGVuc3NsX2dldF9jaXBoZXJfbWV0aG9kc
+
+# openssl_get_md_methods
+b3BlbnNzbF9nZXRfbWRfbWV0aG9kc
+9wZW5zc2xfZ2V0X21kX21ldGhvZH
+vcGVuc3NsX2dldF9tZF9tZXRob2Rz
+
+# openssl_get_privatekey
+b3BlbnNzbF9nZXRfcHJpdmF0ZWtle
+9wZW5zc2xfZ2V0X3ByaXZhdGVrZX
+vcGVuc3NsX2dldF9wcml2YXRla2V5
+
+# openssl_get_publickey
+b3BlbnNzbF9nZXRfcHVibGlja2V5
+9wZW5zc2xfZ2V0X3B1YmxpY2tle
+vcGVuc3NsX2dldF9wdWJsaWNrZX
+
+# openssl_open
+b3BlbnNzbF9vcGVu
+9wZW5zc2xfb3Blb
+vcGVuc3NsX29wZW
+
+# openssl_pbkdf2
+b3BlbnNzbF9wYmtkZj
+9wZW5zc2xfcGJrZGYy
+vcGVuc3NsX3Bia2RmM
+
+# openssl_pkcs12_export
+b3BlbnNzbF9wa2NzMTJfZXhwb3J0
+9wZW5zc2xfcGtjczEyX2V4cG9yd
+vcGVuc3NsX3BrY3MxMl9leHBvcn
+
+# openssl_pkcs12_export_to_file
+b3BlbnNzbF9wa2NzMTJfZXhwb3J0X3RvX2ZpbG
+9wZW5zc2xfcGtjczEyX2V4cG9ydF90b19maWxl
+vcGVuc3NsX3BrY3MxMl9leHBvcnRfdG9fZmlsZ
+
+# openssl_pkcs12_read
+b3BlbnNzbF9wa2NzMTJfcmVhZ
+9wZW5zc2xfcGtjczEyX3JlYW
+vcGVuc3NsX3BrY3MxMl9yZWFk
+
+# openssl_pkcs7_decrypt
+b3BlbnNzbF9wa2NzN19kZWNyeXB0
+9wZW5zc2xfcGtjczdfZGVjcnlwd
+vcGVuc3NsX3BrY3M3X2RlY3J5cH
+
+# openssl_pkcs7_encrypt
+b3BlbnNzbF9wa2NzN19lbmNyeXB0
+9wZW5zc2xfcGtjczdfZW5jcnlwd
+vcGVuc3NsX3BrY3M3X2VuY3J5cH
+
+# openssl_pkcs7_sign
+b3BlbnNzbF9wa2NzN19zaWdu
+9wZW5zc2xfcGtjczdfc2lnb
+vcGVuc3NsX3BrY3M3X3NpZ2
+
+# openssl_pkcs7_verify
+b3BlbnNzbF9wa2NzN192ZXJpZn
+9wZW5zc2xfcGtjczdfdmVyaWZ5
+vcGVuc3NsX3BrY3M3X3Zlcmlme
+
+# openssl_pkey_export
+b3BlbnNzbF9wa2V5X2V4cG9yd
+9wZW5zc2xfcGtleV9leHBvcn
+vcGVuc3NsX3BrZXlfZXhwb3J0
+
+# openssl_pkey_export_to_file
+b3BlbnNzbF9wa2V5X2V4cG9ydF90b19maWxl
+9wZW5zc2xfcGtleV9leHBvcnRfdG9fZmlsZ
+vcGVuc3NsX3BrZXlfZXhwb3J0X3RvX2ZpbG
+
+# openssl_pkey_free
+b3BlbnNzbF9wa2V5X2ZyZW
+9wZW5zc2xfcGtleV9mcmVl
+vcGVuc3NsX3BrZXlfZnJlZ
+
+# openssl_pkey_get_details
+b3BlbnNzbF9wa2V5X2dldF9kZXRhaWxz
+9wZW5zc2xfcGtleV9nZXRfZGV0YWlsc
+vcGVuc3NsX3BrZXlfZ2V0X2RldGFpbH
+
+# openssl_pkey_get_private
+b3BlbnNzbF9wa2V5X2dldF9wcml2YXRl
+9wZW5zc2xfcGtleV9nZXRfcHJpdmF0Z
+vcGVuc3NsX3BrZXlfZ2V0X3ByaXZhdG
+
+# openssl_pkey_get_public
+b3BlbnNzbF9wa2V5X2dldF9wdWJsaW
+9wZW5zc2xfcGtleV9nZXRfcHVibGlj
+vcGVuc3NsX3BrZXlfZ2V0X3B1YmxpY
+
+# openssl_pkey_new
+b3BlbnNzbF9wa2V5X25ld
+9wZW5zc2xfcGtleV9uZX
+vcGVuc3NsX3BrZXlfbmV3
+
+# openssl_private_decrypt
+b3BlbnNzbF9wcml2YXRlX2RlY3J5cH
+9wZW5zc2xfcHJpdmF0ZV9kZWNyeXB0
+vcGVuc3NsX3ByaXZhdGVfZGVjcnlwd
+
+# openssl_private_encrypt
+b3BlbnNzbF9wcml2YXRlX2VuY3J5cH
+9wZW5zc2xfcHJpdmF0ZV9lbmNyeXB0
+vcGVuc3NsX3ByaXZhdGVfZW5jcnlwd
+
+# openssl_public_decrypt
+b3BlbnNzbF9wdWJsaWNfZGVjcnlwd
+9wZW5zc2xfcHVibGljX2RlY3J5cH
+vcGVuc3NsX3B1YmxpY19kZWNyeXB0
+
+# openssl_public_encrypt
+b3BlbnNzbF9wdWJsaWNfZW5jcnlwd
+9wZW5zc2xfcHVibGljX2VuY3J5cH
+vcGVuc3NsX3B1YmxpY19lbmNyeXB0
+
+# openssl_random_pseudo_bytes
+b3BlbnNzbF9yYW5kb21fcHNldWRvX2J5dGVz
+9wZW5zc2xfcmFuZG9tX3BzZXVkb19ieXRlc
+vcGVuc3NsX3JhbmRvbV9wc2V1ZG9fYnl0ZX
+
+# openssl_seal
+b3BlbnNzbF9zZWFs
+9wZW5zc2xfc2Vhb
+vcGVuc3NsX3NlYW
+
+# openssl_sign
+b3BlbnNzbF9zaWdu
+9wZW5zc2xfc2lnb
+vcGVuc3NsX3NpZ2
+
+# openssl_spki_export
+b3BlbnNzbF9zcGtpX2V4cG9yd
+9wZW5zc2xfc3BraV9leHBvcn
+vcGVuc3NsX3Nwa2lfZXhwb3J0
+
+# openssl_spki_export_challenge
+b3BlbnNzbF9zcGtpX2V4cG9ydF9jaGFsbGVuZ2
+9wZW5zc2xfc3BraV9leHBvcnRfY2hhbGxlbmdl
+vcGVuc3NsX3Nwa2lfZXhwb3J0X2NoYWxsZW5nZ
+
+# openssl_spki_new
+b3BlbnNzbF9zcGtpX25ld
+9wZW5zc2xfc3BraV9uZX
+vcGVuc3NsX3Nwa2lfbmV3
+
+# openssl_spki_verify
+b3BlbnNzbF9zcGtpX3Zlcmlme
+9wZW5zc2xfc3BraV92ZXJpZn
+vcGVuc3NsX3Nwa2lfdmVyaWZ5
+
+# openssl_verify
+b3BlbnNzbF92ZXJpZn
+9wZW5zc2xfdmVyaWZ5
+vcGVuc3NsX3Zlcmlme
+
+# openssl_x509_check_private_key
+b3BlbnNzbF94NTA5X2NoZWNrX3ByaXZhdGVfa2V5
+9wZW5zc2xfeDUwOV9jaGVja19wcml2YXRlX2tle
+vcGVuc3NsX3g1MDlfY2hlY2tfcHJpdmF0ZV9rZX
+
+# openssl_x509_checkpurpose
+b3BlbnNzbF94NTA5X2NoZWNrcHVycG9zZ
+9wZW5zc2xfeDUwOV9jaGVja3B1cnBvc2
+vcGVuc3NsX3g1MDlfY2hlY2twdXJwb3Nl
+
+# openssl_x509_export
+b3BlbnNzbF94NTA5X2V4cG9yd
+9wZW5zc2xfeDUwOV9leHBvcn
+vcGVuc3NsX3g1MDlfZXhwb3J0
+
+# openssl_x509_export_to_file
+b3BlbnNzbF94NTA5X2V4cG9ydF90b19maWxl
+9wZW5zc2xfeDUwOV9leHBvcnRfdG9fZmlsZ
+vcGVuc3NsX3g1MDlfZXhwb3J0X3RvX2ZpbG
+
+# openssl_x509_fingerprint
+b3BlbnNzbF94NTA5X2ZpbmdlcnByaW50
+9wZW5zc2xfeDUwOV9maW5nZXJwcmlud
+vcGVuc3NsX3g1MDlfZmluZ2VycHJpbn
+
+# openssl_x509_free
+b3BlbnNzbF94NTA5X2ZyZW
+9wZW5zc2xfeDUwOV9mcmVl
+vcGVuc3NsX3g1MDlfZnJlZ
+
+# openssl_x509_parse
+b3BlbnNzbF94NTA5X3BhcnNl
+9wZW5zc2xfeDUwOV9wYXJzZ
+vcGVuc3NsX3g1MDlfcGFyc2
+
+# openssl_x509_read
+b3BlbnNzbF94NTA5X3JlYW
+9wZW5zc2xfeDUwOV9yZWFk
+vcGVuc3NsX3g1MDlfcmVhZ
+
+# ord
+b3Jk
+#9yZ
+#vcm
+
+# output_add_rewrite_var
+b3V0cHV0X2FkZF9yZXdyaXRlX3Zhc
+91dHB1dF9hZGRfcmV3cml0ZV92YX
+vdXRwdXRfYWRkX3Jld3JpdGVfdmFy
+
+# output_reset_rewrite_vars
+b3V0cHV0X3Jlc2V0X3Jld3JpdGVfdmFyc
+91dHB1dF9yZXNldF9yZXdyaXRlX3Zhcn
+vdXRwdXRfcmVzZXRfcmV3cml0ZV92YXJz
+
+# pack
+cGFja
+BhY2
+wYWNr
+
+# parse_ini_file
+cGFyc2VfaW5pX2ZpbG
+BhcnNlX2luaV9maWxl
+wYXJzZV9pbmlfZmlsZ
+
+# parse_ini_string
+cGFyc2VfaW5pX3N0cmluZ
+BhcnNlX2luaV9zdHJpbm
+wYXJzZV9pbmlfc3RyaW5n
+
+# parse_str
+cGFyc2Vfc3Ry
+BhcnNlX3N0c
+wYXJzZV9zdH
+
+# parse_url
+cGFyc2VfdXJs
+BhcnNlX3Vyb
+wYXJzZV91cm
+
+# passthru
+cGFzc3Rocn
+Bhc3N0aHJ1
+wYXNzdGhyd
+
+# password_get_info
+cGFzc3dvcmRfZ2V0X2luZm
+Bhc3N3b3JkX2dldF9pbmZv
+wYXNzd29yZF9nZXRfaW5mb
+
+# password_hash
+cGFzc3dvcmRfaGFza
+Bhc3N3b3JkX2hhc2
+wYXNzd29yZF9oYXNo
+
+# password_needs_rehash
+cGFzc3dvcmRfbmVlZHNfcmVoYXNo
+Bhc3N3b3JkX25lZWRzX3JlaGFza
+wYXNzd29yZF9uZWVkc19yZWhhc2
+
+# password_verify
+cGFzc3dvcmRfdmVyaWZ5
+Bhc3N3b3JkX3Zlcmlme
+wYXNzd29yZF92ZXJpZn
+
+# pathinfo
+cGF0aGluZm
+BhdGhpbmZv
+wYXRoaW5mb
+
+# pclose
+cGNsb3Nl
+BjbG9zZ
+wY2xvc2
+
+# pcntl_alarm
+cGNudGxfYWxhcm
+BjbnRsX2FsYXJt
+wY250bF9hbGFyb
+
+# pcntl_errno
+cGNudGxfZXJybm
+BjbnRsX2Vycm5v
+wY250bF9lcnJub
+
+# pcntl_exec
+cGNudGxfZXhlY
+BjbnRsX2V4ZW
+wY250bF9leGVj
+
+# pcntl_fork
+cGNudGxfZm9ya
+BjbnRsX2Zvcm
+wY250bF9mb3Jr
+
+# pcntl_get_last_error
+cGNudGxfZ2V0X2xhc3RfZXJyb3
+BjbnRsX2dldF9sYXN0X2Vycm9y
+wY250bF9nZXRfbGFzdF9lcnJvc
+
+# pcntl_getpriority
+cGNudGxfZ2V0cHJpb3JpdH
+BjbnRsX2dldHByaW9yaXR5
+wY250bF9nZXRwcmlvcml0e
+
+# pcntl_setpriority
+cGNudGxfc2V0cHJpb3JpdH
+BjbnRsX3NldHByaW9yaXR5
+wY250bF9zZXRwcmlvcml0e
+
+# pcntl_signal
+cGNudGxfc2lnbmFs
+BjbnRsX3NpZ25hb
+wY250bF9zaWduYW
+
+# pcntl_signal_dispatch
+cGNudGxfc2lnbmFsX2Rpc3BhdGNo
+BjbnRsX3NpZ25hbF9kaXNwYXRja
+wY250bF9zaWduYWxfZGlzcGF0Y2
+
+# pcntl_sigprocmask
+cGNudGxfc2lncHJvY21hc2
+BjbnRsX3NpZ3Byb2NtYXNr
+wY250bF9zaWdwcm9jbWFza
+
+# pcntl_sigtimedwait
+cGNudGxfc2lndGltZWR3YWl0
+BjbnRsX3NpZ3RpbWVkd2Fpd
+wY250bF9zaWd0aW1lZHdhaX
+
+# pcntl_sigwaitinfo
+cGNudGxfc2lnd2FpdGluZm
+BjbnRsX3NpZ3dhaXRpbmZv
+wY250bF9zaWd3YWl0aW5mb
+
+# pcntl_strerror
+cGNudGxfc3RyZXJyb3
+BjbnRsX3N0cmVycm9y
+wY250bF9zdHJlcnJvc
+
+# pcntl_wait
+cGNudGxfd2Fpd
+BjbnRsX3dhaX
+wY250bF93YWl0
+
+# pcntl_waitpid
+cGNudGxfd2FpdHBpZ
+BjbnRsX3dhaXRwaW
+wY250bF93YWl0cGlk
+
+# pcntl_wexitstatus
+cGNudGxfd2V4aXRzdGF0dX
+BjbnRsX3dleGl0c3RhdHVz
+wY250bF93ZXhpdHN0YXR1c
+
+# pcntl_wifcontinued
+cGNudGxfd2lmY29udGludWVk
+BjbnRsX3dpZmNvbnRpbnVlZ
+wY250bF93aWZjb250aW51ZW
+
+# pcntl_wifexited
+cGNudGxfd2lmZXhpdGVk
+BjbnRsX3dpZmV4aXRlZ
+wY250bF93aWZleGl0ZW
+
+# pcntl_wifsignaled
+cGNudGxfd2lmc2lnbmFsZW
+BjbnRsX3dpZnNpZ25hbGVk
+wY250bF93aWZzaWduYWxlZ
+
+# pcntl_wifstopped
+cGNudGxfd2lmc3RvcHBlZ
+BjbnRsX3dpZnN0b3BwZW
+wY250bF93aWZzdG9wcGVk
+
+# pcntl_wstopsig
+cGNudGxfd3N0b3BzaW
+BjbnRsX3dzdG9wc2ln
+wY250bF93c3RvcHNpZ
+
+# pcntl_wtermsig
+cGNudGxfd3Rlcm1zaW
+BjbnRsX3d0ZXJtc2ln
+wY250bF93dGVybXNpZ
+
+# pdo_drivers
+cGRvX2RyaXZlcn
+Bkb19kcml2ZXJz
+wZG9fZHJpdmVyc
+
+# pfsockopen
+cGZzb2Nrb3Blb
+Bmc29ja29wZW
+wZnNvY2tvcGVu
+
+# phpcredits
+cGhwY3JlZGl0c
+BocGNyZWRpdH
+waHBjcmVkaXRz
+
+# phpinfo
+cGhwaW5mb
+BocGluZm
+waHBpbmZv
+
+# php_ini_loaded_file
+cGhwX2luaV9sb2FkZWRfZmlsZ
+BocF9pbmlfbG9hZGVkX2ZpbG
+waHBfaW5pX2xvYWRlZF9maWxl
+
+# php_ini_scanned_files
+cGhwX2luaV9zY2FubmVkX2ZpbGVz
+BocF9pbmlfc2Nhbm5lZF9maWxlc
+waHBfaW5pX3NjYW5uZWRfZmlsZX
+
+# php_sapi_name
+cGhwX3NhcGlfbmFtZ
+BocF9zYXBpX25hbW
+waHBfc2FwaV9uYW1l
+
+# php_strip_whitespace
+cGhwX3N0cmlwX3doaXRlc3BhY2
+BocF9zdHJpcF93aGl0ZXNwYWNl
+waHBfc3RyaXBfd2hpdGVzcGFjZ
+
+# php_uname
+cGhwX3VuYW1l
+BocF91bmFtZ
+waHBfdW5hbW
+
+# phpversion
+cGhwdmVyc2lvb
+BocHZlcnNpb2
+waHB2ZXJzaW9u
+
+# pi
+#cG
+#Bp
+#wa
+
+# png2wbmp
+cG5nMndibX
+BuZzJ3Ym1w
+wbmcyd2Jtc
+
+# popen
+cG9wZW
+BvcGVu
+wb3Blb
+
+# pos
+cG9z
+#Bvc
+#wb3
+
+# posix_access
+cG9zaXhfYWNjZXNz
+Bvc2l4X2FjY2Vzc
+wb3NpeF9hY2Nlc3
+
+# posix_ctermid
+cG9zaXhfY3Rlcm1pZ
+Bvc2l4X2N0ZXJtaW
+wb3NpeF9jdGVybWlk
+
+# posix_errno
+cG9zaXhfZXJybm
+Bvc2l4X2Vycm5v
+wb3NpeF9lcnJub
+
+# posix_getcwd
+cG9zaXhfZ2V0Y3dk
+Bvc2l4X2dldGN3Z
+wb3NpeF9nZXRjd2
+
+# posix_getegid
+cG9zaXhfZ2V0ZWdpZ
+Bvc2l4X2dldGVnaW
+wb3NpeF9nZXRlZ2lk
+
+# posix_geteuid
+cG9zaXhfZ2V0ZXVpZ
+Bvc2l4X2dldGV1aW
+wb3NpeF9nZXRldWlk
+
+# posix_getgid
+cG9zaXhfZ2V0Z2lk
+Bvc2l4X2dldGdpZ
+wb3NpeF9nZXRnaW
+
+# posix_getgrgid
+cG9zaXhfZ2V0Z3JnaW
+Bvc2l4X2dldGdyZ2lk
+wb3NpeF9nZXRncmdpZ
+
+# posix_getgrnam
+cG9zaXhfZ2V0Z3JuYW
+Bvc2l4X2dldGdybmFt
+wb3NpeF9nZXRncm5hb
+
+# posix_getgroups
+cG9zaXhfZ2V0Z3JvdXBz
+Bvc2l4X2dldGdyb3Vwc
+wb3NpeF9nZXRncm91cH
+
+# posix_get_last_error
+cG9zaXhfZ2V0X2xhc3RfZXJyb3
+Bvc2l4X2dldF9sYXN0X2Vycm9y
+wb3NpeF9nZXRfbGFzdF9lcnJvc
+
+# posix_getlogin
+cG9zaXhfZ2V0bG9naW
+Bvc2l4X2dldGxvZ2lu
+wb3NpeF9nZXRsb2dpb
+
+# posix_getpgid
+cG9zaXhfZ2V0cGdpZ
+Bvc2l4X2dldHBnaW
+wb3NpeF9nZXRwZ2lk
+
+# posix_getpgrp
+cG9zaXhfZ2V0cGdyc
+Bvc2l4X2dldHBncn
+wb3NpeF9nZXRwZ3Jw
+
+# posix_getpid
+cG9zaXhfZ2V0cGlk
+Bvc2l4X2dldHBpZ
+wb3NpeF9nZXRwaW
+
+# posix_getppid
+cG9zaXhfZ2V0cHBpZ
+Bvc2l4X2dldHBwaW
+wb3NpeF9nZXRwcGlk
+
+# posix_getpwnam
+cG9zaXhfZ2V0cHduYW
+Bvc2l4X2dldHB3bmFt
+wb3NpeF9nZXRwd25hb
+
+# posix_getpwuid
+cG9zaXhfZ2V0cHd1aW
+Bvc2l4X2dldHB3dWlk
+wb3NpeF9nZXRwd3VpZ
+
+# posix_getrlimit
+cG9zaXhfZ2V0cmxpbWl0
+Bvc2l4X2dldHJsaW1pd
+wb3NpeF9nZXRybGltaX
+
+# posix_getsid
+cG9zaXhfZ2V0c2lk
+Bvc2l4X2dldHNpZ
+wb3NpeF9nZXRzaW
+
+# posix_getuid
+cG9zaXhfZ2V0dWlk
+Bvc2l4X2dldHVpZ
+wb3NpeF9nZXR1aW
+
+# posix_initgroups
+cG9zaXhfaW5pdGdyb3Vwc
+Bvc2l4X2luaXRncm91cH
+wb3NpeF9pbml0Z3JvdXBz
+
+# posix_isatty
+cG9zaXhfaXNhdHR5
+Bvc2l4X2lzYXR0e
+wb3NpeF9pc2F0dH
+
+# posix_kill
+cG9zaXhfa2lsb
+Bvc2l4X2tpbG
+wb3NpeF9raWxs
+
+# posix_mkfifo
+cG9zaXhfbWtmaWZv
+Bvc2l4X21rZmlmb
+wb3NpeF9ta2ZpZm
+
+# posix_mknod
+cG9zaXhfbWtub2
+Bvc2l4X21rbm9k
+wb3NpeF9ta25vZ
+
+# posix_setegid
+cG9zaXhfc2V0ZWdpZ
+Bvc2l4X3NldGVnaW
+wb3NpeF9zZXRlZ2lk
+
+# posix_seteuid
+cG9zaXhfc2V0ZXVpZ
+Bvc2l4X3NldGV1aW
+wb3NpeF9zZXRldWlk
+
+# posix_setgid
+cG9zaXhfc2V0Z2lk
+Bvc2l4X3NldGdpZ
+wb3NpeF9zZXRnaW
+
+# posix_setpgid
+cG9zaXhfc2V0cGdpZ
+Bvc2l4X3NldHBnaW
+wb3NpeF9zZXRwZ2lk
+
+# posix_setrlimit
+cG9zaXhfc2V0cmxpbWl0
+Bvc2l4X3NldHJsaW1pd
+wb3NpeF9zZXRybGltaX
+
+# posix_setsid
+cG9zaXhfc2V0c2lk
+Bvc2l4X3NldHNpZ
+wb3NpeF9zZXRzaW
+
+# posix_setuid
+cG9zaXhfc2V0dWlk
+Bvc2l4X3NldHVpZ
+wb3NpeF9zZXR1aW
+
+# posix_strerror
+cG9zaXhfc3RyZXJyb3
+Bvc2l4X3N0cmVycm9y
+wb3NpeF9zdHJlcnJvc
+
+# posix_times
+cG9zaXhfdGltZX
+Bvc2l4X3RpbWVz
+wb3NpeF90aW1lc
+
+# posix_ttyname
+cG9zaXhfdHR5bmFtZ
+Bvc2l4X3R0eW5hbW
+wb3NpeF90dHluYW1l
+
+# posix_uname
+cG9zaXhfdW5hbW
+Bvc2l4X3VuYW1l
+wb3NpeF91bmFtZ
+
+# pow
+cG93
+#Bvd
+#wb3
+
+# preg_filter
+cHJlZ19maWx0ZX
+ByZWdfZmlsdGVy
+wcmVnX2ZpbHRlc
+
+# preg_grep
+cHJlZ19ncmVw
+ByZWdfZ3Jlc
+wcmVnX2dyZX
+
+# preg_last_error
+cHJlZ19sYXN0X2Vycm9y
+ByZWdfbGFzdF9lcnJvc
+wcmVnX2xhc3RfZXJyb3
+
+# preg_match
+cHJlZ19tYXRja
+ByZWdfbWF0Y2
+wcmVnX21hdGNo
+
+# preg_match_all
+cHJlZ19tYXRjaF9hbG
+ByZWdfbWF0Y2hfYWxs
+wcmVnX21hdGNoX2Fsb
+
+# preg_quote
+cHJlZ19xdW90Z
+ByZWdfcXVvdG
+wcmVnX3F1b3Rl
+
+# preg_replace
+cHJlZ19yZXBsYWNl
+ByZWdfcmVwbGFjZ
+wcmVnX3JlcGxhY2
+
+# preg_replace_callback
+cHJlZ19yZXBsYWNlX2NhbGxiYWNr
+ByZWdfcmVwbGFjZV9jYWxsYmFja
+wcmVnX3JlcGxhY2VfY2FsbGJhY2
+
+# preg_replace_callback_array
+cHJlZ19yZXBsYWNlX2NhbGxiYWNrX2FycmF5
+ByZWdfcmVwbGFjZV9jYWxsYmFja19hcnJhe
+wcmVnX3JlcGxhY2VfY2FsbGJhY2tfYXJyYX
+
+# preg_split
+cHJlZ19zcGxpd
+ByZWdfc3BsaX
+wcmVnX3NwbGl0
+
+# prev
+cHJld
+ByZX
+wcmV2
+
+# printf
+cHJpbnRm
+ByaW50Z
+wcmludG
+
+# print_r
+cHJpbnRfc
+ByaW50X3
+wcmludF9y
+
+# proc_close
+cHJvY19jbG9zZ
+Byb2NfY2xvc2
+wcm9jX2Nsb3Nl
+
+# proc_get_status
+cHJvY19nZXRfc3RhdHVz
+Byb2NfZ2V0X3N0YXR1c
+wcm9jX2dldF9zdGF0dX
+
+# proc_nice
+cHJvY19uaWNl
+Byb2NfbmljZ
+wcm9jX25pY2
+
+# proc_open
+cHJvY19vcGVu
+Byb2Nfb3Blb
+wcm9jX29wZW
+
+# proc_terminate
+cHJvY190ZXJtaW5hdG
+Byb2NfdGVybWluYXRl
+wcm9jX3Rlcm1pbmF0Z
+
+# property_exists
+cHJvcGVydHlfZXhpc3Rz
+Byb3BlcnR5X2V4aXN0c
+wcm9wZXJ0eV9leGlzdH
+
+# putenv
+cHV0ZW52
+B1dGVud
+wdXRlbn
+
+# quoted_printable_decode
+cXVvdGVkX3ByaW50YWJsZV9kZWNvZG
+F1b3RlZF9wcmludGFibGVfZGVjb2Rl
+xdW90ZWRfcHJpbnRhYmxlX2RlY29kZ
+
+# quoted_printable_encode
+cXVvdGVkX3ByaW50YWJsZV9lbmNvZG
+F1b3RlZF9wcmludGFibGVfZW5jb2Rl
+xdW90ZWRfcHJpbnRhYmxlX2VuY29kZ
+
+# quotemeta
+cXVvdGVtZXRh
+F1b3RlbWV0Y
+xdW90ZW1ldG
+
+# rad2deg
+cmFkMmRlZ
+JhZDJkZW
+yYWQyZGVn
+
+# rand
+cmFuZ
+Jhbm
+yYW5k
+
+# random_bytes
+cmFuZG9tX2J5dGVz
+JhbmRvbV9ieXRlc
+yYW5kb21fYnl0ZX
+
+# random_int
+cmFuZG9tX2lud
+JhbmRvbV9pbn
+yYW5kb21faW50
+
+# range
+cmFuZ2
+Jhbmdl
+yYW5nZ
+
+# rawurldecode
+cmF3dXJsZGVjb2Rl
+Jhd3VybGRlY29kZ
+yYXd1cmxkZWNvZG
+
+# rawurlencode
+cmF3dXJsZW5jb2Rl
+Jhd3VybGVuY29kZ
+yYXd1cmxlbmNvZG
+
+# readdir
+cmVhZGRpc
+JlYWRkaX
+yZWFkZGly
+
+# read_exif_data
+cmVhZF9leGlmX2RhdG
+JlYWRfZXhpZl9kYXRh
+yZWFkX2V4aWZfZGF0Y
+
+# readfile
+cmVhZGZpbG
+JlYWRmaWxl
+yZWFkZmlsZ
+
+# readgzfile
+cmVhZGd6ZmlsZ
+JlYWRnemZpbG
+yZWFkZ3pmaWxl
+
+# readline
+cmVhZGxpbm
+JlYWRsaW5l
+yZWFkbGluZ
+
+# readline_add_history
+cmVhZGxpbmVfYWRkX2hpc3Rvcn
+JlYWRsaW5lX2FkZF9oaXN0b3J5
+yZWFkbGluZV9hZGRfaGlzdG9ye
+
+# readline_callback_handler_install
+cmVhZGxpbmVfY2FsbGJhY2tfaGFuZGxlcl9pbnN0YWxs
+JlYWRsaW5lX2NhbGxiYWNrX2hhbmRsZXJfaW5zdGFsb
+yZWFkbGluZV9jYWxsYmFja19oYW5kbGVyX2luc3RhbG
+
+# readline_callback_handler_remove
+cmVhZGxpbmVfY2FsbGJhY2tfaGFuZGxlcl9yZW1vdm
+JlYWRsaW5lX2NhbGxiYWNrX2hhbmRsZXJfcmVtb3Zl
+yZWFkbGluZV9jYWxsYmFja19oYW5kbGVyX3JlbW92Z
+
+# readline_callback_read_char
+cmVhZGxpbmVfY2FsbGJhY2tfcmVhZF9jaGFy
+JlYWRsaW5lX2NhbGxiYWNrX3JlYWRfY2hhc
+yZWFkbGluZV9jYWxsYmFja19yZWFkX2NoYX
+
+# readline_clear_history
+cmVhZGxpbmVfY2xlYXJfaGlzdG9ye
+JlYWRsaW5lX2NsZWFyX2hpc3Rvcn
+yZWFkbGluZV9jbGVhcl9oaXN0b3J5
+
+# readline_completion_function
+cmVhZGxpbmVfY29tcGxldGlvbl9mdW5jdGlvb
+JlYWRsaW5lX2NvbXBsZXRpb25fZnVuY3Rpb2
+yZWFkbGluZV9jb21wbGV0aW9uX2Z1bmN0aW9u
+
+# readline_info
+cmVhZGxpbmVfaW5mb
+JlYWRsaW5lX2luZm
+yZWFkbGluZV9pbmZv
+
+# readline_on_new_line
+cmVhZGxpbmVfb25fbmV3X2xpbm
+JlYWRsaW5lX29uX25ld19saW5l
+yZWFkbGluZV9vbl9uZXdfbGluZ
+
+# readline_read_history
+cmVhZGxpbmVfcmVhZF9oaXN0b3J5
+JlYWRsaW5lX3JlYWRfaGlzdG9ye
+yZWFkbGluZV9yZWFkX2hpc3Rvcn
+
+# readline_redisplay
+cmVhZGxpbmVfcmVkaXNwbGF5
+JlYWRsaW5lX3JlZGlzcGxhe
+yZWFkbGluZV9yZWRpc3BsYX
+
+# readline_write_history
+cmVhZGxpbmVfd3JpdGVfaGlzdG9ye
+JlYWRsaW5lX3dyaXRlX2hpc3Rvcn
+yZWFkbGluZV93cml0ZV9oaXN0b3J5
+
+# readlink
+cmVhZGxpbm
+JlYWRsaW5r
+yZWFkbGlua
+
+# realpath
+cmVhbHBhdG
+JlYWxwYXRo
+yZWFscGF0a
+
+# realpath_cache_get
+cmVhbHBhdGhfY2FjaGVfZ2V0
+JlYWxwYXRoX2NhY2hlX2dld
+yZWFscGF0aF9jYWNoZV9nZX
+
+# realpath_cache_size
+cmVhbHBhdGhfY2FjaGVfc2l6Z
+JlYWxwYXRoX2NhY2hlX3Npem
+yZWFscGF0aF9jYWNoZV9zaXpl
+
+# register_shutdown_function
+cmVnaXN0ZXJfc2h1dGRvd25fZnVuY3Rpb2
+JlZ2lzdGVyX3NodXRkb3duX2Z1bmN0aW9u
+yZWdpc3Rlcl9zaHV0ZG93bl9mdW5jdGlvb
+
+# register_tick_function
+cmVnaXN0ZXJfdGlja19mdW5jdGlvb
+JlZ2lzdGVyX3RpY2tfZnVuY3Rpb2
+yZWdpc3Rlcl90aWNrX2Z1bmN0aW9u
+
+# rename
+cmVuYW1l
+JlbmFtZ
+yZW5hbW
+
+# reset
+cmVzZX
+Jlc2V0
+yZXNld
+
+# restore_error_handler
+cmVzdG9yZV9lcnJvcl9oYW5kbGVy
+Jlc3RvcmVfZXJyb3JfaGFuZGxlc
+yZXN0b3JlX2Vycm9yX2hhbmRsZX
+
+# restore_exception_handler
+cmVzdG9yZV9leGNlcHRpb25faGFuZGxlc
+Jlc3RvcmVfZXhjZXB0aW9uX2hhbmRsZX
+yZXN0b3JlX2V4Y2VwdGlvbl9oYW5kbGVy
+
+# restore_include_path
+cmVzdG9yZV9pbmNsdWRlX3BhdG
+Jlc3RvcmVfaW5jbHVkZV9wYXRo
+yZXN0b3JlX2luY2x1ZGVfcGF0a
+
+# rewind
+cmV3aW5k
+Jld2luZ
+yZXdpbm
+
+# rewinddir
+cmV3aW5kZGly
+Jld2luZGRpc
+yZXdpbmRkaX
+
+# rmdir
+cm1kaX
+JtZGly
+ybWRpc
+
+# round
+cm91bm
+JvdW5k
+yb3VuZ
+
+# rsort
+cnNvcn
+Jzb3J0
+yc29yd
+
+# rtrim
+cnRyaW
+J0cmlt
+ydHJpb
+
+# scandir
+c2NhbmRpc
+NjYW5kaX
+zY2FuZGly
+
+# sem_acquire
+c2VtX2FjcXVpcm
+NlbV9hY3F1aXJl
+zZW1fYWNxdWlyZ
+
+# sem_get
+c2VtX2dld
+NlbV9nZX
+zZW1fZ2V0
+
+# sem_release
+c2VtX3JlbGVhc2
+NlbV9yZWxlYXNl
+zZW1fcmVsZWFzZ
+
+# sem_remove
+c2VtX3JlbW92Z
+NlbV9yZW1vdm
+zZW1fcmVtb3Zl
+
+# serialize
+c2VyaWFsaXpl
+NlcmlhbGl6Z
+zZXJpYWxpem
+
+# session_abort
+c2Vzc2lvbl9hYm9yd
+Nlc3Npb25fYWJvcn
+zZXNzaW9uX2Fib3J0
+
+# session_cache_expire
+c2Vzc2lvbl9jYWNoZV9leHBpcm
+Nlc3Npb25fY2FjaGVfZXhwaXJl
+zZXNzaW9uX2NhY2hlX2V4cGlyZ
+
+# session_cache_limiter
+c2Vzc2lvbl9jYWNoZV9saW1pdGVy
+Nlc3Npb25fY2FjaGVfbGltaXRlc
+zZXNzaW9uX2NhY2hlX2xpbWl0ZX
+
+# session_commit
+c2Vzc2lvbl9jb21taX
+Nlc3Npb25fY29tbWl0
+zZXNzaW9uX2NvbW1pd
+
+# session_decode
+c2Vzc2lvbl9kZWNvZG
+Nlc3Npb25fZGVjb2Rl
+zZXNzaW9uX2RlY29kZ
+
+# session_destroy
+c2Vzc2lvbl9kZXN0cm95
+Nlc3Npb25fZGVzdHJve
+zZXNzaW9uX2Rlc3Ryb3
+
+# session_encode
+c2Vzc2lvbl9lbmNvZG
+Nlc3Npb25fZW5jb2Rl
+zZXNzaW9uX2VuY29kZ
+
+# session_get_cookie_params
+c2Vzc2lvbl9nZXRfY29va2llX3BhcmFtc
+Nlc3Npb25fZ2V0X2Nvb2tpZV9wYXJhbX
+zZXNzaW9uX2dldF9jb29raWVfcGFyYW1z
+
+# session_id
+c2Vzc2lvbl9pZ
+Nlc3Npb25faW
+zZXNzaW9uX2lk
+
+# session_module_name
+c2Vzc2lvbl9tb2R1bGVfbmFtZ
+Nlc3Npb25fbW9kdWxlX25hbW
+zZXNzaW9uX21vZHVsZV9uYW1l
+
+# session_name
+c2Vzc2lvbl9uYW1l
+Nlc3Npb25fbmFtZ
+zZXNzaW9uX25hbW
+
+# session_regenerate_id
+c2Vzc2lvbl9yZWdlbmVyYXRlX2lk
+Nlc3Npb25fcmVnZW5lcmF0ZV9pZ
+zZXNzaW9uX3JlZ2VuZXJhdGVfaW
+
+# session_register_shutdown
+c2Vzc2lvbl9yZWdpc3Rlcl9zaHV0ZG93b
+Nlc3Npb25fcmVnaXN0ZXJfc2h1dGRvd2
+zZXNzaW9uX3JlZ2lzdGVyX3NodXRkb3du
+
+# session_reset
+c2Vzc2lvbl9yZXNld
+Nlc3Npb25fcmVzZX
+zZXNzaW9uX3Jlc2V0
+
+# session_save_path
+c2Vzc2lvbl9zYXZlX3BhdG
+Nlc3Npb25fc2F2ZV9wYXRo
+zZXNzaW9uX3NhdmVfcGF0a
+
+# session_set_cookie_params
+c2Vzc2lvbl9zZXRfY29va2llX3BhcmFtc
+Nlc3Npb25fc2V0X2Nvb2tpZV9wYXJhbX
+zZXNzaW9uX3NldF9jb29raWVfcGFyYW1z
+
+# session_set_save_handler
+c2Vzc2lvbl9zZXRfc2F2ZV9oYW5kbGVy
+Nlc3Npb25fc2V0X3NhdmVfaGFuZGxlc
+zZXNzaW9uX3NldF9zYXZlX2hhbmRsZX
+
+# session_start
+c2Vzc2lvbl9zdGFyd
+Nlc3Npb25fc3Rhcn
+zZXNzaW9uX3N0YXJ0
+
+# session_status
+c2Vzc2lvbl9zdGF0dX
+Nlc3Npb25fc3RhdHVz
+zZXNzaW9uX3N0YXR1c
+
+# session_unset
+c2Vzc2lvbl91bnNld
+Nlc3Npb25fdW5zZX
+zZXNzaW9uX3Vuc2V0
+
+# session_write_close
+c2Vzc2lvbl93cml0ZV9jbG9zZ
+Nlc3Npb25fd3JpdGVfY2xvc2
+zZXNzaW9uX3dyaXRlX2Nsb3Nl
+
+# setcookie
+c2V0Y29va2ll
+NldGNvb2tpZ
+zZXRjb29raW
+
+# set_error_handler
+c2V0X2Vycm9yX2hhbmRsZX
+NldF9lcnJvcl9oYW5kbGVy
+zZXRfZXJyb3JfaGFuZGxlc
+
+# set_exception_handler
+c2V0X2V4Y2VwdGlvbl9oYW5kbGVy
+NldF9leGNlcHRpb25faGFuZGxlc
+zZXRfZXhjZXB0aW9uX2hhbmRsZX
+
+# set_file_buffer
+c2V0X2ZpbGVfYnVmZmVy
+NldF9maWxlX2J1ZmZlc
+zZXRfZmlsZV9idWZmZX
+
+# set_include_path
+c2V0X2luY2x1ZGVfcGF0a
+NldF9pbmNsdWRlX3BhdG
+zZXRfaW5jbHVkZV9wYXRo
+
+# setlocale
+c2V0bG9jYWxl
+NldGxvY2FsZ
+zZXRsb2NhbG
+
+# setrawcookie
+c2V0cmF3Y29va2ll
+NldHJhd2Nvb2tpZ
+zZXRyYXdjb29raW
+
+# set_time_limit
+c2V0X3RpbWVfbGltaX
+NldF90aW1lX2xpbWl0
+zZXRfdGltZV9saW1pd
+
+# settype
+c2V0dHlwZ
+NldHR5cG
+zZXR0eXBl
+
+# sha1
+c2hhM
+NoYT
+zaGEx
+
+# sha1_file
+c2hhMV9maWxl
+NoYTFfZmlsZ
+zaGExX2ZpbG
+
+# shell_exec
+c2hlbGxfZXhlY
+NoZWxsX2V4ZW
+zaGVsbF9leGVj
+
+# shm_attach
+c2htX2F0dGFja
+NobV9hdHRhY2
+zaG1fYXR0YWNo
+
+# shm_detach
+c2htX2RldGFja
+NobV9kZXRhY2
+zaG1fZGV0YWNo
+
+# shm_get_var
+c2htX2dldF92YX
+NobV9nZXRfdmFy
+zaG1fZ2V0X3Zhc
+
+# shm_has_var
+c2htX2hhc192YX
+NobV9oYXNfdmFy
+zaG1faGFzX3Zhc
+
+# shmop_close
+c2htb3BfY2xvc2
+NobW9wX2Nsb3Nl
+zaG1vcF9jbG9zZ
+
+# shmop_delete
+c2htb3BfZGVsZXRl
+NobW9wX2RlbGV0Z
+zaG1vcF9kZWxldG
+
+# shmop_open
+c2htb3Bfb3Blb
+NobW9wX29wZW
+zaG1vcF9vcGVu
+
+# shmop_read
+c2htb3BfcmVhZ
+NobW9wX3JlYW
+zaG1vcF9yZWFk
+
+# shmop_size
+c2htb3Bfc2l6Z
+NobW9wX3Npem
+zaG1vcF9zaXpl
+
+# shmop_write
+c2htb3Bfd3JpdG
+NobW9wX3dyaXRl
+zaG1vcF93cml0Z
+
+# shm_put_var
+c2htX3B1dF92YX
+NobV9wdXRfdmFy
+zaG1fcHV0X3Zhc
+
+# shm_remove
+c2htX3JlbW92Z
+NobV9yZW1vdm
+zaG1fcmVtb3Zl
+
+# shm_remove_var
+c2htX3JlbW92ZV92YX
+NobV9yZW1vdmVfdmFy
+zaG1fcmVtb3ZlX3Zhc
+
+# show_source
+c2hvd19zb3VyY2
+Nob3dfc291cmNl
+zaG93X3NvdXJjZ
+
+# shuffle
+c2h1ZmZsZ
+NodWZmbG
+zaHVmZmxl
+
+# similar_text
+c2ltaWxhcl90ZXh0
+NpbWlsYXJfdGV4d
+zaW1pbGFyX3RleH
+
+# simplexml_import_dom
+c2ltcGxleG1sX2ltcG9ydF9kb2
+NpbXBsZXhtbF9pbXBvcnRfZG9t
+zaW1wbGV4bWxfaW1wb3J0X2Rvb
+
+# simplexml_load_file
+c2ltcGxleG1sX2xvYWRfZmlsZ
+NpbXBsZXhtbF9sb2FkX2ZpbG
+zaW1wbGV4bWxfbG9hZF9maWxl
+
+# simplexml_load_string
+c2ltcGxleG1sX2xvYWRfc3RyaW5n
+NpbXBsZXhtbF9sb2FkX3N0cmluZ
+zaW1wbGV4bWxfbG9hZF9zdHJpbm
+
+# sin
+c2lu
+#Npb
+#zaW
+
+# sinh
+c2lua
+Npbm
+zaW5o
+
+# sizeof
+c2l6ZW9m
+NpemVvZ
+zaXplb2
+
+# sleep
+c2xlZX
+NsZWVw
+zbGVlc
+
+# socket_accept
+c29ja2V0X2FjY2Vwd
+NvY2tldF9hY2NlcH
+zb2NrZXRfYWNjZXB0
+
+# socket_bind
+c29ja2V0X2Jpbm
+NvY2tldF9iaW5k
+zb2NrZXRfYmluZ
+
+# socket_clear_error
+c29ja2V0X2NsZWFyX2Vycm9y
+NvY2tldF9jbGVhcl9lcnJvc
+zb2NrZXRfY2xlYXJfZXJyb3
+
+# socket_close
+c29ja2V0X2Nsb3Nl
+NvY2tldF9jbG9zZ
+zb2NrZXRfY2xvc2
+
+# socket_cmsg_space
+c29ja2V0X2Ntc2dfc3BhY2
+NvY2tldF9jbXNnX3NwYWNl
+zb2NrZXRfY21zZ19zcGFjZ
+
+# socket_connect
+c29ja2V0X2Nvbm5lY3
+NvY2tldF9jb25uZWN0
+zb2NrZXRfY29ubmVjd
+
+# socket_create
+c29ja2V0X2NyZWF0Z
+NvY2tldF9jcmVhdG
+zb2NrZXRfY3JlYXRl
+
+# socket_create_listen
+c29ja2V0X2NyZWF0ZV9saXN0ZW
+NvY2tldF9jcmVhdGVfbGlzdGVu
+zb2NrZXRfY3JlYXRlX2xpc3Rlb
+
+# socket_create_pair
+c29ja2V0X2NyZWF0ZV9wYWly
+NvY2tldF9jcmVhdGVfcGFpc
+zb2NrZXRfY3JlYXRlX3BhaX
+
+# socket_export_stream
+c29ja2V0X2V4cG9ydF9zdHJlYW
+NvY2tldF9leHBvcnRfc3RyZWFt
+zb2NrZXRfZXhwb3J0X3N0cmVhb
+
+# socket_getopt
+c29ja2V0X2dldG9wd
+NvY2tldF9nZXRvcH
+zb2NrZXRfZ2V0b3B0
+
+# socket_get_option
+c29ja2V0X2dldF9vcHRpb2
+NvY2tldF9nZXRfb3B0aW9u
+zb2NrZXRfZ2V0X29wdGlvb
+
+# socket_getpeername
+c29ja2V0X2dldHBlZXJuYW1l
+NvY2tldF9nZXRwZWVybmFtZ
+zb2NrZXRfZ2V0cGVlcm5hbW
+
+# socket_getsockname
+c29ja2V0X2dldHNvY2tuYW1l
+NvY2tldF9nZXRzb2NrbmFtZ
+zb2NrZXRfZ2V0c29ja25hbW
+
+# socket_get_status
+c29ja2V0X2dldF9zdGF0dX
+NvY2tldF9nZXRfc3RhdHVz
+zb2NrZXRfZ2V0X3N0YXR1c
+
+# socket_import_stream
+c29ja2V0X2ltcG9ydF9zdHJlYW
+NvY2tldF9pbXBvcnRfc3RyZWFt
+zb2NrZXRfaW1wb3J0X3N0cmVhb
+
+# socket_last_error
+c29ja2V0X2xhc3RfZXJyb3
+NvY2tldF9sYXN0X2Vycm9y
+zb2NrZXRfbGFzdF9lcnJvc
+
+# socket_listen
+c29ja2V0X2xpc3Rlb
+NvY2tldF9saXN0ZW
+zb2NrZXRfbGlzdGVu
+
+# socket_read
+c29ja2V0X3JlYW
+NvY2tldF9yZWFk
+zb2NrZXRfcmVhZ
+
+# socket_recv
+c29ja2V0X3JlY3
+NvY2tldF9yZWN2
+zb2NrZXRfcmVjd
+
+# socket_recvfrom
+c29ja2V0X3JlY3Zmcm9t
+NvY2tldF9yZWN2ZnJvb
+zb2NrZXRfcmVjdmZyb2
+
+# socket_recvmsg
+c29ja2V0X3JlY3Ztc2
+NvY2tldF9yZWN2bXNn
+zb2NrZXRfcmVjdm1zZ
+
+# socket_select
+c29ja2V0X3NlbGVjd
+NvY2tldF9zZWxlY3
+zb2NrZXRfc2VsZWN0
+
+# socket_send
+c29ja2V0X3Nlbm
+NvY2tldF9zZW5k
+zb2NrZXRfc2VuZ
+
+# socket_sendmsg
+c29ja2V0X3NlbmRtc2
+NvY2tldF9zZW5kbXNn
+zb2NrZXRfc2VuZG1zZ
+
+# socket_sendto
+c29ja2V0X3NlbmR0b
+NvY2tldF9zZW5kdG
+zb2NrZXRfc2VuZHRv
+
+# socket_set_block
+c29ja2V0X3NldF9ibG9ja
+NvY2tldF9zZXRfYmxvY2
+zb2NrZXRfc2V0X2Jsb2Nr
+
+# socket_set_blocking
+c29ja2V0X3NldF9ibG9ja2luZ
+NvY2tldF9zZXRfYmxvY2tpbm
+zb2NrZXRfc2V0X2Jsb2NraW5n
+
+# socket_set_nonblock
+c29ja2V0X3NldF9ub25ibG9ja
+NvY2tldF9zZXRfbm9uYmxvY2
+zb2NrZXRfc2V0X25vbmJsb2Nr
+
+# socket_setopt
+c29ja2V0X3NldG9wd
+NvY2tldF9zZXRvcH
+zb2NrZXRfc2V0b3B0
+
+# socket_set_option
+c29ja2V0X3NldF9vcHRpb2
+NvY2tldF9zZXRfb3B0aW9u
+zb2NrZXRfc2V0X29wdGlvb
+
+# socket_set_timeout
+c29ja2V0X3NldF90aW1lb3V0
+NvY2tldF9zZXRfdGltZW91d
+zb2NrZXRfc2V0X3RpbWVvdX
+
+# socket_shutdown
+c29ja2V0X3NodXRkb3du
+NvY2tldF9zaHV0ZG93b
+zb2NrZXRfc2h1dGRvd2
+
+# socket_strerror
+c29ja2V0X3N0cmVycm9y
+NvY2tldF9zdHJlcnJvc
+zb2NrZXRfc3RyZXJyb3
+
+# socket_write
+c29ja2V0X3dyaXRl
+NvY2tldF93cml0Z
+zb2NrZXRfd3JpdG
+
+# sort
+c29yd
+Nvcn
+zb3J0
+
+# soundex
+c291bmRle
+NvdW5kZX
+zb3VuZGV4
+
+# spl_autoload
+c3BsX2F1dG9sb2Fk
+NwbF9hdXRvbG9hZ
+zcGxfYXV0b2xvYW
+
+# spl_autoload_call
+c3BsX2F1dG9sb2FkX2NhbG
+NwbF9hdXRvbG9hZF9jYWxs
+zcGxfYXV0b2xvYWRfY2Fsb
+
+# spl_autoload_extensions
+c3BsX2F1dG9sb2FkX2V4dGVuc2lvbn
+NwbF9hdXRvbG9hZF9leHRlbnNpb25z
+zcGxfYXV0b2xvYWRfZXh0ZW5zaW9uc
+
+# spl_autoload_functions
+c3BsX2F1dG9sb2FkX2Z1bmN0aW9uc
+NwbF9hdXRvbG9hZF9mdW5jdGlvbn
+zcGxfYXV0b2xvYWRfZnVuY3Rpb25z
+
+# spl_autoload_register
+c3BsX2F1dG9sb2FkX3JlZ2lzdGVy
+NwbF9hdXRvbG9hZF9yZWdpc3Rlc
+zcGxfYXV0b2xvYWRfcmVnaXN0ZX
+
+# spl_autoload_unregister
+c3BsX2F1dG9sb2FkX3VucmVnaXN0ZX
+NwbF9hdXRvbG9hZF91bnJlZ2lzdGVy
+zcGxfYXV0b2xvYWRfdW5yZWdpc3Rlc
+
+# spl_classes
+c3BsX2NsYXNzZX
+NwbF9jbGFzc2Vz
+zcGxfY2xhc3Nlc
+
+# spl_object_hash
+c3BsX29iamVjdF9oYXNo
+NwbF9vYmplY3RfaGFza
+zcGxfb2JqZWN0X2hhc2
+
+# sprintf
+c3ByaW50Z
+NwcmludG
+zcHJpbnRm
+
+# sqrt
+c3Fyd
+Nxcn
+zcXJ0
+
+# srand
+c3Jhbm
+NyYW5k
+zcmFuZ
+
+# sscanf
+c3NjYW5m
+NzY2FuZ
+zc2Nhbm
+
+# stat
+c3Rhd
+N0YX
+zdGF0
+
+# strcasecmp
+c3RyY2FzZWNtc
+N0cmNhc2VjbX
+zdHJjYXNlY21w
+
+# strchr
+c3RyY2hy
+N0cmNoc
+zdHJjaH
+
+# strcmp
+c3RyY21w
+N0cmNtc
+zdHJjbX
+
+# strcoll
+c3RyY29sb
+N0cmNvbG
+zdHJjb2xs
+
+# strcspn
+c3RyY3Nwb
+N0cmNzcG
+zdHJjc3Bu
+
+# stream_bucket_append
+c3RyZWFtX2J1Y2tldF9hcHBlbm
+N0cmVhbV9idWNrZXRfYXBwZW5k
+zdHJlYW1fYnVja2V0X2FwcGVuZ
+
+# stream_bucket_make_writeable
+c3RyZWFtX2J1Y2tldF9tYWtlX3dyaXRlYWJsZ
+N0cmVhbV9idWNrZXRfbWFrZV93cml0ZWFibG
+zdHJlYW1fYnVja2V0X21ha2Vfd3JpdGVhYmxl
+
+# stream_bucket_new
+c3RyZWFtX2J1Y2tldF9uZX
+N0cmVhbV9idWNrZXRfbmV3
+zdHJlYW1fYnVja2V0X25ld
+
+# stream_bucket_prepend
+c3RyZWFtX2J1Y2tldF9wcmVwZW5k
+N0cmVhbV9idWNrZXRfcHJlcGVuZ
+zdHJlYW1fYnVja2V0X3ByZXBlbm
+
+# stream_context_create
+c3RyZWFtX2NvbnRleHRfY3JlYXRl
+N0cmVhbV9jb250ZXh0X2NyZWF0Z
+zdHJlYW1fY29udGV4dF9jcmVhdG
+
+# stream_context_get_default
+c3RyZWFtX2NvbnRleHRfZ2V0X2RlZmF1bH
+N0cmVhbV9jb250ZXh0X2dldF9kZWZhdWx0
+zdHJlYW1fY29udGV4dF9nZXRfZGVmYXVsd
+
+# stream_context_get_options
+c3RyZWFtX2NvbnRleHRfZ2V0X29wdGlvbn
+N0cmVhbV9jb250ZXh0X2dldF9vcHRpb25z
+zdHJlYW1fY29udGV4dF9nZXRfb3B0aW9uc
+
+# stream_context_get_params
+c3RyZWFtX2NvbnRleHRfZ2V0X3BhcmFtc
+N0cmVhbV9jb250ZXh0X2dldF9wYXJhbX
+zdHJlYW1fY29udGV4dF9nZXRfcGFyYW1z
+
+# stream_context_set_default
+c3RyZWFtX2NvbnRleHRfc2V0X2RlZmF1bH
+N0cmVhbV9jb250ZXh0X3NldF9kZWZhdWx0
+zdHJlYW1fY29udGV4dF9zZXRfZGVmYXVsd
+
+# stream_context_set_option
+c3RyZWFtX2NvbnRleHRfc2V0X29wdGlvb
+N0cmVhbV9jb250ZXh0X3NldF9vcHRpb2
+zdHJlYW1fY29udGV4dF9zZXRfb3B0aW9u
+
+# stream_context_set_params
+c3RyZWFtX2NvbnRleHRfc2V0X3BhcmFtc
+N0cmVhbV9jb250ZXh0X3NldF9wYXJhbX
+zdHJlYW1fY29udGV4dF9zZXRfcGFyYW1z
+
+# stream_copy_to_stream
+c3RyZWFtX2NvcHlfdG9fc3RyZWFt
+N0cmVhbV9jb3B5X3RvX3N0cmVhb
+zdHJlYW1fY29weV90b19zdHJlYW
+
+# stream_filter_append
+c3RyZWFtX2ZpbHRlcl9hcHBlbm
+N0cmVhbV9maWx0ZXJfYXBwZW5k
+zdHJlYW1fZmlsdGVyX2FwcGVuZ
+
+# stream_filter_prepend
+c3RyZWFtX2ZpbHRlcl9wcmVwZW5k
+N0cmVhbV9maWx0ZXJfcHJlcGVuZ
+zdHJlYW1fZmlsdGVyX3ByZXBlbm
+
+# stream_filter_register
+c3RyZWFtX2ZpbHRlcl9yZWdpc3Rlc
+N0cmVhbV9maWx0ZXJfcmVnaXN0ZX
+zdHJlYW1fZmlsdGVyX3JlZ2lzdGVy
+
+# stream_filter_remove
+c3RyZWFtX2ZpbHRlcl9yZW1vdm
+N0cmVhbV9maWx0ZXJfcmVtb3Zl
+zdHJlYW1fZmlsdGVyX3JlbW92Z
+
+# stream_get_contents
+c3RyZWFtX2dldF9jb250ZW50c
+N0cmVhbV9nZXRfY29udGVudH
+zdHJlYW1fZ2V0X2NvbnRlbnRz
+
+# stream_get_filters
+c3RyZWFtX2dldF9maWx0ZXJz
+N0cmVhbV9nZXRfZmlsdGVyc
+zdHJlYW1fZ2V0X2ZpbHRlcn
+
+# stream_get_line
+c3RyZWFtX2dldF9saW5l
+N0cmVhbV9nZXRfbGluZ
+zdHJlYW1fZ2V0X2xpbm
+
+# stream_get_meta_data
+c3RyZWFtX2dldF9tZXRhX2RhdG
+N0cmVhbV9nZXRfbWV0YV9kYXRh
+zdHJlYW1fZ2V0X21ldGFfZGF0Y
+
+# stream_get_transports
+c3RyZWFtX2dldF90cmFuc3BvcnRz
+N0cmVhbV9nZXRfdHJhbnNwb3J0c
+zdHJlYW1fZ2V0X3RyYW5zcG9ydH
+
+# stream_get_wrappers
+c3RyZWFtX2dldF93cmFwcGVyc
+N0cmVhbV9nZXRfd3JhcHBlcn
+zdHJlYW1fZ2V0X3dyYXBwZXJz
+
+# stream_is_local
+c3RyZWFtX2lzX2xvY2Fs
+N0cmVhbV9pc19sb2Nhb
+zdHJlYW1faXNfbG9jYW
+
+# stream_register_wrapper
+c3RyZWFtX3JlZ2lzdGVyX3dyYXBwZX
+N0cmVhbV9yZWdpc3Rlcl93cmFwcGVy
+zdHJlYW1fcmVnaXN0ZXJfd3JhcHBlc
+
+# stream_resolve_include_path
+c3RyZWFtX3Jlc29sdmVfaW5jbHVkZV9wYXRo
+N0cmVhbV9yZXNvbHZlX2luY2x1ZGVfcGF0a
+zdHJlYW1fcmVzb2x2ZV9pbmNsdWRlX3BhdG
+
+# stream_select
+c3RyZWFtX3NlbGVjd
+N0cmVhbV9zZWxlY3
+zdHJlYW1fc2VsZWN0
+
+# stream_set_blocking
+c3RyZWFtX3NldF9ibG9ja2luZ
+N0cmVhbV9zZXRfYmxvY2tpbm
+zdHJlYW1fc2V0X2Jsb2NraW5n
+
+# stream_set_chunk_size
+c3RyZWFtX3NldF9jaHVua19zaXpl
+N0cmVhbV9zZXRfY2h1bmtfc2l6Z
+zdHJlYW1fc2V0X2NodW5rX3Npem
+
+# stream_set_read_buffer
+c3RyZWFtX3NldF9yZWFkX2J1ZmZlc
+N0cmVhbV9zZXRfcmVhZF9idWZmZX
+zdHJlYW1fc2V0X3JlYWRfYnVmZmVy
+
+# stream_set_timeout
+c3RyZWFtX3NldF90aW1lb3V0
+N0cmVhbV9zZXRfdGltZW91d
+zdHJlYW1fc2V0X3RpbWVvdX
+
+# stream_set_write_buffer
+c3RyZWFtX3NldF93cml0ZV9idWZmZX
+N0cmVhbV9zZXRfd3JpdGVfYnVmZmVy
+zdHJlYW1fc2V0X3dyaXRlX2J1ZmZlc
+
+# stream_socket_accept
+c3RyZWFtX3NvY2tldF9hY2NlcH
+N0cmVhbV9zb2NrZXRfYWNjZXB0
+zdHJlYW1fc29ja2V0X2FjY2Vwd
+
+# stream_socket_client
+c3RyZWFtX3NvY2tldF9jbGllbn
+N0cmVhbV9zb2NrZXRfY2xpZW50
+zdHJlYW1fc29ja2V0X2NsaWVud
+
+# stream_socket_enable_crypto
+c3RyZWFtX3NvY2tldF9lbmFibGVfY3J5cHRv
+N0cmVhbV9zb2NrZXRfZW5hYmxlX2NyeXB0b
+zdHJlYW1fc29ja2V0X2VuYWJsZV9jcnlwdG
+
+# stream_socket_get_name
+c3RyZWFtX3NvY2tldF9nZXRfbmFtZ
+N0cmVhbV9zb2NrZXRfZ2V0X25hbW
+zdHJlYW1fc29ja2V0X2dldF9uYW1l
+
+# stream_socket_pair
+c3RyZWFtX3NvY2tldF9wYWly
+N0cmVhbV9zb2NrZXRfcGFpc
+zdHJlYW1fc29ja2V0X3BhaX
+
+# stream_socket_recvfrom
+c3RyZWFtX3NvY2tldF9yZWN2ZnJvb
+N0cmVhbV9zb2NrZXRfcmVjdmZyb2
+zdHJlYW1fc29ja2V0X3JlY3Zmcm9t
+
+# stream_socket_sendto
+c3RyZWFtX3NvY2tldF9zZW5kdG
+N0cmVhbV9zb2NrZXRfc2VuZHRv
+zdHJlYW1fc29ja2V0X3NlbmR0b
+
+# stream_socket_server
+c3RyZWFtX3NvY2tldF9zZXJ2ZX
+N0cmVhbV9zb2NrZXRfc2VydmVy
+zdHJlYW1fc29ja2V0X3NlcnZlc
+
+# stream_socket_shutdown
+c3RyZWFtX3NvY2tldF9zaHV0ZG93b
+N0cmVhbV9zb2NrZXRfc2h1dGRvd2
+zdHJlYW1fc29ja2V0X3NodXRkb3du
+
+# stream_supports_lock
+c3RyZWFtX3N1cHBvcnRzX2xvY2
+N0cmVhbV9zdXBwb3J0c19sb2Nr
+zdHJlYW1fc3VwcG9ydHNfbG9ja
+
+# stream_wrapper_register
+c3RyZWFtX3dyYXBwZXJfcmVnaXN0ZX
+N0cmVhbV93cmFwcGVyX3JlZ2lzdGVy
+zdHJlYW1fd3JhcHBlcl9yZWdpc3Rlc
+
+# stream_wrapper_restore
+c3RyZWFtX3dyYXBwZXJfcmVzdG9yZ
+N0cmVhbV93cmFwcGVyX3Jlc3Rvcm
+zdHJlYW1fd3JhcHBlcl9yZXN0b3Jl
+
+# stream_wrapper_unregister
+c3RyZWFtX3dyYXBwZXJfdW5yZWdpc3Rlc
+N0cmVhbV93cmFwcGVyX3VucmVnaXN0ZX
+zdHJlYW1fd3JhcHBlcl91bnJlZ2lzdGVy
+
+# strftime
+c3RyZnRpbW
+N0cmZ0aW1l
+zdHJmdGltZ
+
+# str_getcsv
+c3RyX2dldGNzd
+N0cl9nZXRjc3
+zdHJfZ2V0Y3N2
+
+# stripcslashes
+c3RyaXBjc2xhc2hlc
+N0cmlwY3NsYXNoZX
+zdHJpcGNzbGFzaGVz
+
+# stripos
+c3RyaXBvc
+N0cmlwb3
+zdHJpcG9z
+
+# stripslashes
+c3RyaXBzbGFzaGVz
+N0cmlwc2xhc2hlc
+zdHJpcHNsYXNoZX
+
+# strip_tags
+c3RyaXBfdGFnc
+N0cmlwX3RhZ3
+zdHJpcF90YWdz
+
+# str_ireplace
+c3RyX2lyZXBsYWNl
+N0cl9pcmVwbGFjZ
+zdHJfaXJlcGxhY2
+
+# stristr
+c3RyaXN0c
+N0cmlzdH
+zdHJpc3Ry
+
+# strlen
+c3RybGVu
+N0cmxlb
+zdHJsZW
+
+# strnatcasecmp
+c3RybmF0Y2FzZWNtc
+N0cm5hdGNhc2VjbX
+zdHJuYXRjYXNlY21w
+
+# strnatcmp
+c3RybmF0Y21w
+N0cm5hdGNtc
+zdHJuYXRjbX
+
+# strncasecmp
+c3RybmNhc2VjbX
+N0cm5jYXNlY21w
+zdHJuY2FzZWNtc
+
+# strncmp
+c3RybmNtc
+N0cm5jbX
+zdHJuY21w
+
+# str_pad
+c3RyX3BhZ
+N0cl9wYW
+zdHJfcGFk
+
+# strpbrk
+c3RycGJya
+N0cnBicm
+zdHJwYnJr
+
+# strpos
+c3RycG9z
+N0cnBvc
+zdHJwb3
+
+# strptime
+c3RycHRpbW
+N0cnB0aW1l
+zdHJwdGltZ
+
+# strrchr
+c3RycmNoc
+N0cnJjaH
+zdHJyY2hy
+
+# str_repeat
+c3RyX3JlcGVhd
+N0cl9yZXBlYX
+zdHJfcmVwZWF0
+
+# str_replace
+c3RyX3JlcGxhY2
+N0cl9yZXBsYWNl
+zdHJfcmVwbGFjZ
+
+# strrev
+c3RycmV2
+N0cnJld
+zdHJyZX
+
+# strripos
+c3Rycmlwb3
+N0cnJpcG9z
+zdHJyaXBvc
+
+# str_rot13
+c3RyX3JvdDEz
+N0cl9yb3QxM
+zdHJfcm90MT
+
+# strrpos
+c3RycnBvc
+N0cnJwb3
+zdHJycG9z
+
+# str_shuffle
+c3RyX3NodWZmbG
+N0cl9zaHVmZmxl
+zdHJfc2h1ZmZsZ
+
+# str_split
+c3RyX3NwbGl0
+N0cl9zcGxpd
+zdHJfc3BsaX
+
+# strspn
+c3Ryc3Bu
+N0cnNwb
+zdHJzcG
+
+# strstr
+c3Ryc3Ry
+N0cnN0c
+zdHJzdH
+
+# strtok
+c3RydG9r
+N0cnRva
+zdHJ0b2
+
+# strtolower
+c3RydG9sb3dlc
+N0cnRvbG93ZX
+zdHJ0b2xvd2Vy
+
+# strtotime
+c3RydG90aW1l
+N0cnRvdGltZ
+zdHJ0b3RpbW
+
+# strtoupper
+c3RydG91cHBlc
+N0cnRvdXBwZX
+zdHJ0b3VwcGVy
+
+# strtr
+c3RydH
+N0cnRy
+zdHJ0c
+
+# strval
+c3RydmFs
+N0cnZhb
+zdHJ2YW
+
+# str_word_count
+c3RyX3dvcmRfY291bn
+N0cl93b3JkX2NvdW50
+zdHJfd29yZF9jb3Vud
+
+# substr
+c3Vic3Ry
+N1YnN0c
+zdWJzdH
+
+# substr_compare
+c3Vic3RyX2NvbXBhcm
+N1YnN0cl9jb21wYXJl
+zdWJzdHJfY29tcGFyZ
+
+# substr_count
+c3Vic3RyX2NvdW50
+N1YnN0cl9jb3Vud
+zdWJzdHJfY291bn
+
+# substr_replace
+c3Vic3RyX3JlcGxhY2
+N1YnN0cl9yZXBsYWNl
+zdWJzdHJfcmVwbGFjZ
+
+# symlink
+c3ltbGlua
+N5bWxpbm
+zeW1saW5r
+
+# sys_getloadavg
+c3lzX2dldGxvYWRhdm
+N5c19nZXRsb2FkYXZn
+zeXNfZ2V0bG9hZGF2Z
+
+# sys_get_temp_dir
+c3lzX2dldF90ZW1wX2Rpc
+N5c19nZXRfdGVtcF9kaX
+zeXNfZ2V0X3RlbXBfZGly
+
+# syslog
+c3lzbG9n
+N5c2xvZ
+zeXNsb2
+
+# system
+c3lzdGVt
+N5c3Rlb
+zeXN0ZW
+
+# tan
+dGFu
+#Rhb
+#0YW
+
+# tanh
+dGFua
+Rhbm
+0YW5o
+
+# tempnam
+dGVtcG5hb
+RlbXBuYW
+0ZW1wbmFt
+
+# textdomain
+dGV4dGRvbWFpb
+RleHRkb21haW
+0ZXh0ZG9tYWlu
+
+# time
+dGltZ
+RpbW
+0aW1l
+
+# time_nanosleep
+dGltZV9uYW5vc2xlZX
+RpbWVfbmFub3NsZWVw
+0aW1lX25hbm9zbGVlc
+
+# time_sleep_until
+dGltZV9zbGVlcF91bnRpb
+RpbWVfc2xlZXBfdW50aW
+0aW1lX3NsZWVwX3VudGls
+
+# timezone_abbreviations_list
+dGltZXpvbmVfYWJicmV2aWF0aW9uc19saXN0
+RpbWV6b25lX2FiYnJldmlhdGlvbnNfbGlzd
+0aW1lem9uZV9hYmJyZXZpYXRpb25zX2xpc3
+
+# timezone_identifiers_list
+dGltZXpvbmVfaWRlbnRpZmllcnNfbGlzd
+RpbWV6b25lX2lkZW50aWZpZXJzX2xpc3
+0aW1lem9uZV9pZGVudGlmaWVyc19saXN0
+
+# timezone_location_get
+dGltZXpvbmVfbG9jYXRpb25fZ2V0
+RpbWV6b25lX2xvY2F0aW9uX2dld
+0aW1lem9uZV9sb2NhdGlvbl9nZX
+
+# timezone_name_from_abbr
+dGltZXpvbmVfbmFtZV9mcm9tX2FiYn
+RpbWV6b25lX25hbWVfZnJvbV9hYmJy
+0aW1lem9uZV9uYW1lX2Zyb21fYWJic
+
+# timezone_name_get
+dGltZXpvbmVfbmFtZV9nZX
+RpbWV6b25lX25hbWVfZ2V0
+0aW1lem9uZV9uYW1lX2dld
+
+# timezone_offset_get
+dGltZXpvbmVfb2Zmc2V0X2dld
+RpbWV6b25lX29mZnNldF9nZX
+0aW1lem9uZV9vZmZzZXRfZ2V0
+
+# timezone_open
+dGltZXpvbmVfb3Blb
+RpbWV6b25lX29wZW
+0aW1lem9uZV9vcGVu
+
+# timezone_transitions_get
+dGltZXpvbmVfdHJhbnNpdGlvbnNfZ2V0
+RpbWV6b25lX3RyYW5zaXRpb25zX2dld
+0aW1lem9uZV90cmFuc2l0aW9uc19nZX
+
+# timezone_version_get
+dGltZXpvbmVfdmVyc2lvbl9nZX
+RpbWV6b25lX3ZlcnNpb25fZ2V0
+0aW1lem9uZV92ZXJzaW9uX2dld
+
+# tmpfile
+dG1wZmlsZ
+RtcGZpbG
+0bXBmaWxl
+
+# token_get_all
+dG9rZW5fZ2V0X2Fsb
+Rva2VuX2dldF9hbG
+0b2tlbl9nZXRfYWxs
+
+# token_name
+dG9rZW5fbmFtZ
+Rva2VuX25hbW
+0b2tlbl9uYW1l
+
+# touch
+dG91Y2
+RvdWNo
+0b3Vja
+
+# trait_exists
+dHJhaXRfZXhpc3Rz
+RyYWl0X2V4aXN0c
+0cmFpdF9leGlzdH
+
+# trigger_error
+dHJpZ2dlcl9lcnJvc
+RyaWdnZXJfZXJyb3
+0cmlnZ2VyX2Vycm9y
+
+# trim
+dHJpb
+RyaW
+0cmlt
+
+# uasort
+dWFzb3J0
+Vhc29yd
+1YXNvcn
+
+# ucfirst
+dWNmaXJzd
+VjZmlyc3
+1Y2ZpcnN0
+
+# ucwords
+dWN3b3Jkc
+Vjd29yZH
+1Y3dvcmRz
+
+# uksort
+dWtzb3J0
+Vrc29yd
+1a3Nvcn
+
+# umask
+dW1hc2
+VtYXNr
+1bWFza
+
+# uniqid
+dW5pcWlk
+VuaXFpZ
+1bmlxaW
+
+# unixtojd
+dW5peHRvam
+VuaXh0b2pk
+1bml4dG9qZ
+
+# unlink
+dW5saW5r
+VubGlua
+1bmxpbm
+
+# unpack
+dW5wYWNr
+VucGFja
+1bnBhY2
+
+# unregister_tick_function
+dW5yZWdpc3Rlcl90aWNrX2Z1bmN0aW9u
+VucmVnaXN0ZXJfdGlja19mdW5jdGlvb
+1bnJlZ2lzdGVyX3RpY2tfZnVuY3Rpb2
+
+# unserialize
+dW5zZXJpYWxpem
+Vuc2VyaWFsaXpl
+1bnNlcmlhbGl6Z
+
+# urldecode
+dXJsZGVjb2Rl
+VybGRlY29kZ
+1cmxkZWNvZG
+
+# urlencode
+dXJsZW5jb2Rl
+VybGVuY29kZ
+1cmxlbmNvZG
+
+# user_error
+dXNlcl9lcnJvc
+VzZXJfZXJyb3
+1c2VyX2Vycm9y
+
+# usleep
+dXNsZWVw
+VzbGVlc
+1c2xlZX
+
+# usort
+dXNvcn
+Vzb3J0
+1c29yd
+
+# utf8_decode
+dXRmOF9kZWNvZG
+V0ZjhfZGVjb2Rl
+1dGY4X2RlY29kZ
+
+# utf8_encode
+dXRmOF9lbmNvZG
+V0ZjhfZW5jb2Rl
+1dGY4X2VuY29kZ
+
+# var_dump
+dmFyX2R1bX
+Zhcl9kdW1w
+2YXJfZHVtc
+
+# var_export
+dmFyX2V4cG9yd
+Zhcl9leHBvcn
+2YXJfZXhwb3J0
+
+# version_compare
+dmVyc2lvbl9jb21wYXJl
+ZlcnNpb25fY29tcGFyZ
+2ZXJzaW9uX2NvbXBhcm
+
+# vfprintf
+dmZwcmludG
+ZmcHJpbnRm
+2ZnByaW50Z
+
+# vprintf
+dnByaW50Z
+ZwcmludG
+2cHJpbnRm
+
+# vsprintf
+dnNwcmludG
+ZzcHJpbnRm
+2c3ByaW50Z
+
+# wddx_add_vars
+d2RkeF9hZGRfdmFyc
+dkZHhfYWRkX3Zhcn
+3ZGR4X2FkZF92YXJz
+
+# wddx_deserialize
+d2RkeF9kZXNlcmlhbGl6Z
+dkZHhfZGVzZXJpYWxpem
+3ZGR4X2Rlc2VyaWFsaXpl
+
+# wddx_packet_end
+d2RkeF9wYWNrZXRfZW5k
+dkZHhfcGFja2V0X2VuZ
+3ZGR4X3BhY2tldF9lbm
+
+# wddx_packet_start
+d2RkeF9wYWNrZXRfc3Rhcn
+dkZHhfcGFja2V0X3N0YXJ0
+3ZGR4X3BhY2tldF9zdGFyd
+
+# wddx_serialize_value
+d2RkeF9zZXJpYWxpemVfdmFsdW
+dkZHhfc2VyaWFsaXplX3ZhbHVl
+3ZGR4X3NlcmlhbGl6ZV92YWx1Z
+
+# wddx_serialize_vars
+d2RkeF9zZXJpYWxpemVfdmFyc
+dkZHhfc2VyaWFsaXplX3Zhcn
+3ZGR4X3NlcmlhbGl6ZV92YXJz
+
+# wordwrap
+d29yZHdyYX
+dvcmR3cmFw
+3b3Jkd3Jhc
+
+# xml_error_string
+eG1sX2Vycm9yX3N0cmluZ
+htbF9lcnJvcl9zdHJpbm
+4bWxfZXJyb3Jfc3RyaW5n
+
+# xml_get_current_byte_index
+eG1sX2dldF9jdXJyZW50X2J5dGVfaW5kZX
+htbF9nZXRfY3VycmVudF9ieXRlX2luZGV4
+4bWxfZ2V0X2N1cnJlbnRfYnl0ZV9pbmRle
+
+# xml_get_current_column_number
+eG1sX2dldF9jdXJyZW50X2NvbHVtbl9udW1iZX
+htbF9nZXRfY3VycmVudF9jb2x1bW5fbnVtYmVy
+4bWxfZ2V0X2N1cnJlbnRfY29sdW1uX251bWJlc
+
+# xml_get_current_line_number
+eG1sX2dldF9jdXJyZW50X2xpbmVfbnVtYmVy
+htbF9nZXRfY3VycmVudF9saW5lX251bWJlc
+4bWxfZ2V0X2N1cnJlbnRfbGluZV9udW1iZX
+
+# xml_get_error_code
+eG1sX2dldF9lcnJvcl9jb2Rl
+htbF9nZXRfZXJyb3JfY29kZ
+4bWxfZ2V0X2Vycm9yX2NvZG
+
+# xml_parse
+eG1sX3BhcnNl
+htbF9wYXJzZ
+4bWxfcGFyc2
+
+# xml_parse_into_struct
+eG1sX3BhcnNlX2ludG9fc3RydWN0
+htbF9wYXJzZV9pbnRvX3N0cnVjd
+4bWxfcGFyc2VfaW50b19zdHJ1Y3
+
+# xml_parser_create
+eG1sX3BhcnNlcl9jcmVhdG
+htbF9wYXJzZXJfY3JlYXRl
+4bWxfcGFyc2VyX2NyZWF0Z
+
+# xml_parser_create_ns
+eG1sX3BhcnNlcl9jcmVhdGVfbn
+htbF9wYXJzZXJfY3JlYXRlX25z
+4bWxfcGFyc2VyX2NyZWF0ZV9uc
+
+# xml_parser_free
+eG1sX3BhcnNlcl9mcmVl
+htbF9wYXJzZXJfZnJlZ
+4bWxfcGFyc2VyX2ZyZW
+
+# xml_parser_get_option
+eG1sX3BhcnNlcl9nZXRfb3B0aW9u
+htbF9wYXJzZXJfZ2V0X29wdGlvb
+4bWxfcGFyc2VyX2dldF9vcHRpb2
+
+# xml_parser_set_option
+eG1sX3BhcnNlcl9zZXRfb3B0aW9u
+htbF9wYXJzZXJfc2V0X29wdGlvb
+4bWxfcGFyc2VyX3NldF9vcHRpb2
+
+# xml_set_character_data_handler
+eG1sX3NldF9jaGFyYWN0ZXJfZGF0YV9oYW5kbGVy
+htbF9zZXRfY2hhcmFjdGVyX2RhdGFfaGFuZGxlc
+4bWxfc2V0X2NoYXJhY3Rlcl9kYXRhX2hhbmRsZX
+
+# xml_set_default_handler
+eG1sX3NldF9kZWZhdWx0X2hhbmRsZX
+htbF9zZXRfZGVmYXVsdF9oYW5kbGVy
+4bWxfc2V0X2RlZmF1bHRfaGFuZGxlc
+
+# xml_set_element_handler
+eG1sX3NldF9lbGVtZW50X2hhbmRsZX
+htbF9zZXRfZWxlbWVudF9oYW5kbGVy
+4bWxfc2V0X2VsZW1lbnRfaGFuZGxlc
+
+# xml_set_end_namespace_decl_handler
+eG1sX3NldF9lbmRfbmFtZXNwYWNlX2RlY2xfaGFuZGxlc
+htbF9zZXRfZW5kX25hbWVzcGFjZV9kZWNsX2hhbmRsZX
+4bWxfc2V0X2VuZF9uYW1lc3BhY2VfZGVjbF9oYW5kbGVy
+
+# xml_set_external_entity_ref_handler
+eG1sX3NldF9leHRlcm5hbF9lbnRpdHlfcmVmX2hhbmRsZX
+htbF9zZXRfZXh0ZXJuYWxfZW50aXR5X3JlZl9oYW5kbGVy
+4bWxfc2V0X2V4dGVybmFsX2VudGl0eV9yZWZfaGFuZGxlc
+
+# xml_set_notation_decl_handler
+eG1sX3NldF9ub3RhdGlvbl9kZWNsX2hhbmRsZX
+htbF9zZXRfbm90YXRpb25fZGVjbF9oYW5kbGVy
+4bWxfc2V0X25vdGF0aW9uX2RlY2xfaGFuZGxlc
+
+# xml_set_object
+eG1sX3NldF9vYmplY3
+htbF9zZXRfb2JqZWN0
+4bWxfc2V0X29iamVjd
+
+# xml_set_processing_instruction_handler
+eG1sX3NldF9wcm9jZXNzaW5nX2luc3RydWN0aW9uX2hhbmRsZX
+htbF9zZXRfcHJvY2Vzc2luZ19pbnN0cnVjdGlvbl9oYW5kbGVy
+4bWxfc2V0X3Byb2Nlc3NpbmdfaW5zdHJ1Y3Rpb25faGFuZGxlc
+
+# xml_set_start_namespace_decl_handler
+eG1sX3NldF9zdGFydF9uYW1lc3BhY2VfZGVjbF9oYW5kbGVy
+htbF9zZXRfc3RhcnRfbmFtZXNwYWNlX2RlY2xfaGFuZGxlc
+4bWxfc2V0X3N0YXJ0X25hbWVzcGFjZV9kZWNsX2hhbmRsZX
+
+# xml_set_unparsed_entity_decl_handler
+eG1sX3NldF91bnBhcnNlZF9lbnRpdHlfZGVjbF9oYW5kbGVy
+htbF9zZXRfdW5wYXJzZWRfZW50aXR5X2RlY2xfaGFuZGxlc
+4bWxfc2V0X3VucGFyc2VkX2VudGl0eV9kZWNsX2hhbmRsZX
+
+# xmlwriter_end_attribute
+eG1sd3JpdGVyX2VuZF9hdHRyaWJ1dG
+htbHdyaXRlcl9lbmRfYXR0cmlidXRl
+4bWx3cml0ZXJfZW5kX2F0dHJpYnV0Z
+
+# xmlwriter_end_cdata
+eG1sd3JpdGVyX2VuZF9jZGF0Y
+htbHdyaXRlcl9lbmRfY2RhdG
+4bWx3cml0ZXJfZW5kX2NkYXRh
+
+# xmlwriter_end_comment
+eG1sd3JpdGVyX2VuZF9jb21tZW50
+htbHdyaXRlcl9lbmRfY29tbWVud
+4bWx3cml0ZXJfZW5kX2NvbW1lbn
+
+# xmlwriter_end_document
+eG1sd3JpdGVyX2VuZF9kb2N1bWVud
+htbHdyaXRlcl9lbmRfZG9jdW1lbn
+4bWx3cml0ZXJfZW5kX2RvY3VtZW50
+
+# xmlwriter_end_dtd
+eG1sd3JpdGVyX2VuZF9kdG
+htbHdyaXRlcl9lbmRfZHRk
+4bWx3cml0ZXJfZW5kX2R0Z
+
+# xmlwriter_end_dtd_attlist
+eG1sd3JpdGVyX2VuZF9kdGRfYXR0bGlzd
+htbHdyaXRlcl9lbmRfZHRkX2F0dGxpc3
+4bWx3cml0ZXJfZW5kX2R0ZF9hdHRsaXN0
+
+# xmlwriter_end_dtd_element
+eG1sd3JpdGVyX2VuZF9kdGRfZWxlbWVud
+htbHdyaXRlcl9lbmRfZHRkX2VsZW1lbn
+4bWx3cml0ZXJfZW5kX2R0ZF9lbGVtZW50
+
+# xmlwriter_end_dtd_entity
+eG1sd3JpdGVyX2VuZF9kdGRfZW50aXR5
+htbHdyaXRlcl9lbmRfZHRkX2VudGl0e
+4bWx3cml0ZXJfZW5kX2R0ZF9lbnRpdH
+
+# xmlwriter_end_element
+eG1sd3JpdGVyX2VuZF9lbGVtZW50
+htbHdyaXRlcl9lbmRfZWxlbWVud
+4bWx3cml0ZXJfZW5kX2VsZW1lbn
+
+# xmlwriter_end_pi
+eG1sd3JpdGVyX2VuZF9wa
+htbHdyaXRlcl9lbmRfcG
+4bWx3cml0ZXJfZW5kX3Bp
+
+# xmlwriter_flush
+eG1sd3JpdGVyX2ZsdXNo
+htbHdyaXRlcl9mbHVza
+4bWx3cml0ZXJfZmx1c2
+
+# xmlwriter_full_end_element
+eG1sd3JpdGVyX2Z1bGxfZW5kX2VsZW1lbn
+htbHdyaXRlcl9mdWxsX2VuZF9lbGVtZW50
+4bWx3cml0ZXJfZnVsbF9lbmRfZWxlbWVud
+
+# xmlwriter_open_memory
+eG1sd3JpdGVyX29wZW5fbWVtb3J5
+htbHdyaXRlcl9vcGVuX21lbW9ye
+4bWx3cml0ZXJfb3Blbl9tZW1vcn
+
+# xmlwriter_open_uri
+eG1sd3JpdGVyX29wZW5fdXJp
+htbHdyaXRlcl9vcGVuX3Vya
+4bWx3cml0ZXJfb3Blbl91cm
+
+# xmlwriter_output_memory
+eG1sd3JpdGVyX291dHB1dF9tZW1vcn
+htbHdyaXRlcl9vdXRwdXRfbWVtb3J5
+4bWx3cml0ZXJfb3V0cHV0X21lbW9ye
+
+# xmlwriter_set_indent
+eG1sd3JpdGVyX3NldF9pbmRlbn
+htbHdyaXRlcl9zZXRfaW5kZW50
+4bWx3cml0ZXJfc2V0X2luZGVud
+
+# xmlwriter_set_indent_string
+eG1sd3JpdGVyX3NldF9pbmRlbnRfc3RyaW5n
+htbHdyaXRlcl9zZXRfaW5kZW50X3N0cmluZ
+4bWx3cml0ZXJfc2V0X2luZGVudF9zdHJpbm
+
+# xmlwriter_start_attribute
+eG1sd3JpdGVyX3N0YXJ0X2F0dHJpYnV0Z
+htbHdyaXRlcl9zdGFydF9hdHRyaWJ1dG
+4bWx3cml0ZXJfc3RhcnRfYXR0cmlidXRl
+
+# xmlwriter_start_attribute_ns
+eG1sd3JpdGVyX3N0YXJ0X2F0dHJpYnV0ZV9uc
+htbHdyaXRlcl9zdGFydF9hdHRyaWJ1dGVfbn
+4bWx3cml0ZXJfc3RhcnRfYXR0cmlidXRlX25z
+
+# xmlwriter_start_cdata
+eG1sd3JpdGVyX3N0YXJ0X2NkYXRh
+htbHdyaXRlcl9zdGFydF9jZGF0Y
+4bWx3cml0ZXJfc3RhcnRfY2RhdG
+
+# xmlwriter_start_comment
+eG1sd3JpdGVyX3N0YXJ0X2NvbW1lbn
+htbHdyaXRlcl9zdGFydF9jb21tZW50
+4bWx3cml0ZXJfc3RhcnRfY29tbWVud
+
+# xmlwriter_start_document
+eG1sd3JpdGVyX3N0YXJ0X2RvY3VtZW50
+htbHdyaXRlcl9zdGFydF9kb2N1bWVud
+4bWx3cml0ZXJfc3RhcnRfZG9jdW1lbn
+
+# xmlwriter_start_dtd
+eG1sd3JpdGVyX3N0YXJ0X2R0Z
+htbHdyaXRlcl9zdGFydF9kdG
+4bWx3cml0ZXJfc3RhcnRfZHRk
+
+# xmlwriter_start_dtd_attlist
+eG1sd3JpdGVyX3N0YXJ0X2R0ZF9hdHRsaXN0
+htbHdyaXRlcl9zdGFydF9kdGRfYXR0bGlzd
+4bWx3cml0ZXJfc3RhcnRfZHRkX2F0dGxpc3
+
+# xmlwriter_start_dtd_element
+eG1sd3JpdGVyX3N0YXJ0X2R0ZF9lbGVtZW50
+htbHdyaXRlcl9zdGFydF9kdGRfZWxlbWVud
+4bWx3cml0ZXJfc3RhcnRfZHRkX2VsZW1lbn
+
+# xmlwriter_start_dtd_entity
+eG1sd3JpdGVyX3N0YXJ0X2R0ZF9lbnRpdH
+htbHdyaXRlcl9zdGFydF9kdGRfZW50aXR5
+4bWx3cml0ZXJfc3RhcnRfZHRkX2VudGl0e
+
+# xmlwriter_start_element
+eG1sd3JpdGVyX3N0YXJ0X2VsZW1lbn
+htbHdyaXRlcl9zdGFydF9lbGVtZW50
+4bWx3cml0ZXJfc3RhcnRfZWxlbWVud
+
+# xmlwriter_start_element_ns
+eG1sd3JpdGVyX3N0YXJ0X2VsZW1lbnRfbn
+htbHdyaXRlcl9zdGFydF9lbGVtZW50X25z
+4bWx3cml0ZXJfc3RhcnRfZWxlbWVudF9uc
+
+# xmlwriter_start_pi
+eG1sd3JpdGVyX3N0YXJ0X3Bp
+htbHdyaXRlcl9zdGFydF9wa
+4bWx3cml0ZXJfc3RhcnRfcG
+
+# xmlwriter_text
+eG1sd3JpdGVyX3RleH
+htbHdyaXRlcl90ZXh0
+4bWx3cml0ZXJfdGV4d
+
+# xmlwriter_write_attribute
+eG1sd3JpdGVyX3dyaXRlX2F0dHJpYnV0Z
+htbHdyaXRlcl93cml0ZV9hdHRyaWJ1dG
+4bWx3cml0ZXJfd3JpdGVfYXR0cmlidXRl
+
+# xmlwriter_write_attribute_ns
+eG1sd3JpdGVyX3dyaXRlX2F0dHJpYnV0ZV9uc
+htbHdyaXRlcl93cml0ZV9hdHRyaWJ1dGVfbn
+4bWx3cml0ZXJfd3JpdGVfYXR0cmlidXRlX25z
+
+# xmlwriter_write_cdata
+eG1sd3JpdGVyX3dyaXRlX2NkYXRh
+htbHdyaXRlcl93cml0ZV9jZGF0Y
+4bWx3cml0ZXJfd3JpdGVfY2RhdG
+
+# xmlwriter_write_comment
+eG1sd3JpdGVyX3dyaXRlX2NvbW1lbn
+htbHdyaXRlcl93cml0ZV9jb21tZW50
+4bWx3cml0ZXJfd3JpdGVfY29tbWVud
+
+# xmlwriter_write_dtd
+eG1sd3JpdGVyX3dyaXRlX2R0Z
+htbHdyaXRlcl93cml0ZV9kdG
+4bWx3cml0ZXJfd3JpdGVfZHRk
+
+# xmlwriter_write_dtd_attlist
+eG1sd3JpdGVyX3dyaXRlX2R0ZF9hdHRsaXN0
+htbHdyaXRlcl93cml0ZV9kdGRfYXR0bGlzd
+4bWx3cml0ZXJfd3JpdGVfZHRkX2F0dGxpc3
+
+# xmlwriter_write_dtd_element
+eG1sd3JpdGVyX3dyaXRlX2R0ZF9lbGVtZW50
+htbHdyaXRlcl93cml0ZV9kdGRfZWxlbWVud
+4bWx3cml0ZXJfd3JpdGVfZHRkX2VsZW1lbn
+
+# xmlwriter_write_dtd_entity
+eG1sd3JpdGVyX3dyaXRlX2R0ZF9lbnRpdH
+htbHdyaXRlcl93cml0ZV9kdGRfZW50aXR5
+4bWx3cml0ZXJfd3JpdGVfZHRkX2VudGl0e
+
+# xmlwriter_write_element
+eG1sd3JpdGVyX3dyaXRlX2VsZW1lbn
+htbHdyaXRlcl93cml0ZV9lbGVtZW50
+4bWx3cml0ZXJfd3JpdGVfZWxlbWVud
+
+# xmlwriter_write_element_ns
+eG1sd3JpdGVyX3dyaXRlX2VsZW1lbnRfbn
+htbHdyaXRlcl93cml0ZV9lbGVtZW50X25z
+4bWx3cml0ZXJfd3JpdGVfZWxlbWVudF9uc
+
+# xmlwriter_write_pi
+eG1sd3JpdGVyX3dyaXRlX3Bp
+htbHdyaXRlcl93cml0ZV9wa
+4bWx3cml0ZXJfd3JpdGVfcG
+
+# xmlwriter_write_raw
+eG1sd3JpdGVyX3dyaXRlX3Jhd
+htbHdyaXRlcl93cml0ZV9yYX
+4bWx3cml0ZXJfd3JpdGVfcmF3
+
+# zend_version
+emVuZF92ZXJzaW9u
+plbmRfdmVyc2lvb
+6ZW5kX3ZlcnNpb2
+
+# zlib_decode
+emxpYl9kZWNvZG
+psaWJfZGVjb2Rl
+6bGliX2RlY29kZ
+
+# zlib_encode
+emxpYl9lbmNvZG
+psaWJfZW5jb2Rl
+6bGliX2VuY29kZ
+
+# zlib_get_coding_type
+emxpYl9nZXRfY29kaW5nX3R5cG
+psaWJfZ2V0X2NvZGluZ190eXBl
+6bGliX2dldF9jb2RpbmdfdHlwZ

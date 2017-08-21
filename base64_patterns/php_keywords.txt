@@ -1,0 +1,332 @@
+# This is a list of php7 internal keywords and their 3 base64 fingerprints.
+# Some patterns are too short to be useful with scan.php.
+# All base64 patterns 3 characters or less have been commented out.
+# This file should be ready to use in place of patterns_raw.txt
+# Expect false positives and slow scan speeds.
+# Use this pattern file on known malware to find new patterns.
+
+# "__halt_compiler" in base64
+X19oYWx0X2NvbXBpbGVy
+9faGFsdF9jb21waWxlc
+fX2hhbHRfY29tcGlsZX
+
+# "abstract" in base64
+YWJzdHJhY3
+Fic3RyYWN0
+hYnN0cmFjd
+
+# "and" in base64
+YW5k
+#FuZ
+#hbm
+
+# "array" in base64
+YXJyYX
+FycmF5
+hcnJhe
+
+# "as" in base64
+#YX
+#Fz
+#hc
+
+# "break" in base64
+YnJlYW
+JyZWFr
+icmVha
+
+# "callable" in base64
+Y2FsbGFibG
+NhbGxhYmxl
+jYWxsYWJsZ
+
+# "case" in base64
+Y2FzZ
+Nhc2
+jYXNl
+
+# "catch" in base64
+Y2F0Y2
+NhdGNo
+jYXRja
+
+# "class" in base64
+Y2xhc3
+NsYXNz
+jbGFzc
+
+# "clone" in base64
+Y2xvbm
+Nsb25l
+jbG9uZ
+
+# "const" in base64
+Y29uc3
+NvbnN0
+jb25zd
+
+# "continue" in base64
+Y29udGludW
+NvbnRpbnVl
+jb250aW51Z
+
+# "declare" in base64
+ZGVjbGFyZ
+RlY2xhcm
+kZWNsYXJl
+
+# "default" in base64
+ZGVmYXVsd
+RlZmF1bH
+kZWZhdWx0
+
+# "die" in base64
+ZGll
+#RpZ
+#kaW
+
+# "do" in base64
+#ZG
+#Rv
+#kb
+
+# "echo" in base64
+ZWNob
+VjaG
+lY2hv
+
+# "else" in base64
+ZWxzZ
+Vsc2
+lbHNl
+
+# "elseif" in base64
+ZWxzZWlm
+Vsc2VpZ
+lbHNlaW
+
+# "empty" in base64
+ZW1wdH
+VtcHR5
+lbXB0e
+
+# "enddeclare" in base64
+ZW5kZGVjbGFyZ
+VuZGRlY2xhcm
+lbmRkZWNsYXJl
+
+# "endfor" in base64
+ZW5kZm9y
+VuZGZvc
+lbmRmb3
+
+# "endforeach" in base64
+ZW5kZm9yZWFja
+VuZGZvcmVhY2
+lbmRmb3JlYWNo
+
+# "endif" in base64
+ZW5kaW
+VuZGlm
+lbmRpZ
+
+# "endswitch" in base64
+ZW5kc3dpdGNo
+VuZHN3aXRja
+lbmRzd2l0Y2
+
+# "endwhile" in base64
+ZW5kd2hpbG
+VuZHdoaWxl
+lbmR3aGlsZ
+
+# "eval" in base64
+ZXZhb
+V2YW
+ldmFs
+
+# "exit" in base64
+ZXhpd
+V4aX
+leGl0
+
+# "extends" in base64
+ZXh0ZW5kc
+V4dGVuZH
+leHRlbmRz
+
+# "final" in base64
+ZmluYW
+ZpbmFs
+maW5hb
+
+# "for" in base64
+Zm9y
+#Zvc
+#mb3
+
+# "foreach" in base64
+Zm9yZWFja
+ZvcmVhY2
+mb3JlYWNo
+
+# "function" in base64
+ZnVuY3Rpb2
+Z1bmN0aW9u
+mdW5jdGlvb
+
+# "global" in base64
+Z2xvYmFs
+dsb2Jhb
+nbG9iYW
+
+# "goto" in base64
+Z290b
+dvdG
+nb3Rv
+
+# "if" in base64
+#aW
+#lm
+#pZ
+
+# "implements" in base64
+aW1wbGVtZW50c
+ltcGxlbWVudH
+pbXBsZW1lbnRz
+
+# "include" in base64
+aW5jbHVkZ
+luY2x1ZG
+pbmNsdWRl
+
+# "include_once" in base64
+aW5jbHVkZV9vbmNl
+luY2x1ZGVfb25jZ
+pbmNsdWRlX29uY2
+
+# "instanceof" in base64
+aW5zdGFuY2VvZ
+luc3RhbmNlb2
+pbnN0YW5jZW9m
+
+# "insteadof" in base64
+aW5zdGVhZG9m
+luc3RlYWRvZ
+pbnN0ZWFkb2
+
+# "interface" in base64
+aW50ZXJmYWNl
+ludGVyZmFjZ
+pbnRlcmZhY2
+
+# "isset" in base64
+aXNzZX
+lzc2V0
+pc3Nld
+
+# "list" in base64
+bGlzd
+xpc3
+saXN0
+
+# "namespace" in base64
+bmFtZXNwYWNl
+5hbWVzcGFjZ
+uYW1lc3BhY2
+
+# "new" in base64
+bmV3
+#5ld
+#uZX
+
+# "or" in base64
+#b3
+#9y
+#vc
+
+# "print" in base64
+cHJpbn
+ByaW50
+wcmlud
+
+# "private" in base64
+cHJpdmF0Z
+ByaXZhdG
+wcml2YXRl
+
+# "protected" in base64
+cHJvdGVjdGVk
+Byb3RlY3RlZ
+wcm90ZWN0ZW
+
+# "public" in base64
+cHVibGlj
+B1YmxpY
+wdWJsaW
+
+# "require" in base64
+cmVxdWlyZ
+JlcXVpcm
+yZXF1aXJl
+
+# "require_once" in base64
+cmVxdWlyZV9vbmNl
+JlcXVpcmVfb25jZ
+yZXF1aXJlX29uY2
+
+# "return" in base64
+cmV0dXJu
+JldHVyb
+yZXR1cm
+
+# "static" in base64
+c3RhdGlj
+N0YXRpY
+zdGF0aW
+
+# "switch" in base64
+c3dpdGNo
+N3aXRja
+zd2l0Y2
+
+# "throw" in base64
+dGhyb3
+Rocm93
+0aHJvd
+
+# "trait" in base64
+dHJhaX
+RyYWl0
+0cmFpd
+
+# "try" in base64
+dHJ5
+#Rye
+#0cn
+
+# "unset" in base64
+dW5zZX
+Vuc2V0
+1bnNld
+
+# "use" in base64
+dXNl
+#VzZ
+#1c2
+
+# "var" in base64
+dmFy
+#Zhc
+#2YX
+
+# "while" in base64
+d2hpbG
+doaWxl
+3aGlsZ
+
+# "xor" in base64
+eG9y
+#hvc
+#4b3
+
